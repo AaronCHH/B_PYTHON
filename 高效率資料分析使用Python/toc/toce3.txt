@@ -1,0 +1,107 @@
+# Chapter1 Python Basics
+## 1.1 How to Create a Python Script
+## 1.2 How to Run a Python Script
+## 1.3 Useful Tips for Interacting with the Command Line
+## 1.4 Python's Basic Building Blocks
+## 1.5 Reading a Text File
+## 1.6 Reading Multiple Text Files with glob
+## 1.7 Writing to a Text File
+## 1.8 print Statements
+## 1.9 Chapter Exercises
+ 
+# Chapter2 Comma-Separated Values (CSV) Files
+## 2.1 Base Python Versus pandas
+### 2.1.1 Reading and Writing a CSV File (String Manipulation)
+### 2.1.2 何時基本的字串解析會失敗
+### 2.1.3 Reading and Writing a CSV File (Standard csv Module)
+## 2.2 Filter for Specific Rows
+### 2.2.1 Value in Row Meets a Condition
+### 2.2.2 Value in Row is in a Set of Interest
+### 2.2.3 Value in Row Matches a Pattern (Regular Expression)
+## 2.3 Select Specific Columns
+### 2.3.1 Index Values
+### 2.3.2 Column Headings
+## 2.4 Select Contiguous Rows
+## 2.5 Add a Header Row
+## 2.6 Reading Multiple CSV Files
+### 2.6.1 Count Number of Files and Rows and Columns in Each File
+## 2.7 Concatenate Data from Multiple Files
+## 2.8 Sum and Average a Set of Values per File
+## 2.9 Chapter Exercises
+
+# Chapter3 Excel Files
+## 3.1 Introspecting an Excel Workbook
+## 3.2 Processing a Single Worksheet
+### 3.2.1 讀取與寫入Excel檔
+### 3.2.2 篩選特定的資料列
+### 3.2.3 選擇特定欄位
+## 3.3 Reading All Worksheets in a Workbook
+### 3.3.1 Filtering for Rows from All Worksheets
+### 3.3.2 Selecting Columns from All Worksheets
+## 3.4 Reading a Set of Worksheets in an Excel Workbook
+### 3.4.1 Filtering for Rows from Subset of Worksheets
+### 3.4.2 Selecting Columns from Subset of Worksheets
+## 3.5 Processing Multiple Workbooks
+### 3.5.1 Count Number of Workbooks and Rows and Columns in Each Workbook
+### 3.5.2 Concatenate Data from Multiple Workbooks
+### 3.5.3 Sum and Average a Set of Values Per Worksheet Per Workbook
+## 3.6 Chapter Exercises
+
+# Chapter4 Databases
+## 4.1 Python's Built-in sqlite3 Module
+### 4.1.1 將新記錄插入資料表
+### 4.1.2 更新資料表的記錄
+## 4.2 MySQL Database
+### 4.2.1 將新記錄插入資料表
+### 4.2.2 查詢資料表，並將輸出寫到CSV檔
+### 4.2.3 更新資料表的記錄
+## 4.3 Chapter Exercises
+
+# Chapter5 Applications
+## 5.1 Find a Set of Items in a Large Collection of Files
+## 5.2 Calculate a Statistic for Any Number of Categories from Data in a CSV File
+## 5.3 Calculate Statistics for Any Number of Categories from Data in a Text File
+## 5.4 Chapter Exercises
+
+# Chapter6 Figures and Plots
+## 6.1 matplotlib
+### 6.1.1 長條圖
+### 6.1.2 色階分布圖
+### 6.1.3 線形圖
+### 6.1.4 散布圖
+### 6.1.5 盒鬚圖
+## 6.2 pandas
+## 6.3 ggplot
+## 6.4 seaborn
+
+# Chapter7 Descriptive Statistics and Modeling
+## 7.1 Datasets
+### 7.1.1 Wine Quality
+### 7.1.2 Customer Chum
+## 7.2 Wine Quality
+### 7.2.1 描述性統計
+### 7.2.2 分組、色階分布圖與t檢定
+### 7.2.3 成對關係與相關性
+### 7.2.4 使用最小二平方估計法的線性迴歸
+### 7.2.5 解譯係數
+### 7.2.6 標準化自變數
+### 7.2.7 進行預測
+## 7.3 Customer Churn
+
+# Chapter8 Scheduling Scripts to Run Automatically
+## 8.1 Task Scheduler (Windows)
+## 8.2 The cron Utility (macOS and Unix)
+### 8.2.1 Crontab檔 - 一次性設定
+### 8.2.2 在Crontab檔案增加Cron工作
+
+# Chapter9 Where to Go from Here
+## 9.1 Additional Standard Library Modules and Built-in Functions
+### 9.1.1 Python標準程式庫(PSL) - 一些較進階的模組
+### 9.1.2 內建函式
+## 9.2 Python Package Index (PyPI): Additional Add-in Modules
+### 9.2.1 NumPy
+### 9.2.2 SciPy
+### 9.2.3 Scikit-Learn
+### 9.2.4 其他的外掛套件
+## 9.3 Additional Data Structures
+## 9.4 Where to Go from Here

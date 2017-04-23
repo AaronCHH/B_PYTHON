@@ -1,0 +1,9 @@
+Ch1 Python Basics
+Ch2 Comma-Separated Values Files
+Ch3 Excel Files
+Ch4 Databases
+Ch5 Applications
+Ch6 Figures and Plots
+Ch7 Descriptive Statistics and Modeling
+Ch8 Scheduling Scripts to Run Automatically
+Ch9 Where to Go from Here

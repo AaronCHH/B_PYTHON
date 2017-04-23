@@ -1,0 +1,9 @@
+Ch1_Python_Basics
+Ch2_CommaSeparated_Values_Files
+Ch3_Excel_Files
+Ch4_Databases
+Ch5_Applications
+Ch6_Figures_and_Plots
+Ch7_Descriptive_Statistics_and_Modeling
+Ch8_Scheduling_Scripts_to_Run_Automatically
+Ch9_Where_to_Go_from_Here
