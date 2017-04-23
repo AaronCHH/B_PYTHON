@@ -1,0 +1,239 @@
+﻿Copyright.............................................  4
+Table of Contents.....................................  5
+Preface............................................... 13
+	Data Science...................................... 13
+	From Scratch...................................... 14
+	Conventions Used in This Book..................... 15
+	Using Code Examples............................... 16
+	Safari® Books Online.............................. 16
+	How to Contact Us................................. 17
+	Acknowledgments................................... 17
+Chapter 1. Introduction............................... 19
+	The Ascendance of Data............................ 19
+	What Is Data Science?............................. 19
+	Motivating Hypothetical: DataSciencester.......... 20
+		Finding Key Connectors........................ 21
+		Data Scientists You May Know.................. 24
+		Salaries and Experience....................... 26
+		Paid Accounts................................. 29
+		Topics of Interest............................ 29
+		Onward........................................ 31
+Chapter 2. A Crash Course in Python................... 33
+	The Basics........................................ 33
+		Getting Python................................ 33
+		The Zen of Python............................. 34
+		Whitespace Formatting......................... 34
+		Modules....................................... 35
+		Arithmetic.................................... 36
+		Functions..................................... 36
+		Strings....................................... 37
+		Exceptions.................................... 37
+		Lists......................................... 38
+		Tuples........................................ 39
+		Dictionaries.................................. 39
+		Sets.......................................... 42
+		Control Flow.................................. 43
+		Truthiness.................................... 43
+	The Not-So-Basics................................. 44
+		Sorting....................................... 45
+		List Comprehensions........................... 45
+		Generators and Iterators...................... 46
+		Randomness.................................... 47
+		Regular Expressions........................... 48
+		Object-Oriented Programming................... 48
+		Functional Tools.............................. 49
+		enumerate..................................... 50
+		zip and Argument Unpacking.................... 51
+		args and kwargs............................... 52
+		Welcome to DataSciencester!................... 53
+	For Further Exploration........................... 53
+Chapter 3. Visualizing Data........................... 55
+	matplotlib........................................ 55
+	Bar Charts........................................ 57
+	Line Charts....................................... 61
+	Scatterplots...................................... 62
+	For Further Exploration........................... 65
+Chapter 4. Linear Algebra............................. 67
+	Vectors........................................... 67
+	Matrices.......................................... 71
+	For Further Exploration........................... 73
+Chapter 5. Statistics................................. 75
+	Describing a Single Set of Data................... 75
+		Central Tendencies............................ 77
+		Dispersion.................................... 79
+	Correlation....................................... 80
+	Simpson’s Paradox................................. 83
+	Some Other Correlational Caveats.................. 84
+	Correlation and Causation......................... 85
+	For Further Exploration........................... 86
+Chapter 6. Probability................................ 87
+	Dependence and Independence....................... 87
+	Conditional Probability........................... 88
+	Bayes’s Theorem................................... 90
+	Random Variables.................................. 91
+	Continuous Distributions.......................... 92
+	The Normal Distribution........................... 93
+	The Central Limit Theorem......................... 96
+	For Further Exploration........................... 98
+Chapter 7. Hypothesis and Inference................... 99
+	Statistical Hypothesis Testing.................... 99
+	Example: Flipping a Coin.......................... 99
+	Confidence Intervals..............................103
+	P-hacking.........................................104
+	Example: Running an A/B Test......................105
+	Bayesian Inference................................106
+	For Further Exploration...........................110
+Chapter 8. Gradient Descent...........................111
+	The Idea Behind Gradient Descent..................111
+	Estimating the Gradient...........................112
+	Using the Gradient................................115
+	Choosing the Right Step Size......................115
+	Putting It All Together...........................116
+	Stochastic Gradient Descent.......................117
+	For Further Exploration...........................118
+Chapter 9. Getting Data...............................121
+	stdin and stdout..................................121
+	Reading Files.....................................123
+		The Basics of Text Files......................123
+		Delimited Files...............................124
+	Scraping the Web..................................126
+		HTML and the Parsing Thereof..................126
+		Example: O’Reilly Books About Data............128
+	Using APIs........................................132
+		JSON (and XML)................................132
+		Using an Unauthenticated API..................133
+		Finding APIs..................................134
+	Example: Using the Twitter APIs...................135
+		Getting Credentials...........................135
+	For Further Exploration...........................138
+Chapter 10. Working with Data.........................139
+	Exploring Your Data...............................139
+		Exploring One-Dimensional Data................139
+		Two Dimensions................................141
+		Many Dimensions...............................143
+	Cleaning and Munging..............................145
+	Manipulating Data.................................147
+	Rescaling.........................................150
+	Dimensionality Reduction..........................152
+	For Further Exploration...........................157
+Chapter 11. Machine Learning..........................159
+	Modeling..........................................159
+	What Is Machine Learning?.........................160
+	Overfitting and Underfitting......................160
+	Correctness.......................................163
+	The Bias-Variance Trade-off.......................165
+	Feature Extraction and Selection..................166
+	For Further Exploration...........................168
+Chapter 12. k-Nearest Neighbors.......................169
+	The Model.........................................169
+	Example: Favorite Languages.......................171
+	The Curse of Dimensionality.......................174
+	For Further Exploration...........................181
+Chapter 13. Naive Bayes...............................183
+	A Really Dumb Spam Filter.........................183
+	A More Sophisticated Spam Filter..................184
+	Implementation....................................186
+	Testing Our Model.................................187
+	For Further Exploration...........................190
+Chapter 14. Simple Linear Regression..................191
+	The Model.........................................191
+	Using Gradient Descent............................194
+	Maximum Likelihood Estimation.....................195
+	For Further Exploration...........................195
+Chapter 15. Multiple Regression.......................197
+	The Model.........................................197
+	Further Assumptions of the Least Squares Model....198
+	Fitting the Model.................................199
+	Interpreting the Model............................200
+	Goodness of Fit...................................201
+	Digression: The Bootstrap.........................201
+	Standard Errors of Regression Coefficients........202
+	Regularization....................................204
+	For Further Exploration...........................206
+Chapter 16. Logistic Regression.......................207
+	The Problem.......................................207
+	The Logistic Function.............................210
+	Applying the Model................................212
+	Goodness of Fit...................................213
+	Support Vector Machines...........................214
+	For Further Investigation.........................218
+Chapter 17. Decision Trees............................219
+	What Is a Decision Tree?..........................219
+	Entropy...........................................221
+	The Entropy of a Partition........................223
+	Creating a Decision Tree..........................224
+	Putting It All Together...........................226
+	Random Forests....................................229
+	For Further Exploration...........................230
+Chapter 18. Neural Networks...........................231
+	Perceptrons.......................................231
+	Feed-Forward Neural Networks......................233
+	Backpropagation...................................236
+	Example: Defeating a CAPTCHA......................237
+	For Further Exploration...........................242
+Chapter 19. Clustering................................243
+	The Idea..........................................243
+	The Model.........................................244
+	Example: Meetups..................................245
+	Choosing k........................................248
+	Example: Clustering Colors........................249
+	Bottom-up Hierarchical Clustering.................251
+	For Further Exploration...........................256
+Chapter 20. Natural Language Processing...............257
+	Word Clouds.......................................257
+	n-gram Models.....................................259
+	Grammars..........................................262
+	An Aside: Gibbs Sampling..........................264
+	Topic Modeling....................................265
+	For Further Exploration...........................271
+Chapter 21. Network Analysis..........................273
+	Betweenness Centrality............................273
+	Eigenvector Centrality............................278
+		Matrix Multiplication.........................278
+		Centrality....................................280
+	Directed Graphs and PageRank......................282
+	For Further Exploration...........................284
+Chapter 22. Recommender Systems.......................285
+	Manual Curation...................................286
+	Recommending What’s Popular.......................286
+	User-Based Collaborative Filtering................287
+	Item-Based Collaborative Filtering................290
+	For Further Exploration...........................292
+Chapter 23. Databases and SQL.........................293
+	CREATE TABLE and INSERT...........................293
+	UPDATE............................................295
+	DELETE............................................296
+	SELECT............................................296
+	GROUP BY..........................................298
+	ORDER BY..........................................300
+	JOIN..............................................301
+	Subqueries........................................303
+	Indexes...........................................303
+	Query Optimization................................304
+	NoSQL.............................................305
+	For Further Exploration...........................305
+Chapter 24. MapReduce.................................307
+	Example: Word Count...............................307
+	Why MapReduce?....................................309
+	MapReduce More Generally..........................310
+	Example: Analyzing Status Updates.................311
+	Example: Matrix Multiplication....................312
+	An Aside: Combiners...............................314
+	For Further Exploration...........................314
+Chapter 25. Go Forth and Do Data Science..............317
+	IPython...........................................317
+	Mathematics.......................................318
+	Not from Scratch..................................318
+		NumPy.........................................319
+		pandas........................................319
+		scikit-learn..................................319
+		Visualization.................................319
+		R.............................................320
+	Find Data.........................................320
+	Do Data Science...................................321
+		Hacker News...................................321
+		Fire Trucks...................................321
+		T-shirts......................................321
+		And You?......................................322
+Index.................................................323
+About the Author......................................330

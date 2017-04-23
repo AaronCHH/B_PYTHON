@@ -1,0 +1,227 @@
+﻿Chapter 1. Introduction
+	The Ascendance of Data
+	What Is Data Science
+	Motivating Hypothetical: DataSciencester
+		Finding Key Connectors
+		Data Scientists You May Know
+		Salaries and Experience
+		Paid Accounts
+		Topics of Interest
+		Onward
+Chapter 2. A Crash Course in Python
+	The Basics
+		Getting Python
+		The Zen of Python
+		Whitespace Formatting
+		Modules
+		Arithmetic
+		Functions
+		Strings
+		Exceptions
+		Lists
+		Tuples
+		Dictionaries
+		Sets
+		Control Flow
+		Truthiness
+	The Not-So-Basics
+		Sorting
+		List Comprehensions
+		Generators and Iterators
+		Randomness
+		Regular Expressions
+		Object-Oriented Programming
+		Functional Tools
+		enumerate
+		zip and Argument Unpacking
+		args and kwargs
+		Welcome to DataSciencester
+	For Further Exploration
+Chapter 3. Visualizing Data
+	matplotlib
+	Bar Charts
+	Line Charts
+	Scatterplots
+	For Further Exploration
+Chapter 4. Linear Algebra
+	Vectors
+	Matrices
+	For Further Exploration
+Chapter 5. Statistics
+	Describing a Single Set of Data
+		Central Tendencies
+		Dispersion
+	Correlation
+	Simpson’s Paradox
+	Some Other Correlational Caveats
+	Correlation and Causation
+	For Further Exploration
+Chapter 6. Probability
+	Dependence and Independence
+	Conditional Probability
+	Bayes’s Theorem
+	Random Variables
+	Continuous Distributions
+	The Normal Distribution
+	The Central Limit Theorem
+	For Further Exploration
+Chapter 7. Hypothesis and Inference
+	Statistical Hypothesis Testing
+	Example: Flipping a Coin
+	Confidence Intervals
+	P-hacking
+	Example: Running an A/B Test
+	Bayesian Inference
+	For Further Exploration
+Chapter 8. Gradient Descent
+	The Idea Behind Gradient Descent
+	Estimating the Gradient
+	Using the Gradient
+	Choosing the Right Step Size
+	Putting It All Together
+	Stochastic Gradient Descent
+	For Further Exploration
+Chapter 9. Getting Data
+	stdin and stdout
+	Reading Files
+		The Basics of Text Files
+		Delimited Files
+	Scraping the Web
+		HTML and the Parsing Thereof
+		Example: O’Reilly Books About Data
+	Using APIs
+		JSON (and XML
+		Using an Unauthenticated API
+		Finding APIs
+	Example: Using the Twitter APIs
+		Getting Credentials
+	For Further Exploration
+Chapter 10. Working with Data
+	Exploring Your Data
+		Exploring One-Dimensional Data
+		Two Dimensions
+		Many Dimensions
+	Cleaning and Munging
+	Manipulating Data
+	Rescaling
+	Dimensionality Reduction
+	For Further Exploration
+Chapter 11. Machine Learning
+	Modeling
+	What Is Machine Learning
+	Overfitting and Underfitting
+	Correctness
+	The Bias-Variance Trade-off
+	Feature Extraction and Selection
+	For Further Exploration
+Chapter 12. k-Nearest Neighbors
+	The Model
+	Example: Favorite Languages
+	The Curse of Dimensionality
+	For Further Exploration
+Chapter 13. Naive Bayes
+	A Really Dumb Spam Filter
+	A More Sophisticated Spam Filter
+	Implementation
+	Testing Our Model
+	For Further Exploration
+Chapter 14. Simple Linear Regression
+	The Model
+	Using Gradient Descent
+	Maximum Likelihood Estimation
+	For Further Exploration
+Chapter 15. Multiple Regression
+	The Model
+	Further Assumptions of the Least Squares Model
+	Fitting the Model
+	Interpreting the Model
+	Goodness of Fit
+	Digression: The Bootstrap
+	Standard Errors of Regression Coefficients
+	Regularization
+	For Further Exploration
+Chapter 16. Logistic Regression
+	The Problem
+	The Logistic Function
+	Applying the Model
+	Goodness of Fit
+	Support Vector Machines
+	For Further Investigation
+Chapter 17. Decision Trees
+	What Is a Decision Tree
+	Entropy
+	The Entropy of a Partition
+	Creating a Decision Tree
+	Putting It All Together
+	Random Forests
+	For Further Exploration
+Chapter 18. Neural Networks
+	Perceptrons
+	Feed-Forward Neural Networks
+	Backpropagation
+	Example: Defeating a CAPTCHA
+	For Further Exploration
+Chapter 19. Clustering
+	The Idea
+	The Model
+	Example: Meetups
+	Choosing k
+	Example: Clustering Colors
+	Bottom-up Hierarchical Clustering
+	For Further Exploration
+Chapter 20. Natural Language Processing
+	Word Clouds
+	n-gram Models
+	Grammars
+	An Aside: Gibbs Sampling
+	Topic Modeling
+	For Further Exploration
+Chapter 21. Network Analysis
+	Betweenness Centrality
+	Eigenvector Centrality
+		Matrix Multiplication
+		Centrality
+	Directed Graphs and PageRank
+	For Further Exploration
+Chapter 22. Recommender Systems
+	Manual Curation
+	Recommending What’s Popular
+	User-Based Collaborative Filtering
+	Item-Based Collaborative Filtering
+	For Further Exploration
+Chapter 23. Databases and SQL
+	CREATE TABLE and INSERT
+	UPDATE
+	DELETE
+	SELECT
+	GROUP BY
+	ORDER BY
+	JOIN
+	Subqueries
+	Indexes
+	Query Optimization
+	NoSQL
+	For Further Exploration
+Chapter 24. MapReduce
+	Example: Word Count
+	Why MapReduce
+	MapReduce More Generally
+	Example: Analyzing Status Updates
+	Example: Matrix Multiplication
+	An Aside: Combiners
+	For Further Exploration
+Chapter 25. Go Forth and Do Data Science
+	IPython
+	Mathematics
+	Not from Scratch
+		NumPy
+		pandas
+		scikit-learn
+		Visualization
+		R
+	Find Data
+	Do Data Science
+		Hacker News
+		Fire Trucks
+		T-shirts
+		And You

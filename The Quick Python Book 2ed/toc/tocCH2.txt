@@ -1,0 +1,24 @@
+Ch01 About Python
+Ch02 Getting started
+Ch03 The Quick Python overview
+Ch04 The absolute basics
+Ch05 Lists, tuples, and sets
+Ch06 Strings
+Ch07 Dictionaries
+Ch08 Control flow
+Ch09 Functions
+Ch10 Modules and scoping rules
+Ch11 Python programs
+Ch12 Using the filesystem
+Ch13 Reading and writing files
+Ch14 Exceptions
+Ch15 Classes and object-oriented programming
+Ch16 Graphical user interfaces
+Ch17 Regular expressions
+Ch18 Packages
+Ch19 Data types as objects
+Ch20 Advanced object-oriented features
+Ch21 Testing your code made easy(-er)
+Ch22 Moving from Python 2 to Python 3
+Ch23 Using Python libraries
+Ch24 Network, web, and database programming
