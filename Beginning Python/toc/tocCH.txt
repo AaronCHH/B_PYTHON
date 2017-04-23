@@ -1,0 +1,29 @@
+Chapter 1: Instant Hacking: The Basics
+Chapter 2: Lists and Tuples
+Chapter 3: Working with Strings
+Chapter 4: Dictionaries: When Indices Won’t Do
+Chapter 5: Conditionals, Loops, and Some Other Statements
+Chapter 6: Abstraction
+Chapter 7: More Abstraction
+Chapter 8: Exceptions
+Chapter 9: Magic Methods, Properties, and Iterators
+Chapter 10: Batteries Included
+Chapter 11: Files and Stuff
+Chapter 12: Graphical User Interfaces
+Chapter 13: Database Support
+Chapter 14: Network Programming
+Chapter 15: Python and the Web
+Chapter 16: Testing, 1-2-3
+Chapter 17: Extending Python
+Chapter 18: Packaging Your Programs
+Chapter 19: Playful Programming
+Chapter 20: Project 1: Instant Markup
+Chapter 21: Project 2: Painting a Pretty Picture
+Chapter 22: Project 3: XML for All Occasions
+Chapter 23: Project 4: In the News
+Chapter 24: Project 5: A Virtual Tea Party
+Chapter 25: Project 6: Remote Editing with CGI
+Chapter 26: Project 7: Your Own Bulletin Board
+Chapter 27: Project 8: File Sharing with XML-RPC
+Chapter 28: Project 9: File Sharing II—Now with GUI
+Chapter 29: Project 10: Do-It-Yourself Arcade Game

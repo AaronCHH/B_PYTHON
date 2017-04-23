@@ -1,0 +1,595 @@
+﻿Chapter 1: Instant Hacking: The Basics
+	The Interactive Interpreter
+	Algo . . . What
+	Numbers and Expressions
+		Hexadecimals Octals and Binary
+	Variables
+	Statements
+	Getting Input from the User
+	Functions
+	Modules
+		cmath and Complex Numbers
+		Back to the __future__
+	Saving and Executing Your Programs
+		Running Your Python Scripts from a Command Prompt
+		Making Your Scripts Behave Like Normal Programs
+			What About Double-Clicking
+		Comments
+	Strings
+		Single-Quoted Strings and Escaping Quotes
+		Concatenating Strings
+		String Representations, str and repr
+		Long Strings, Raw Strings, and bytes
+			Long Strings
+			Raw Strings
+			Unicode, bytes, and bytearray
+	A Quick Summary
+		New Functions in This Chapter
+		What Now
+Chapter 2: Lists and Tuples
+	Sequence Overview
+	Common Sequence Operations
+		Indexing
+		Slicing
+			A Nifty Shortcut
+			Longer Steps
+		Adding Sequences
+		Multiplication
+			None, Empty Lists, and Initialization
+		Membership
+		Length, Minimum, and Maximum
+	Lists: Python’s Workhorse
+		The list Function
+		Basic List Operations
+			Changing Lists: Item Assignments
+			Deleting Elements
+			Assigning to Slices
+		List Methods
+			append
+			clear
+			copy
+			count
+			extend
+			index
+			insert
+			pop
+			remove
+			reverse
+			sort
+			Advanced Sorting
+	Tuples: Immutable Sequences
+	A Quick Summary
+		New Functions in This Chapter
+		What Now
+Chapter 3: Working with Strings
+	Basic String Operations
+	String Formatting: The Short Version
+	String Formatting: The Long Version
+		Replacement Field Names
+		Basic Conversions
+		Width, Precision, and Thousands Separators
+		Signs, Alignment, and Zero-Padding
+	String Methods
+		center
+		find
+			join
+		lower
+		replace
+		split
+		strip
+		translate
+		Is My String …
+	A Quick Summary
+		New Functions in This Chapter
+		What Now
+Chapter 4: Dictionaries: When Indices Won’t Do
+	Dictionary Uses
+	Creating and Using Dictionaries
+		The dict Function
+		Basic Dictionary Operations
+		String Formatting with Dictionaries
+		Dictionary Methods
+			clear
+			copy
+			fromkeys
+			get
+			items
+			keys
+			pop
+			popitem
+			setdefault
+			update
+			values
+	A Quick Summary
+		New Functions in This Chapter
+		What Now
+Chapter 5: Conditionals, Loops, and Some Other Statements
+	More About print and import
+		Printing Multiple Arguments
+		Importing Something as Something Else
+	Assignment Magic
+		Sequence Unpacking
+		Chained Assignments
+		Augmented Assignments
+	Blocks: The Joy of Indentation
+	Conditions and Conditional Statements
+		So That’s What Those Boolean Values Are For
+		Conditional Execution and the if Statement
+		else Clauses
+		elif Clauses
+		Nesting Blocks
+		More Complex Conditions
+			Comparison Operators
+				The Equality Operator
+				is: The Identity Operator
+				in: The Membership Operator
+				String and Sequence Comparisons
+			Boolean Operators
+		Assertions
+	Loops
+		while Loops
+		for Loops
+		Iterating Over Dictionaries
+		Some Iteration Utilities
+			Parallel Iteration
+			Numbered Iteration
+			Reversed and Sorted Iteration
+		Breaking Out of Loops
+			break
+			continue
+			The while True/break Idiom
+		else Clauses in Loops
+	Comprehensions—Slightly Loopy
+	A Better Solution
+	And Three for the Road
+		Nothing Happened
+		Deleting with del
+		Executing and Evaluating Strings with exec and eval
+			exec
+			eval
+	A Quick Summary
+		New Functions in This Chapter
+		What Now
+Chapter 6: Abstraction
+	Laziness Is a Virtue
+	Abstraction and Structure
+	Creating Your Own Functions
+		Documenting Functions
+		Functions That Aren’t Really Functions
+	The Magic of Parameters
+		Where Do the Values Come From
+		Can I Change a Parameter
+		Why Would I Want to Modify My Parameters
+	What If My Parameter Is Immutable
+		Keyword Parameters and Defaults
+		Collecting Parameters
+		Reversing the Process
+	Parameter Practice
+	Scoping
+	Recursion
+		Two Classics: Factorial and Power
+	Another Classic: Binary Search
+	A Quick Summary
+	New Functions in This Chapter
+	What Now
+Chapter 7: More Abstraction
+	The Magic of Objects
+		Polymorphism
+		Polymorphism and Methods
+		Polymorphism Comes in Many Forms
+		Encapsulation
+		Inheritance
+	Classes
+		What Is a Class, Exactly
+		Making Your Own Classes
+		Attributes, Functions, and Methods
+		Privacy Revisited
+		The Class Namespace
+		Specifying a Superclass
+		Investigating Inheritance
+		Multiple Superclasses
+		Interfaces and Introspection
+		Abstract Base Classes
+	Some Thoughts on Object-Oriented Design
+	A Quick Summary
+		New Functions in This Chapter
+		What Now
+Chapter 8: Exceptions
+	What Is an Exception
+	Making Things Go Wrong . . . Your Way
+		The raise Statement
+		Custom Exception Classes
+	Catching Exceptions
+		Look, Ma, No Arguments
+		More Than One except Clause
+		Catching Two Exceptions with One Block
+		Catching the Object
+		A Real Catchall
+		When All Is Well
+		And Finally . . ....................................................185
+	Exceptions and Functions
+	The Zen of Exceptions
+	Not All That Exceptional
+	A Quick Summary
+		New Functions in This Chapter
+		What Now
+Chapter 9: Magic Methods, Properties, and Iterators
+	If You’re Not Using Python 3
+	Constructors
+		Overriding Methods in General, and the Constructor in Particular
+		Calling the Unbound Superclass Constructor
+		Using the super Function
+	Item Access
+		The Basic Sequence and Mapping Protocol
+		Subclassing list, dict, and str
+	More Magic
+	Properties
+		The property Function
+		Static Methods and Class Methods
+		__getattr__, __setattr__, and Friends
+	Iterators
+		The Iterator Protocol
+		Making Sequences from Iterators
+	Generators
+		Making a Generator
+		A Recursive Generator
+		Generators in General
+		Generator Methods
+		Simulating Generators
+	The Eight Queens
+		Generators and Backtracking
+		The Problem
+		State Representation
+		Finding Conflicts
+		The Base Case
+		The Recursive Case
+		Wrapping It Up
+	A Quick Summary
+		New Functions in This Chapter
+		What Now
+Chapter 10: Batteries Included
+	Modules
+		Modules Are Programs
+		Modules Are Used to Define Things
+			Defining a Function in a Module
+			Adding Test Code in a Module
+		Making Your Modules Available
+			Putting Your Module in the Right Place
+			Telling the Interpreter Where to Look
+		Packages
+	Exploring Modules
+		What’s in a Module
+			Using dir
+			The __all__ Variable
+		Getting Help with help
+		Documentation
+		Use the Source
+	The Standard Library: A Few Favorites
+		sys
+		os
+		fileinput
+		Sets, Heaps, and Deques
+			Sets
+			Heaps
+			Deques (and Other Collections
+		time
+		random
+		shelve and json
+			A Potential Trap
+			A Simple Database Example
+		re
+			What Is a Regular Expression
+				The Wildcard
+				Escaping Special Characters
+				Character Sets
+				Alternatives and Subpatterns
+				Optional and Repeated Subpatterns
+				The Beginning and End of a String
+			Contents of the re Module
+			Match Objects and Groups
+			Group Numbers and Functions in Substitutions
+			Finding the Sender of an Email
+			A Sample Template System
+		Other Interesting Standard Modules
+	A Quick Summary
+		New Functions in This Chapter
+		What Now
+Chapter 11: Files and Stuff
+	Opening Files
+		File Modes
+	The Basic File Methods
+		Reading and Writing
+		Piping Output
+		Reading and Writing Lines
+		Closing Files
+		Using the Basic File Methods
+	Iterating over File Contents
+		One Character (or Byte) at a Time
+		One Line at a Time
+		Reading Everything
+		Lazy Line Iteration with fileinput
+		File Iterators
+	A Quick Summary
+		New Functions in This Chapter
+		What Now
+Chapter 12: Graphical User Interfaces
+	Building a Sample GUI Application
+		Initial Exploration
+		Layout
+		Event Handling
+		The Final Program
+	Using Something Else
+	A Quick Summary
+		What Now
+Chapter 13: Database Support
+	The Python Database API
+		Global Variables
+		Exceptions
+		Connections and Cursors
+		Types
+	SQLite and PySQLite
+		Getting Started
+		A Sample Database Application
+		Creating and Populating Tables
+		Searching and Dealing with Results
+	A Quick Summary
+		New Functions in This Chapter
+		What Now
+Chapter 14: Network Programming
+	A Handful of Networking Modules
+		The socket Module
+		The urllib and urllib2 Modules
+		Opening Remote Files
+		Retrieving Remote Files
+		Other Modules
+	SocketServer and Friends
+	Multiple Connections
+		Forking and Threading with SocketServer
+		Asynchronous I/O with select and poll
+	Twisted
+		Downloading and Installing Twisted
+		Writing a Twisted Server
+	A Quick Summary
+		New Functions in This Chapter
+		What Now
+Chapter 15: Python and the Web
+	Screen Scraping
+		Tidy and XHTML Parsing
+		What’s Tidy
+		Getting Tidy
+		But Why XHTML
+		Using HTMLParser
+		Beautiful Soup
+	Dynamic Web Pages with CGI
+		Step 1: Preparing the Web Server
+		Step 2: Adding the Pound Bang Line
+		Step 3: Setting the File Permissions
+		CGI Security Risks
+		A Simple CGI Script
+		Debugging with cgitb
+		Using the cgi Module
+		A Simple Form
+	Using a Web Framework
+		Other Web Application Frameworks
+	Web Services: Scraping Done Right
+		RSS and Friends
+		Remote Procedure Calls with XML-RPC
+		SOAP
+	A Quick Summary
+		New Functions in This Chapter
+		What Now
+Chapter 16: Testing, 1-2-3
+	Test First, Code Later
+		Precise Requirement Specification
+		Planning for Change
+		The 1-2-3 (and 4) of Testing
+	Tools for Testing
+		doctest
+		unittest
+	Beyond Unit Tests
+		Source Code Checking with PyChecker and PyLint
+		Profiling
+	A Quick Summary
+		New Functions in This Chapter
+		What Now
+Chapter 17: Extending Python
+	The Best of Both Worlds
+	The Really Easy Way: Jython and IronPython
+	Writing C Extensions
+		A Swig of … SWIG
+		What Does It Do
+		I Prefer Pi
+		The Interface File
+		Running SWIG
+		Compiling, Linking, and Using
+		A Shortcut Through the Magic Forest of Compilers
+		Hacking It on Your Own
+		Reference Counting
+		A Framework for Extensions
+		Palindromes, Detartrated1 for Your Enjoyment
+	A Quick Summary
+		New Functions in This Chapter
+		What Now
+Chapter 18: Packaging Your Programs
+	Setuptools Basics
+	Wrapping Things Up
+	Compiling Extensions
+	Creating Executable Programs with py2exe
+	A Quick Summary
+		New Functions in This Chapter
+		What Now
+Chapter 19: Playful Programming
+	Why Playful
+	The Jujitsu of Programming
+	Prototyping
+	Configuration
+		Extracting Constants
+		Configuration Files
+	Logging
+	If You Can’t Be Bothered
+	If You Want to Learn More
+	A Quick Summary
+		What Now
+Chapter 20: Project 1: Instant Markup
+	What’s the Problem
+	Useful Tools
+	Preparations
+	First Implementation
+		Finding Blocks of Text
+		Adding Some Markup
+	Second Implementation
+		Handlers
+		A Handler Superclass
+		Rules
+		A Rule Superclass
+		Filters
+		The Parser
+		Constructing the Rules and Filters
+		Putting It All Together
+	Further Exploration
+		What Now
+Chapter 21: Project 2: Painting a Pretty Picture
+	What’s the Problem
+	Useful Tools
+	Preparations
+	First Implementation
+		Drawing with ReportLab
+		Constructing Some PolyLines
+		Writing the Prototype
+	Second Implementation
+		Getting the Data
+		Using the LinePlot Class
+	Further Exploration
+		What Now
+Chapter 22: Project 3: XML for All Occasions
+	What’s the Problem
+	Useful Tools
+	Preparations
+	First Implementation
+		Creating a Simple Content Handler
+		Creating HTML Pages
+	Second Implementation
+		A Dispatcher Mix-In Class
+		Factoring Out the Header, Footer, and Default Handling
+		Support for Directories
+		The Event Handlers
+	Further Exploration
+		What Now
+Chapter 23: Project 4: In the News
+	What’s the Problem
+	Useful Tools
+	Preparations
+	First Implementation
+	Second Implementation
+	Further Exploration
+		What Now
+Chapter 24: Project 5: A Virtual Tea Party
+	What’s the Problem
+	Useful Tools
+	Preparations
+	First Implementation
+		The ChatServer Class
+		The ChatSession Class
+		Putting It Together
+	Second Implementation
+		Basic Command Interpretation
+		Rooms
+		Login and Logout Rooms
+		The Main Chat Room
+		The New Server
+	Further Exploration
+		What Now
+Chapter 25: Project 6: Remote Editing with CGI
+	What’s the Problem
+	Useful Tools
+	Preparations
+	First Implementation
+	Second Implementation
+		Creating the File Name Form
+		Writing the Editor Script
+		Writing the Save Script
+		Running the Editor
+	Further Exploration
+		What Now
+Chapter 26: Project 7: Your Own Bulletin Board
+	What’s the Problem
+	Useful Tools
+	Preparations
+	First Implementation
+	Second Implementation
+		Writing the Main Script
+		Writing the View Script
+		Writing the Edit Script
+		Writing the Save Script
+		Trying It Out
+	Further Exploration
+		What Now
+Chapter 27: Project 8: File Sharing with XML-RPC
+	What’s the Problem
+	Useful Tools
+	Preparations
+	First Implementation
+		Implementing a Simple Node
+		Trying Out the First Implementation
+	Second Implementation
+		Creating the Client Interface
+		Raising Exceptions
+		Validating File Names
+		Trying Out the Second Implementation
+	Further Exploration
+		What Now
+Chapter 28: Project 9: File Sharing II—Now with GUI
+	What’s the Problem
+	Useful Tools
+	Preparations
+	First Implementation
+	Second Implementation
+	Further Exploration
+		What Now
+Chapter 29: Project 10: Do-It-Yourself Arcade Game
+	What’s the Problem
+	Useful Tools
+		pygame
+		pygame.locals
+		pygame.display
+		pygame.font
+		pygame.sprite
+		pygame.mouse
+		pygame.event
+		pygame.image
+	Preparations
+	First Implementation
+	Second Implementation
+	Further Exploration
+		What Now
+Appendix A: The Short Version
+	The Basics
+	Functions
+	Objects and Stuff
+	Some Loose Ends
+Appendix B: Python Reference
+	Expressions
+	Statements
+		Simple Statements
+			Expression Statements
+			Assert Statements
+			Assignment Statements
+			Augmented Assignment Statements
+			The pass Statement
+			The del Statement
+			The return Statement
+			The yield Statement
+			The raise Statement
+			The break Statement
+			The continue Statement
+			The import Statement
+			The global Statement
+			The nonlocal Statement
+		Compound Statements
+			The if Statement
+			The while Statement
+			The for Statement
+			The try Statement
+			The with Statement
+			Function Definitions
+			Class Definitions

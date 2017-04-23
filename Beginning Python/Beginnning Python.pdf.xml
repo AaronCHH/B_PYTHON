@@ -1,0 +1,749 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BookmarkExport>
+  <Item ID="1" Name="Contents at a Glance" Page="5" Open="0" />
+  <Item ID="2" Name="Contents" Page="7" Open="0" />
+  <Item ID="3" Name="About the Author" Page="25" Open="0" />
+  <Item ID="4" Name="About the Technical Reviewer" Page="26" Open="0" />
+  <Item ID="5" Name="Preface" Page="27" Open="0" />
+  <Item ID="6" Name="Introduction" Page="29" Open="0" />
+  <Item ID="7" Name="Chapter 1: Instant Hacking: The Basics" Page="31" Open="0">
+    <Item ID="8" Name="The Interactive Interpreter" Page="31" Open="0" />
+    <Item ID="9" Name="Algo . . . What?" Page="32" Open="0" />
+    <Item ID="10" Name="Numbers and Expressions" Page="33" Open="0">
+      <Item ID="11" Name="Hexadecimals Octals and Binary" Page="35" Open="0" />
+    </Item>
+    <Item ID="12" Name="Variables" Page="35" Open="0" />
+    <Item ID="13" Name="Statements" Page="36" Open="0" />
+    <Item ID="14" Name="Getting Input from the User" Page="37" Open="0" />
+    <Item ID="15" Name="Functions" Page="38" Open="0" />
+    <Item ID="16" Name="Modules" Page="39" Open="0">
+      <Item ID="17" Name="cmath and Complex Numbers" Page="40" Open="0" />
+      <Item ID="18" Name="Back to the __future__" Page="41" Open="0" />
+    </Item>
+    <Item ID="19" Name="Saving and Executing Your Programs" Page="41" Open="0">
+      <Item ID="20" Name="Running Your Python Scripts from a Command Prompt" Page="43" Open="0" />
+      <Item ID="21" Name="Making Your Scripts Behave Like Normal Programs" Page="43" Open="0">
+        <Item ID="22" Name="What About Double-Clicking?" Page="44" Open="0" />
+      </Item>
+      <Item ID="23" Name="Comments" Page="44" Open="0" />
+    </Item>
+    <Item ID="24" Name="Strings" Page="44" Open="0">
+      <Item ID="25" Name="Single-Quoted Strings and Escaping Quotes" Page="45" Open="0" />
+      <Item ID="26" Name="Concatenating Strings" Page="46" Open="0" />
+      <Item ID="27" Name="String Representations, str and repr" Page="46" Open="0" />
+      <Item ID="28" Name="Long Strings, Raw Strings, and bytes" Page="47" Open="0">
+        <Item ID="29" Name="Long Strings" Page="47" Open="0" />
+        <Item ID="30" Name="Raw Strings" Page="48" Open="0" />
+        <Item ID="31" Name="Unicode, bytes, and bytearray" Page="49" Open="0" />
+      </Item>
+    </Item>
+    <Item ID="32" Name="A Quick Summary" Page="52" Open="0">
+      <Item ID="33" Name="New Functions in This Chapter" Page="53" Open="0" />
+      <Item ID="34" Name="What Now?" Page="54" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="35" Name="Chapter 2: Lists and Tuples" Page="55" Open="0">
+    <Item ID="36" Name="Sequence Overview" Page="55" Open="0" />
+    <Item ID="37" Name="Common Sequence Operations" Page="56" Open="0">
+      <Item ID="38" Name="Indexing" Page="56" Open="0" />
+      <Item ID="39" Name="Slicing" Page="58" Open="0">
+        <Item ID="40" Name="A Nifty Shortcut" Page="58" Open="0" />
+        <Item ID="41" Name="Longer Steps" Page="59" Open="0" />
+      </Item>
+      <Item ID="42" Name="Adding Sequences" Page="60" Open="0" />
+      <Item ID="43" Name="Multiplication" Page="61" Open="0">
+        <Item ID="44" Name="None, Empty Lists, and Initialization" Page="61" Open="0" />
+      </Item>
+      <Item ID="45" Name="Membership" Page="62" Open="0" />
+      <Item ID="46" Name="Length, Minimum, and Maximum" Page="63" Open="0" />
+    </Item>
+    <Item ID="47" Name="Lists: Python’s Workhorse" Page="64" Open="0">
+      <Item ID="48" Name="The list Function" Page="64" Open="0" />
+      <Item ID="49" Name="Basic List Operations" Page="64" Open="0">
+        <Item ID="50" Name="Changing Lists: Item Assignments" Page="64" Open="0" />
+        <Item ID="51" Name="Deleting Elements" Page="65" Open="0" />
+        <Item ID="52" Name="Assigning to Slices" Page="65" Open="0" />
+      </Item>
+      <Item ID="53" Name="List Methods" Page="66" Open="0">
+        <Item ID="54" Name="append" Page="66" Open="0" />
+        <Item ID="55" Name="clear" Page="67" Open="0" />
+        <Item ID="56" Name="copy" Page="67" Open="0" />
+        <Item ID="57" Name="count" Page="67" Open="0" />
+        <Item ID="58" Name="extend" Page="67" Open="0" />
+        <Item ID="59" Name="index" Page="68" Open="0" />
+        <Item ID="60" Name="insert" Page="69" Open="0" />
+        <Item ID="61" Name="pop" Page="69" Open="0" />
+        <Item ID="62" Name="remove" Page="70" Open="0" />
+        <Item ID="63" Name="reverse" Page="70" Open="0" />
+        <Item ID="64" Name="sort" Page="70" Open="0" />
+        <Item ID="65" Name="Advanced Sorting" Page="71" Open="0" />
+      </Item>
+    </Item>
+    <Item ID="66" Name="Tuples: Immutable Sequences" Page="72" Open="0" />
+    <Item ID="67" Name="A Quick Summary" Page="74" Open="0">
+      <Item ID="68" Name="New Functions in This Chapter" Page="74" Open="0" />
+      <Item ID="69" Name="What Now?" Page="74" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="70" Name="Chapter 3: Working with Strings" Page="75" Open="0">
+    <Item ID="71" Name="Basic String Operations" Page="75" Open="0" />
+    <Item ID="72" Name="String Formatting: The Short Version" Page="75" Open="0" />
+    <Item ID="73" Name="String Formatting: The Long Version" Page="77" Open="0">
+      <Item ID="74" Name="Replacement Field Names" Page="77" Open="0" />
+      <Item ID="75" Name="Basic Conversions" Page="78" Open="0" />
+      <Item ID="76" Name="Width, Precision, and Thousands Separators" Page="79" Open="0" />
+      <Item ID="77" Name="Signs, Alignment, and Zero-Padding" Page="80" Open="0" />
+    </Item>
+    <Item ID="78" Name="String Methods" Page="82" Open="0">
+      <Item ID="79" Name="center" Page="83" Open="0" />
+      <Item ID="80" Name="find" Page="83" Open="0">
+        <Item ID="81" Name="join" Page="84" Open="0" />
+      </Item>
+      <Item ID="82" Name="lower" Page="84" Open="0" />
+      <Item ID="83" Name="replace" Page="85" Open="0" />
+      <Item ID="84" Name="split" Page="85" Open="0" />
+      <Item ID="85" Name="strip" Page="86" Open="0" />
+      <Item ID="86" Name="translate" Page="86" Open="0" />
+      <Item ID="87" Name="Is My String …" Page="87" Open="0" />
+    </Item>
+    <Item ID="88" Name="A Quick Summary" Page="87" Open="0">
+      <Item ID="89" Name="New Functions in This Chapter" Page="88" Open="0" />
+      <Item ID="90" Name="What Now?" Page="88" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="91" Name="Chapter 4: Dictionaries: When Indices Won’t Do" Page="89" Open="0">
+    <Item ID="92" Name="Dictionary Uses" Page="89" Open="0" />
+    <Item ID="93" Name="Creating and Using Dictionaries" Page="90" Open="0">
+      <Item ID="94" Name="The dict Function" Page="90" Open="0" />
+      <Item ID="95" Name="Basic Dictionary Operations" Page="91" Open="0" />
+      <Item ID="96" Name="String Formatting with Dictionaries" Page="93" Open="0" />
+      <Item ID="97" Name="Dictionary Methods" Page="93" Open="0">
+        <Item ID="98" Name="clear" Page="94" Open="0" />
+        <Item ID="99" Name="copy" Page="94" Open="0" />
+        <Item ID="100" Name="fromkeys" Page="95" Open="0" />
+        <Item ID="101" Name="get" Page="95" Open="0" />
+        <Item ID="102" Name="items" Page="97" Open="0" />
+        <Item ID="103" Name="keys" Page="97" Open="0" />
+        <Item ID="104" Name="pop" Page="97" Open="0" />
+        <Item ID="105" Name="popitem" Page="98" Open="0" />
+        <Item ID="106" Name="setdefault" Page="98" Open="0" />
+        <Item ID="107" Name="update" Page="99" Open="0" />
+        <Item ID="108" Name="values" Page="99" Open="0" />
+      </Item>
+    </Item>
+    <Item ID="109" Name="A Quick Summary" Page="100" Open="0">
+      <Item ID="110" Name="New Functions in This Chapter" Page="100" Open="0" />
+      <Item ID="111" Name="What Now?" Page="100" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="112" Name="Chapter 5: Conditionals, Loops, and Some Other Statements" Page="101" Open="0">
+    <Item ID="113" Name="More About print and import" Page="101" Open="0">
+      <Item ID="114" Name="Printing Multiple Arguments" Page="101" Open="0" />
+      <Item ID="115" Name="Importing Something as Something Else" Page="102" Open="0" />
+    </Item>
+    <Item ID="116" Name="Assignment Magic" Page="103" Open="0">
+      <Item ID="117" Name="Sequence Unpacking" Page="103" Open="0" />
+      <Item ID="118" Name="Chained Assignments" Page="105" Open="0" />
+      <Item ID="119" Name="Augmented Assignments" Page="105" Open="0" />
+    </Item>
+    <Item ID="120" Name="Blocks: The Joy of Indentation" Page="106" Open="0" />
+    <Item ID="121" Name="Conditions and Conditional Statements" Page="106" Open="0">
+      <Item ID="122" Name="So That’s What Those Boolean Values Are For" Page="106" Open="0" />
+      <Item ID="123" Name="Conditional Execution and the if Statement" Page="108" Open="0" />
+      <Item ID="124" Name="else Clauses" Page="108" Open="0" />
+      <Item ID="125" Name="elif Clauses" Page="109" Open="0" />
+      <Item ID="126" Name="Nesting Blocks" Page="109" Open="0" />
+      <Item ID="127" Name="More Complex Conditions" Page="109" Open="0">
+        <Item ID="128" Name="Comparison Operators" Page="109" Open="0">
+          <Item ID="129" Name="The Equality Operator" Page="110" Open="0" />
+          <Item ID="130" Name="is: The Identity Operator" Page="111" Open="0" />
+          <Item ID="131" Name="in: The Membership Operator" Page="112" Open="0" />
+          <Item ID="132" Name="String and Sequence Comparisons" Page="112" Open="0" />
+        </Item>
+        <Item ID="133" Name="Boolean Operators" Page="113" Open="0" />
+      </Item>
+      <Item ID="134" Name="Assertions" Page="114" Open="0" />
+    </Item>
+    <Item ID="135" Name="Loops" Page="115" Open="0">
+      <Item ID="136" Name="while Loops" Page="115" Open="0" />
+      <Item ID="137" Name="for Loops" Page="116" Open="0" />
+      <Item ID="138" Name="Iterating Over Dictionaries" Page="117" Open="0" />
+      <Item ID="139" Name="Some Iteration Utilities" Page="117" Open="0">
+        <Item ID="140" Name="Parallel Iteration" Page="117" Open="0" />
+        <Item ID="141" Name="Numbered Iteration" Page="118" Open="0" />
+        <Item ID="142" Name="Reversed and Sorted Iteration" Page="119" Open="0" />
+      </Item>
+      <Item ID="143" Name="Breaking Out of Loops" Page="119" Open="0">
+        <Item ID="144" Name="break" Page="119" Open="0" />
+        <Item ID="145" Name="continue" Page="120" Open="0" />
+        <Item ID="146" Name="The while True/break Idiom" Page="121" Open="0" />
+      </Item>
+      <Item ID="147" Name="else Clauses in Loops" Page="122" Open="0" />
+    </Item>
+    <Item ID="148" Name="Comprehensions—Slightly Loopy" Page="122" Open="0" />
+    <Item ID="149" Name="A Better Solution" Page="123" Open="0" />
+    <Item ID="150" Name="And Three for the Road" Page="124" Open="0">
+      <Item ID="151" Name="Nothing Happened!" Page="124" Open="0" />
+      <Item ID="152" Name="Deleting with del" Page="124" Open="0" />
+      <Item ID="153" Name="Executing and Evaluating Strings with exec and eval" Page="126" Open="0">
+        <Item ID="154" Name="exec" Page="126" Open="0" />
+        <Item ID="155" Name="eval" Page="127" Open="0" />
+      </Item>
+    </Item>
+    <Item ID="156" Name="A Quick Summary" Page="128" Open="0">
+      <Item ID="157" Name="New Functions in This Chapter" Page="129" Open="0" />
+      <Item ID="158" Name="What Now?" Page="129" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="159" Name="Chapter 6: Abstraction" Page="130" Open="0">
+    <Item ID="160" Name="Laziness Is a Virtue" Page="130" Open="0" />
+    <Item ID="161" Name="Abstraction and Structure" Page="131" Open="0" />
+    <Item ID="162" Name="Creating Your Own Functions" Page="131" Open="0">
+      <Item ID="163" Name="Documenting Functions" Page="132" Open="0" />
+      <Item ID="164" Name="Functions That Aren’t Really Functions" Page="133" Open="0" />
+    </Item>
+    <Item ID="165" Name="The Magic of Parameters" Page="134" Open="0">
+      <Item ID="166" Name="Where Do the Values Come From?" Page="134" Open="0" />
+      <Item ID="167" Name="Can I Change a Parameter?" Page="134" Open="0" />
+      <Item ID="168" Name="Why Would I Want to Modify My Parameters?" Page="136" Open="0" />
+    </Item>
+    <Item ID="169" Name="What If My Parameter Is Immutable?" Page="139" Open="0">
+      <Item ID="170" Name="Keyword Parameters and Defaults" Page="140" Open="0" />
+      <Item ID="171" Name="Collecting Parameters" Page="142" Open="0" />
+      <Item ID="172" Name="Reversing the Process" Page="144" Open="0" />
+    </Item>
+    <Item ID="173" Name="Parameter Practice" Page="146" Open="0" />
+    <Item ID="174" Name="Scoping" Page="147" Open="0" />
+    <Item ID="175" Name="Recursion" Page="150" Open="0">
+      <Item ID="176" Name="Two Classics: Factorial and Power" Page="151" Open="0" />
+    </Item>
+    <Item ID="177" Name="Another Classic: Binary Search" Page="152" Open="0" />
+    <Item ID="178" Name="A Quick Summary" Page="155" Open="0" />
+    <Item ID="179" Name="New Functions in This Chapter" Page="156" Open="0" />
+    <Item ID="180" Name="What Now?" Page="156" Open="0" />
+  </Item>
+  <Item ID="181" Name="Chapter 7: More Abstraction" Page="157" Open="0">
+    <Item ID="182" Name="The Magic of Objects" Page="157" Open="0">
+      <Item ID="183" Name="Polymorphism" Page="158" Open="0" />
+      <Item ID="184" Name="Polymorphism and Methods" Page="159" Open="0" />
+      <Item ID="185" Name="Polymorphism Comes in Many Forms" Page="160" Open="0" />
+      <Item ID="186" Name="Encapsulation" Page="161" Open="0" />
+      <Item ID="187" Name="Inheritance" Page="162" Open="0" />
+    </Item>
+    <Item ID="188" Name="Classes" Page="163" Open="0">
+      <Item ID="189" Name="What Is a Class, Exactly?" Page="163" Open="0" />
+      <Item ID="190" Name="Making Your Own Classes" Page="163" Open="0" />
+      <Item ID="191" Name="Attributes, Functions, and Methods" Page="165" Open="0" />
+      <Item ID="192" Name="Privacy Revisited" Page="165" Open="0" />
+      <Item ID="193" Name="The Class Namespace" Page="167" Open="0" />
+      <Item ID="194" Name="Specifying a Superclass" Page="168" Open="0" />
+      <Item ID="195" Name="Investigating Inheritance" Page="169" Open="0" />
+      <Item ID="196" Name="Multiple Superclasses" Page="170" Open="0" />
+      <Item ID="197" Name="Interfaces and Introspection" Page="171" Open="0" />
+      <Item ID="198" Name="Abstract Base Classes" Page="172" Open="0" />
+    </Item>
+    <Item ID="199" Name="Some Thoughts on Object-Oriented Design" Page="174" Open="0" />
+    <Item ID="200" Name="A Quick Summary" Page="175" Open="0">
+      <Item ID="201" Name="New Functions in This Chapter" Page="176" Open="0" />
+      <Item ID="202" Name="What Now?" Page="176" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="203" Name="Chapter 8: Exceptions" Page="177" Open="0">
+    <Item ID="204" Name="What Is an Exception?" Page="177" Open="0" />
+    <Item ID="205" Name="Making Things Go Wrong . . . Your Way" Page="177" Open="0">
+      <Item ID="206" Name="The raise Statement" Page="178" Open="0" />
+      <Item ID="207" Name="Custom Exception Classes" Page="179" Open="0" />
+    </Item>
+    <Item ID="208" Name="Catching Exceptions" Page="179" Open="0">
+      <Item ID="209" Name="Look, Ma, No Arguments!" Page="180" Open="0" />
+      <Item ID="210" Name="More Than One except Clause" Page="181" Open="0" />
+      <Item ID="211" Name="Catching Two Exceptions with One Block" Page="182" Open="0" />
+      <Item ID="212" Name="Catching the Object" Page="182" Open="0" />
+      <Item ID="213" Name="A Real Catchall" Page="183" Open="0" />
+      <Item ID="214" Name="When All Is Well" Page="183" Open="0" />
+      <Item ID="215" Name="And Finally . . ." Page="185" Open="0" />
+    </Item>
+    <Item ID="216" Name="Exceptions and Functions" Page="186" Open="0" />
+    <Item ID="217" Name="The Zen of Exceptions" Page="186" Open="0" />
+    <Item ID="218" Name="Not All That Exceptional" Page="188" Open="0" />
+    <Item ID="219" Name="A Quick Summary" Page="189" Open="0">
+      <Item ID="220" Name="New Functions in This Chapter" Page="190" Open="0" />
+      <Item ID="221" Name="What Now?" Page="190" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="222" Name="Chapter 9: Magic Methods, Properties, and Iterators" Page="191" Open="0">
+    <Item ID="223" Name="If You’re Not Using Python 3" Page="191" Open="0" />
+    <Item ID="224" Name="Constructors" Page="192" Open="0">
+      <Item ID="225" Name="Overriding Methods in General, and the Constructor in Particular" Page="193" Open="0" />
+      <Item ID="226" Name="Calling the Unbound Superclass Constructor" Page="195" Open="0" />
+      <Item ID="227" Name="Using the super Function" Page="196" Open="0" />
+    </Item>
+    <Item ID="228" Name="Item Access" Page="197" Open="0">
+      <Item ID="229" Name="The Basic Sequence and Mapping Protocol" Page="198" Open="0" />
+      <Item ID="230" Name="Subclassing list, dict, and str" Page="200" Open="0" />
+    </Item>
+    <Item ID="231" Name="More Magic" Page="201" Open="0" />
+    <Item ID="232" Name="Properties" Page="202" Open="0">
+      <Item ID="233" Name="The property Function" Page="203" Open="0" />
+      <Item ID="234" Name="Static Methods and Class Methods" Page="204" Open="0" />
+      <Item ID="235" Name="__getattr__, __setattr__, and Friends" Page="205" Open="0" />
+    </Item>
+    <Item ID="236" Name="Iterators" Page="206" Open="0">
+      <Item ID="237" Name="The Iterator Protocol" Page="206" Open="0" />
+      <Item ID="238" Name="Making Sequences from Iterators" Page="208" Open="0" />
+    </Item>
+    <Item ID="239" Name="Generators" Page="208" Open="0">
+      <Item ID="240" Name="Making a Generator" Page="209" Open="0" />
+      <Item ID="241" Name="A Recursive Generator" Page="210" Open="0" />
+      <Item ID="242" Name="Generators in General" Page="211" Open="0" />
+      <Item ID="243" Name="Generator Methods" Page="212" Open="0" />
+      <Item ID="244" Name="Simulating Generators" Page="213" Open="0" />
+    </Item>
+    <Item ID="245" Name="The Eight Queens" Page="214" Open="0">
+      <Item ID="246" Name="Generators and Backtracking" Page="214" Open="0" />
+      <Item ID="247" Name="The Problem" Page="215" Open="0" />
+      <Item ID="248" Name="State Representation" Page="215" Open="0" />
+      <Item ID="249" Name="Finding Conflicts" Page="216" Open="0" />
+      <Item ID="250" Name="The Base Case" Page="216" Open="0" />
+      <Item ID="251" Name="The Recursive Case" Page="217" Open="0" />
+      <Item ID="252" Name="Wrapping It Up" Page="219" Open="0" />
+    </Item>
+    <Item ID="253" Name="A Quick Summary" Page="220" Open="0">
+      <Item ID="254" Name="New Functions in This Chapter" Page="221" Open="0" />
+      <Item ID="255" Name="What Now?" Page="221" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="256" Name="Chapter 10: Batteries Included" Page="222" Open="0">
+    <Item ID="257" Name="Modules" Page="222" Open="0">
+      <Item ID="258" Name="Modules Are Programs" Page="222" Open="0" />
+      <Item ID="259" Name="Modules Are Used to Define Things" Page="224" Open="0">
+        <Item ID="260" Name="Defining a Function in a Module" Page="224" Open="0" />
+        <Item ID="261" Name="Adding Test Code in a Module" Page="225" Open="0" />
+      </Item>
+      <Item ID="262" Name="Making Your Modules Available" Page="226" Open="0">
+        <Item ID="263" Name="Putting Your Module in the Right Place" Page="227" Open="0" />
+        <Item ID="264" Name="Telling the Interpreter Where to Look" Page="227" Open="0" />
+      </Item>
+      <Item ID="265" Name="Packages" Page="228" Open="0" />
+    </Item>
+    <Item ID="266" Name="Exploring Modules" Page="229" Open="0">
+      <Item ID="267" Name="What’s in a Module?" Page="229" Open="0">
+        <Item ID="268" Name="Using dir" Page="229" Open="0" />
+        <Item ID="269" Name="The __all__ Variable" Page="230" Open="0" />
+      </Item>
+      <Item ID="270" Name="Getting Help with help" Page="230" Open="0" />
+      <Item ID="271" Name="Documentation" Page="231" Open="0" />
+      <Item ID="272" Name="Use the Source" Page="231" Open="0" />
+    </Item>
+    <Item ID="273" Name="The Standard Library: A Few Favorites" Page="232" Open="0">
+      <Item ID="274" Name="sys" Page="232" Open="0" />
+      <Item ID="275" Name="os" Page="234" Open="0" />
+      <Item ID="276" Name="fileinput" Page="235" Open="0" />
+      <Item ID="277" Name="Sets, Heaps, and Deques" Page="237" Open="0">
+        <Item ID="278" Name="Sets" Page="238" Open="0" />
+        <Item ID="279" Name="Heaps" Page="240" Open="0" />
+        <Item ID="280" Name="Deques (and Other Collections)" Page="241" Open="0" />
+      </Item>
+      <Item ID="281" Name="time" Page="242" Open="0" />
+      <Item ID="282" Name="random" Page="243" Open="0" />
+      <Item ID="283" Name="shelve and json" Page="246" Open="0">
+        <Item ID="284" Name="A Potential Trap" Page="247" Open="0" />
+        <Item ID="285" Name="A Simple Database Example" Page="247" Open="0" />
+      </Item>
+      <Item ID="286" Name="re" Page="250" Open="0">
+        <Item ID="287" Name="What Is a Regular Expression?" Page="250" Open="0">
+          <Item ID="288" Name="The Wildcard" Page="250" Open="0" />
+          <Item ID="289" Name="Escaping Special Characters" Page="251" Open="0" />
+          <Item ID="290" Name="Character Sets" Page="251" Open="0" />
+          <Item ID="291" Name="Alternatives and Subpatterns" Page="251" Open="0" />
+          <Item ID="292" Name="Optional and Repeated Subpatterns" Page="252" Open="0" />
+          <Item ID="293" Name="The Beginning and End of a String" Page="252" Open="0" />
+        </Item>
+        <Item ID="294" Name="Contents of the re Module" Page="253" Open="0" />
+        <Item ID="295" Name="Match Objects and Groups" Page="255" Open="0" />
+        <Item ID="296" Name="Group Numbers and Functions in Substitutions" Page="256" Open="0" />
+        <Item ID="297" Name="Finding the Sender of an Email" Page="258" Open="0" />
+        <Item ID="298" Name="A Sample Template System" Page="260" Open="0" />
+      </Item>
+      <Item ID="299" Name="Other Interesting Standard Modules" Page="264" Open="0" />
+    </Item>
+    <Item ID="300" Name="A Quick Summary" Page="265" Open="0">
+      <Item ID="301" Name="New Functions in This Chapter" Page="266" Open="0" />
+      <Item ID="302" Name="What Now?" Page="266" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="303" Name="Chapter 11: Files and Stuff" Page="267" Open="0">
+    <Item ID="304" Name="Opening Files" Page="267" Open="0">
+      <Item ID="305" Name="File Modes" Page="267" Open="0" />
+    </Item>
+    <Item ID="306" Name="The Basic File Methods" Page="268" Open="0">
+      <Item ID="307" Name="Reading and Writing" Page="269" Open="0" />
+      <Item ID="308" Name="Piping Output" Page="270" Open="0" />
+      <Item ID="309" Name="Reading and Writing Lines" Page="271" Open="0" />
+      <Item ID="310" Name="Closing Files" Page="272" Open="0" />
+      <Item ID="311" Name="Using the Basic File Methods" Page="273" Open="0" />
+    </Item>
+    <Item ID="312" Name="Iterating over File Contents" Page="274" Open="0">
+      <Item ID="313" Name="One Character (or Byte) at a Time" Page="274" Open="0" />
+      <Item ID="314" Name="One Line at a Time" Page="275" Open="0" />
+      <Item ID="315" Name="Reading Everything" Page="275" Open="0" />
+      <Item ID="316" Name="Lazy Line Iteration with fileinput" Page="276" Open="0" />
+      <Item ID="317" Name="File Iterators" Page="276" Open="0" />
+    </Item>
+    <Item ID="318" Name="A Quick Summary" Page="277" Open="0">
+      <Item ID="319" Name="New Functions in This Chapter" Page="278" Open="0" />
+      <Item ID="320" Name="What Now?" Page="278" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="321" Name="Chapter 12: Graphical User Interfaces" Page="279" Open="0">
+    <Item ID="322" Name="Building a Sample GUI Application" Page="279" Open="0">
+      <Item ID="323" Name="Initial Exploration" Page="280" Open="0" />
+      <Item ID="324" Name="Layout" Page="282" Open="0" />
+      <Item ID="325" Name="Event Handling" Page="282" Open="0" />
+      <Item ID="326" Name="The Final Program" Page="283" Open="0" />
+    </Item>
+    <Item ID="327" Name="Using Something Else" Page="285" Open="0" />
+    <Item ID="328" Name="A Quick Summary" Page="285" Open="0">
+      <Item ID="329" Name="What Now?" Page="285" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="330" Name="Chapter 13: Database Support" Page="286" Open="0">
+    <Item ID="331" Name="The Python Database API" Page="286" Open="0">
+      <Item ID="332" Name="Global Variables" Page="287" Open="0" />
+      <Item ID="333" Name="Exceptions" Page="288" Open="0" />
+      <Item ID="334" Name="Connections and Cursors" Page="288" Open="0" />
+      <Item ID="335" Name="Types" Page="290" Open="0" />
+    </Item>
+    <Item ID="336" Name="SQLite and PySQLite" Page="290" Open="0">
+      <Item ID="337" Name="Getting Started" Page="292" Open="0" />
+      <Item ID="338" Name="A Sample Database Application" Page="292" Open="0" />
+      <Item ID="339" Name="Creating and Populating Tables" Page="293" Open="0" />
+      <Item ID="340" Name="Searching and Dealing with Results" Page="294" Open="0" />
+    </Item>
+    <Item ID="341" Name="A Quick Summary" Page="295" Open="0">
+      <Item ID="342" Name="New Functions in This Chapter" Page="296" Open="0" />
+      <Item ID="343" Name="What Now?" Page="296" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="344" Name="Chapter 14: Network Programming" Page="297" Open="0">
+    <Item ID="345" Name="A Handful of Networking Modules" Page="297" Open="0">
+      <Item ID="346" Name="The socket Module" Page="298" Open="0" />
+      <Item ID="347" Name="The urllib and urllib2 Modules" Page="299" Open="0" />
+      <Item ID="348" Name="Opening Remote Files" Page="300" Open="0" />
+      <Item ID="349" Name="Retrieving Remote Files" Page="300" Open="0" />
+      <Item ID="350" Name="Other Modules" Page="301" Open="0" />
+    </Item>
+    <Item ID="351" Name="SocketServer and Friends" Page="302" Open="0" />
+    <Item ID="352" Name="Multiple Connections" Page="303" Open="0">
+      <Item ID="353" Name="Forking and Threading with SocketServer" Page="304" Open="0" />
+      <Item ID="354" Name="Asynchronous I/O with select and poll" Page="305" Open="0" />
+    </Item>
+    <Item ID="355" Name="Twisted" Page="307" Open="0">
+      <Item ID="356" Name="Downloading and Installing Twisted" Page="308" Open="0" />
+      <Item ID="357" Name="Writing a Twisted Server" Page="308" Open="0" />
+    </Item>
+    <Item ID="358" Name="A Quick Summary" Page="310" Open="0">
+      <Item ID="359" Name="New Functions in This Chapter" Page="311" Open="0" />
+      <Item ID="360" Name="What Now?" Page="311" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="361" Name="Chapter 15: Python and the Web" Page="312" Open="0">
+    <Item ID="362" Name="Screen Scraping" Page="312" Open="0">
+      <Item ID="363" Name="Tidy and XHTML Parsing" Page="313" Open="0" />
+      <Item ID="364" Name="What’s Tidy?" Page="313" Open="0" />
+      <Item ID="365" Name="Getting Tidy" Page="315" Open="0" />
+      <Item ID="366" Name="But Why XHTML?" Page="316" Open="0" />
+      <Item ID="367" Name="Using HTMLParser" Page="316" Open="0" />
+      <Item ID="368" Name="Beautiful Soup" Page="318" Open="0" />
+    </Item>
+    <Item ID="369" Name="Dynamic Web Pages with CGI" Page="319" Open="0">
+      <Item ID="370" Name="Step 1: Preparing the Web Server" Page="319" Open="0" />
+      <Item ID="371" Name="Step 2: Adding the Pound Bang Line" Page="320" Open="0" />
+      <Item ID="372" Name="Step 3: Setting the File Permissions" Page="320" Open="0" />
+      <Item ID="373" Name="CGI Security Risks" Page="321" Open="0" />
+      <Item ID="374" Name="A Simple CGI Script" Page="321" Open="0" />
+      <Item ID="375" Name="Debugging with cgitb" Page="322" Open="0" />
+      <Item ID="376" Name="Using the cgi Module" Page="323" Open="0" />
+      <Item ID="377" Name="A Simple Form" Page="324" Open="0" />
+    </Item>
+    <Item ID="378" Name="Using a Web Framework" Page="326" Open="0">
+      <Item ID="379" Name="Other Web Application Frameworks" Page="326" Open="0" />
+    </Item>
+    <Item ID="380" Name="Web Services: Scraping Done Right" Page="327" Open="0">
+      <Item ID="381" Name="RSS and Friends" Page="327" Open="0" />
+      <Item ID="382" Name="Remote Procedure Calls with XML-RPC" Page="328" Open="0" />
+      <Item ID="383" Name="SOAP" Page="329" Open="0" />
+    </Item>
+    <Item ID="384" Name="A Quick Summary" Page="329" Open="0">
+      <Item ID="385" Name="New Functions in This Chapter" Page="329" Open="0" />
+      <Item ID="386" Name="What Now?" Page="329" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="387" Name="Chapter 16: Testing, 1-2-3" Page="330" Open="0">
+    <Item ID="388" Name="Test First, Code Later" Page="330" Open="0">
+      <Item ID="389" Name="Precise Requirement Specification" Page="330" Open="0" />
+      <Item ID="390" Name="Planning for Change" Page="332" Open="0" />
+      <Item ID="391" Name="The 1-2-3 (and 4) of Testing" Page="333" Open="0" />
+    </Item>
+    <Item ID="392" Name="Tools for Testing" Page="333" Open="0">
+      <Item ID="393" Name="doctest" Page="333" Open="0" />
+      <Item ID="394" Name="unittest" Page="335" Open="0" />
+    </Item>
+    <Item ID="395" Name="Beyond Unit Tests" Page="338" Open="0">
+      <Item ID="396" Name="Source Code Checking with PyChecker and PyLint" Page="338" Open="0" />
+      <Item ID="397" Name="Profiling" Page="341" Open="0" />
+    </Item>
+    <Item ID="398" Name="A Quick Summary" Page="342" Open="0">
+      <Item ID="399" Name="New Functions in This Chapter" Page="343" Open="0" />
+      <Item ID="400" Name="What Now?" Page="343" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="401" Name="Chapter 17: Extending Python" Page="344" Open="0">
+    <Item ID="402" Name="The Best of Both Worlds" Page="344" Open="0" />
+    <Item ID="403" Name="The Really Easy Way: Jython and IronPython" Page="345" Open="0" />
+    <Item ID="404" Name="Writing C Extensions" Page="348" Open="0">
+      <Item ID="405" Name="A Swig of … SWIG" Page="349" Open="0" />
+      <Item ID="406" Name="What Does It Do?" Page="350" Open="0" />
+      <Item ID="407" Name="I Prefer Pi" Page="350" Open="0" />
+      <Item ID="408" Name="The Interface File" Page="351" Open="0" />
+      <Item ID="409" Name="Running SWIG" Page="351" Open="0" />
+      <Item ID="410" Name="Compiling, Linking, and Using" Page="352" Open="0" />
+      <Item ID="411" Name="A Shortcut Through the Magic Forest of Compilers" Page="353" Open="0" />
+      <Item ID="412" Name="Hacking It on Your Own" Page="353" Open="0" />
+      <Item ID="413" Name="Reference Counting" Page="354" Open="0" />
+      <Item ID="414" Name="A Framework for Extensions" Page="355" Open="0" />
+      <Item ID="415" Name="Palindromes, Detartrated1 for Your Enjoyment" Page="356" Open="0" />
+    </Item>
+    <Item ID="416" Name="A Quick Summary" Page="358" Open="0">
+      <Item ID="417" Name="New Functions in This Chapter" Page="359" Open="0" />
+      <Item ID="418" Name="What Now?" Page="359" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="419" Name="Chapter 18: Packaging Your Programs" Page="360" Open="0">
+    <Item ID="420" Name="Setuptools Basics" Page="360" Open="0" />
+    <Item ID="421" Name="Wrapping Things Up" Page="362" Open="0" />
+    <Item ID="422" Name="Compiling Extensions" Page="363" Open="0" />
+    <Item ID="423" Name="Creating Executable Programs with py2exe" Page="364" Open="0" />
+    <Item ID="424" Name="A Quick Summary" Page="365" Open="0">
+      <Item ID="425" Name="New Functions in This Chapter" Page="365" Open="0" />
+      <Item ID="426" Name="What Now?" Page="365" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="427" Name="Chapter 19: Playful Programming" Page="366" Open="0">
+    <Item ID="428" Name="Why Playful?" Page="366" Open="0" />
+    <Item ID="429" Name="The Jujitsu of Programming" Page="366" Open="0" />
+    <Item ID="430" Name="Prototyping" Page="367" Open="0" />
+    <Item ID="431" Name="Configuration" Page="368" Open="0">
+      <Item ID="432" Name="Extracting Constants" Page="368" Open="0" />
+      <Item ID="433" Name="Configuration Files" Page="369" Open="0" />
+    </Item>
+    <Item ID="434" Name="Logging" Page="371" Open="0" />
+    <Item ID="435" Name="If You Can’t Be Bothered" Page="372" Open="0" />
+    <Item ID="436" Name="If You Want to Learn More" Page="373" Open="0" />
+    <Item ID="437" Name="A Quick Summary" Page="373" Open="0">
+      <Item ID="438" Name="What Now?" Page="374" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="439" Name="Chapter 20: Project 1: Instant Markup" Page="375" Open="0">
+    <Item ID="440" Name="What’s the Problem?" Page="375" Open="0" />
+    <Item ID="441" Name="Useful Tools" Page="376" Open="0" />
+    <Item ID="442" Name="Preparations" Page="376" Open="0" />
+    <Item ID="443" Name="First Implementation" Page="377" Open="0">
+      <Item ID="444" Name="Finding Blocks of Text" Page="377" Open="0" />
+      <Item ID="445" Name="Adding Some Markup" Page="378" Open="0" />
+    </Item>
+    <Item ID="446" Name="Second Implementation" Page="380" Open="0">
+      <Item ID="447" Name="Handlers" Page="380" Open="0" />
+      <Item ID="448" Name="A Handler Superclass" Page="381" Open="0" />
+      <Item ID="449" Name="Rules" Page="382" Open="0" />
+      <Item ID="450" Name="A Rule Superclass" Page="383" Open="0" />
+      <Item ID="451" Name="Filters" Page="383" Open="0" />
+      <Item ID="452" Name="The Parser" Page="384" Open="0" />
+      <Item ID="453" Name="Constructing the Rules and Filters" Page="385" Open="0" />
+      <Item ID="454" Name="Putting It All Together" Page="388" Open="0" />
+    </Item>
+    <Item ID="455" Name="Further Exploration" Page="392" Open="0">
+      <Item ID="456" Name="What Now?" Page="393" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="457" Name="Chapter 21: Project 2: Painting a Pretty Picture" Page="394" Open="0">
+    <Item ID="458" Name="What’s the Problem?" Page="394" Open="0" />
+    <Item ID="459" Name="Useful Tools" Page="395" Open="0" />
+    <Item ID="460" Name="Preparations" Page="395" Open="0" />
+    <Item ID="461" Name="First Implementation" Page="396" Open="0">
+      <Item ID="462" Name="Drawing with ReportLab" Page="396" Open="0" />
+      <Item ID="463" Name="Constructing Some PolyLines" Page="397" Open="0" />
+      <Item ID="464" Name="Writing the Prototype" Page="398" Open="0" />
+    </Item>
+    <Item ID="465" Name="Second Implementation" Page="400" Open="0">
+      <Item ID="466" Name="Getting the Data" Page="400" Open="0" />
+      <Item ID="467" Name="Using the LinePlot Class" Page="401" Open="0" />
+    </Item>
+    <Item ID="468" Name="Further Exploration" Page="403" Open="0">
+      <Item ID="469" Name="What Now?" Page="403" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="470" Name="Chapter 22: Project 3: XML for All Occasions" Page="404" Open="0">
+    <Item ID="471" Name="What’s the Problem?" Page="404" Open="0" />
+    <Item ID="472" Name="Useful Tools" Page="405" Open="0" />
+    <Item ID="473" Name="Preparations" Page="406" Open="0" />
+    <Item ID="474" Name="First Implementation" Page="407" Open="0">
+      <Item ID="475" Name="Creating a Simple Content Handler" Page="407" Open="0" />
+      <Item ID="476" Name="Creating HTML Pages" Page="409" Open="0" />
+    </Item>
+    <Item ID="477" Name="Second Implementation" Page="412" Open="0">
+      <Item ID="478" Name="A Dispatcher Mix-In Class" Page="412" Open="0" />
+      <Item ID="479" Name="Factoring Out the Header, Footer, and Default Handling" Page="413" Open="0" />
+      <Item ID="480" Name="Support for Directories" Page="414" Open="0" />
+      <Item ID="481" Name="The Event Handlers" Page="415" Open="0" />
+    </Item>
+    <Item ID="482" Name="Further Exploration" Page="417" Open="0">
+      <Item ID="483" Name="What Now?" Page="417" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="484" Name="Chapter 23: Project 4: In the News" Page="418" Open="0">
+    <Item ID="485" Name="What’s the Problem?" Page="418" Open="0" />
+    <Item ID="486" Name="Useful Tools" Page="419" Open="0" />
+    <Item ID="487" Name="Preparations" Page="419" Open="0" />
+    <Item ID="488" Name="First Implementation" Page="419" Open="0" />
+    <Item ID="489" Name="Second Implementation" Page="421" Open="0" />
+    <Item ID="490" Name="Further Exploration" Page="428" Open="0">
+      <Item ID="491" Name="What Now?" Page="429" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="492" Name="Chapter 24: Project 5: A Virtual Tea Party" Page="430" Open="0">
+    <Item ID="493" Name="What’s the Problem?" Page="430" Open="0" />
+    <Item ID="494" Name="Useful Tools" Page="430" Open="0" />
+    <Item ID="495" Name="Preparations" Page="431" Open="0" />
+    <Item ID="496" Name="First Implementation" Page="432" Open="0">
+      <Item ID="497" Name="The ChatServer Class" Page="432" Open="0" />
+      <Item ID="498" Name="The ChatSession Class" Page="433" Open="0" />
+      <Item ID="499" Name="Putting It Together" Page="435" Open="0" />
+    </Item>
+    <Item ID="500" Name="Second Implementation" Page="437" Open="0">
+      <Item ID="501" Name="Basic Command Interpretation" Page="437" Open="0" />
+      <Item ID="502" Name="Rooms" Page="438" Open="0" />
+      <Item ID="503" Name="Login and Logout Rooms" Page="438" Open="0" />
+      <Item ID="504" Name="The Main Chat Room" Page="439" Open="0" />
+      <Item ID="505" Name="The New Server" Page="439" Open="0" />
+    </Item>
+    <Item ID="506" Name="Further Exploration" Page="445" Open="0">
+      <Item ID="507" Name="What Now?" Page="445" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="508" Name="Chapter 25: Project 6: Remote Editing with CGI" Page="446" Open="0">
+    <Item ID="509" Name="What’s the Problem?" Page="446" Open="0" />
+    <Item ID="510" Name="Useful Tools" Page="446" Open="0" />
+    <Item ID="511" Name="Preparations" Page="447" Open="0" />
+    <Item ID="512" Name="First Implementation" Page="447" Open="0" />
+    <Item ID="513" Name="Second Implementation" Page="448" Open="0">
+      <Item ID="514" Name="Creating the File Name Form" Page="449" Open="0" />
+      <Item ID="515" Name="Writing the Editor Script" Page="449" Open="0" />
+      <Item ID="516" Name="Writing the Save Script" Page="450" Open="0" />
+      <Item ID="517" Name="Running the Editor" Page="452" Open="0" />
+    </Item>
+    <Item ID="518" Name="Further Exploration" Page="453" Open="0">
+      <Item ID="519" Name="What Now?" Page="454" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="520" Name="Chapter 26: Project 7: Your Own Bulletin Board" Page="455" Open="0">
+    <Item ID="521" Name="What’s the Problem?" Page="455" Open="0" />
+    <Item ID="522" Name="Useful Tools" Page="456" Open="0" />
+    <Item ID="523" Name="Preparations" Page="456" Open="0" />
+    <Item ID="524" Name="First Implementation" Page="457" Open="0" />
+    <Item ID="525" Name="Second Implementation" Page="462" Open="0">
+      <Item ID="526" Name="Writing the Main Script" Page="462" Open="0" />
+      <Item ID="527" Name="Writing the View Script" Page="463" Open="0" />
+      <Item ID="528" Name="Writing the Edit Script" Page="465" Open="0" />
+      <Item ID="529" Name="Writing the Save Script" Page="466" Open="0" />
+      <Item ID="530" Name="Trying It Out" Page="467" Open="0" />
+    </Item>
+    <Item ID="531" Name="Further Exploration" Page="469" Open="0">
+      <Item ID="532" Name="What Now?" Page="469" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="533" Name="Chapter 27: Project 8: File Sharing with XML-RPC" Page="470" Open="0">
+    <Item ID="534" Name="What’s the Problem?" Page="470" Open="0" />
+    <Item ID="535" Name="Useful Tools" Page="471" Open="0" />
+    <Item ID="536" Name="Preparations" Page="472" Open="0" />
+    <Item ID="537" Name="First Implementation" Page="472" Open="0">
+      <Item ID="538" Name="Implementing a Simple Node" Page="472" Open="0" />
+      <Item ID="539" Name="Trying Out the First Implementation" Page="477" Open="0" />
+    </Item>
+    <Item ID="540" Name="Second Implementation" Page="478" Open="0">
+      <Item ID="541" Name="Creating the Client Interface" Page="479" Open="0" />
+      <Item ID="542" Name="Raising Exceptions" Page="480" Open="0" />
+      <Item ID="543" Name="Validating File Names" Page="480" Open="0" />
+      <Item ID="544" Name="Trying Out the Second Implementation" Page="485" Open="0" />
+    </Item>
+    <Item ID="545" Name="Further Exploration" Page="485" Open="0">
+      <Item ID="546" Name="What Now?" Page="485" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="547" Name="Chapter 28: Project 9: File Sharing II—Now with GUI!" Page="486" Open="0">
+    <Item ID="548" Name="What’s the Problem?" Page="486" Open="0" />
+    <Item ID="549" Name="Useful Tools" Page="486" Open="0" />
+    <Item ID="550" Name="Preparations" Page="486" Open="0" />
+    <Item ID="551" Name="First Implementation" Page="487" Open="0" />
+    <Item ID="552" Name="Second Implementation" Page="489" Open="0" />
+    <Item ID="553" Name="Further Exploration" Page="491" Open="0">
+      <Item ID="554" Name="What Now?" Page="492" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="555" Name="Chapter 29: Project 10: Do-It-Yourself Arcade Game" Page="493" Open="0">
+    <Item ID="556" Name="What’s the Problem?" Page="493" Open="0" />
+    <Item ID="557" Name="Useful Tools" Page="494" Open="0">
+      <Item ID="558" Name="pygame" Page="494" Open="0" />
+      <Item ID="559" Name="pygame.locals" Page="494" Open="0" />
+      <Item ID="560" Name="pygame.display" Page="494" Open="0" />
+      <Item ID="561" Name="pygame.font" Page="495" Open="0" />
+      <Item ID="562" Name="pygame.sprite" Page="495" Open="0" />
+      <Item ID="563" Name="pygame.mouse" Page="495" Open="0" />
+      <Item ID="564" Name="pygame.event" Page="496" Open="0" />
+      <Item ID="565" Name="pygame.image" Page="496" Open="0" />
+    </Item>
+    <Item ID="566" Name="Preparations" Page="496" Open="0" />
+    <Item ID="567" Name="First Implementation" Page="497" Open="0" />
+    <Item ID="568" Name="Second Implementation" Page="500" Open="0" />
+    <Item ID="569" Name="Further Exploration" Page="511" Open="0">
+      <Item ID="570" Name="What Now?" Page="511" Open="0" />
+    </Item>
+  </Item>
+  <Item ID="571" Name="Appendix A: The Short Version" Page="512" Open="0">
+    <Item ID="572" Name="The Basics" Page="512" Open="0" />
+    <Item ID="573" Name="Functions" Page="514" Open="0" />
+    <Item ID="574" Name="Objects and Stuff . . ." Page="515" Open="0" />
+    <Item ID="575" Name="Some Loose Ends" Page="518" Open="0" />
+  </Item>
+  <Item ID="576" Name="Appendix B: Python Reference" Page="520" Open="0">
+    <Item ID="577" Name="Expressions" Page="520" Open="0" />
+    <Item ID="578" Name="Statements" Page="530" Open="0">
+      <Item ID="579" Name="Simple Statements" Page="530" Open="0">
+        <Item ID="580" Name="Expression Statements" Page="530" Open="0" />
+        <Item ID="581" Name="Assert Statements" Page="530" Open="0" />
+        <Item ID="582" Name="Assignment Statements" Page="530" Open="0" />
+        <Item ID="583" Name="Augmented Assignment Statements" Page="530" Open="0" />
+        <Item ID="584" Name="The pass Statement" Page="531" Open="0" />
+        <Item ID="585" Name="The del Statement" Page="531" Open="0" />
+        <Item ID="586" Name="The return Statement" Page="531" Open="0" />
+        <Item ID="587" Name="The yield Statement" Page="531" Open="0" />
+        <Item ID="588" Name="The raise Statement" Page="531" Open="0" />
+        <Item ID="589" Name="The break Statement" Page="532" Open="0" />
+        <Item ID="590" Name="The continue Statement" Page="532" Open="0" />
+        <Item ID="591" Name="The import Statement" Page="532" Open="0" />
+        <Item ID="592" Name="The global Statement" Page="533" Open="0" />
+        <Item ID="593" Name="The nonlocal Statement" Page="533" Open="0" />
+      </Item>
+      <Item ID="594" Name="Compound Statements" Page="533" Open="0">
+        <Item ID="595" Name="The if Statement" Page="533" Open="0" />
+        <Item ID="596" Name="The while Statement" Page="534" Open="0" />
+        <Item ID="597" Name="The for Statement" Page="534" Open="0" />
+        <Item ID="598" Name="The try Statement" Page="534" Open="0" />
+        <Item ID="599" Name="The with Statement" Page="534" Open="0" />
+        <Item ID="600" Name="Function Definitions" Page="535" Open="0" />
+        <Item ID="601" Name="Class Definitions" Page="535" Open="0" />
+      </Item>
+    </Item>
+  </Item>
+  <Item ID="602" Name="Index" Page="536" Open="0" />
+</BookmarkExport>

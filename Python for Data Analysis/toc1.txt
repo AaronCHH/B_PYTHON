@@ -1,0 +1,365 @@
+﻿Chapter 1. Preliminaries
+	What Is This Book About
+	Why Python for Data Analysis
+		Python as Glue
+		Solving the “Two-Language” Problem
+		Why Not Python
+	Essential Python Libraries
+		NumPy
+		pandas
+		matplotlib
+		IPython
+		SciPy
+	Installation and Setup
+		Windows
+		Apple OS X
+		GNU/Linux
+		Python 2 and Python 3
+		Integrated Development Environments (IDEs
+	Community and Conferences
+	Navigating This Book
+		Code Examples
+		Data for Examples
+		Import Conventions
+		Jargon
+	Acknowledgements
+
+Chapter 2. Introductory Examples
+	1.usa.gov data from bit.ly
+		Counting Time Zones in Pure Python
+		Counting Time Zones with pandas
+	MovieLens 1M Data Set
+		Measuring rating disagreement
+	US Baby Names 1880-2010
+		Analyzing Naming Trends
+			Measuring the increase in naming diversity
+			The “Last letter” Revolution
+			Boy names that became girl names (and vice versa
+	Conclusions and The Path Ahead
+
+Chapter 3. IPython: An Interactive Computing and Development Environment
+	IPython Basics
+		Tab Completion
+		Introspection
+		The %run Command
+			Interrupting running code
+		Executing Code from the Clipboard
+			IPython interaction with editors and IDEs
+		Keyboard Shortcuts
+		Exceptions and Tracebacks
+		Magic Commands
+		Qt-based Rich GUI Console
+		Matplotlib Integration and Pylab Mode
+	Using the Command History
+		Searching and Reusing the Command History
+		Input and Output Variables
+		Logging the Input and Output
+	Interacting with the Operating System
+		Shell Commands and Aliases
+		Directory Bookmark System
+	Software Development Tools
+		Interactive Debugger
+			Other ways to make use of the debugger
+		Timing Code: %time and %timeit
+		Basic Profiling: %prun and %run -p
+		Profiling a Function Line-by-Line
+	IPython HTML Notebook
+	Tips for Productive Code Development Using IPython
+		Reloading Module Dependencies
+		Code Design Tips
+			Keep relevant objects and data alive
+			Flat is better than nested
+			Overcome a fear of longer files
+	Advanced IPython Features
+		Making Your Own Classes IPython-friendly
+		Profiles and Configuration
+	Credits
+
+Chapter 4. NumPy Basics: Arrays and Vectorized Computation
+	The NumPy ndarray: A Multidimensional Array Object
+		Creating ndarrays
+		Data Types for ndarrays
+		Operations between Arrays and Scalars
+		Basic Indexing and Slicing
+			Indexing with slices
+		Boolean Indexing
+		Fancy Indexing
+		Transposing Arrays and Swapping Axes
+	Universal Functions: Fast Element-wise Array Functions
+	Data Processing Using Arrays
+		Expressing Conditional Logic as Array Operations
+		Mathematical and Statistical Methods
+		Methods for Boolean Arrays
+		Sorting
+		Unique and Other Set Logic
+	File Input and Output with Arrays
+		Storing Arrays on Disk in Binary Format
+		Saving and Loading Text Files
+	Linear Algebra
+	Random Number Generation
+	Example: Random Walks
+		Simulating Many Random Walks at Once
+
+Chapter 5. Getting Started with pandas
+	Introduction to pandas Data Structures
+		Series
+		DataFrame
+		Index Objects
+	Essential Functionality
+		Reindexing
+		Dropping entries from an axis
+		Indexing, selection, and filtering
+		Arithmetic and data alignment
+			Arithmetic methods with fill values
+			Operations between DataFrame and Series
+		Function application and mapping
+		Sorting and ranking
+		Axis indexes with duplicate values
+	Summarizing and Computing Descriptive Statistics
+		Correlation and Covariance
+		Unique Values, Value Counts, and Membership
+	Handling Missing Data
+		Filtering Out Missing Data
+		Filling in Missing Data
+	Hierarchical Indexing
+		Reordering and Sorting Levels
+		Summary Statistics by Level
+		Using a DataFrame’s Columns
+	Other pandas Topics
+		Integer Indexing
+		Panel Data
+
+Chapter 6. Data Loading, Storage, and File Formats
+	Reading and Writing Data in Text Format
+		Reading Text Files in Pieces
+		Writing Data Out to Text Format
+		Manually Working with Delimited Formats
+		JSON Data
+		XML and HTML: Web Scraping
+			Parsing XML with lxml.objectify
+	Binary Data Formats
+		Using HDF5 Format
+		Reading Microsoft Excel Files
+	Interacting with HTML and Web APIs
+	Interacting with Databases
+		Storing and Loading Data in MongoDB
+
+Chapter 7. Data Wrangling: Clean, Transform, Merge, Reshape
+	Combining and Merging Data Sets
+		Database-style DataFrame Merges
+		Merging on Index
+		Concatenating Along an Axis
+		Combining Data with Overlap
+	Reshaping and Pivoting
+		Reshaping with Hierarchical Indexing
+		Pivoting “long” to “wide” Format
+	Data Transformation
+		Removing Duplicates
+		Transforming Data Using a Function or Mapping
+		Replacing Values
+		Renaming Axis Indexes
+		Discretization and Binning
+		Detecting and Filtering Outliers
+		Permutation and Random Sampling
+		Computing Indicator/Dummy Variables
+	String Manipulation
+		String Object Methods
+		Regular expressions
+		Vectorized string functions in pandas
+	Example: USDA Food Database
+
+Chapter 8. Plotting and Visualization
+	A Brief matplotlib API Primer
+		Figures and Subplots
+			Adjusting the spacing around subplots
+		Colors, Markers, and Line Styles
+		Ticks, Labels, and Legends
+			Setting the title, axis labels, ticks, and ticklabels
+			Adding legends
+		Annotations and Drawing on a Subplot
+		Saving Plots to File
+		matplotlib Configuration
+	Plotting Functions in pandas
+		Line Plots
+		Bar Plots
+		Histograms and Density Plots
+		Scatter Plots
+	Plotting Maps: Visualizing Haiti Earthquake Crisis Data
+	Python Visualization Tool Ecosystem
+		Chaco
+		mayavi
+		Other Packages
+		The Future of Visualization Tools
+
+Chapter 9. Data Aggregation and Group Operations
+	GroupBy Mechanics
+		Iterating Over Groups
+		Selecting a Column or Subset of Columns
+		Grouping with Dicts and Series
+		Grouping with Functions
+		Grouping by Index Levels
+	Data Aggregation
+		Column-wise and Multiple Function Application
+		Returning Aggregated Data in “unindexed” Form
+	Group-wise Operations and Transformations
+		Apply: General split-apply-combine
+			Suppressing the group keys
+		Quantile and Bucket Analysis
+		Example: Filling Missing Values with Group-specific Values
+		Example: Random Sampling and Permutation
+		Example: Group Weighted Average and Correlation
+		Example: Group-wise Linear Regression
+	Pivot Tables and Cross-Tabulation
+		Cross-Tabulations: Crosstab
+	Example: 2012 Federal Election Commission Database
+		Donation Statistics by Occupation and Employer
+		Bucketing Donation Amounts
+		Donation Statistics by State
+
+Chapter 10. Time Series
+	Date and Time Data Types and Tools
+		Converting between string and datetime
+	Time Series Basics
+		Indexing, Selection, Subsetting
+		Time Series with Duplicate Indices
+	Date Ranges, Frequencies, and Shifting
+		Generating Date Ranges
+		Frequencies and Date Offsets
+			Week of month dates
+		Shifting (Leading and Lagging) Data
+			Shifting dates with offsets
+	Time Zone Handling
+		Localization and Conversion
+		Operations with Time Zone−aware Timestamp Objects
+		Operations between Different Time Zones
+	Periods and Period Arithmetic
+		Period Frequency Conversion
+		Quarterly Period Frequencies
+		Converting Timestamps to Periods (and Back
+		Creating a PeriodIndex from Arrays
+	Resampling and Frequency Conversion
+		Downsampling
+			Open-High-Low-Close (OHLC) resampling
+			Resampling with GroupBy
+		Upsampling and Interpolation
+		Resampling with Periods
+	Time Series Plotting
+	Moving Window Functions
+		Exponentially-weighted functions
+		Binary Moving Window Functions
+		User-Defined Moving Window Functions
+	Performance and Memory Usage Notes
+
+Chapter 11. Financial and Economic Data Applications
+	Data Munging Topics
+		Time Series and Cross-Section Alignment
+		Operations with Time Series of Different Frequencies
+			Using periods instead of timestamps
+		Time of Day and “as of” Data Selection
+		Splicing Together Data Sources
+		Return Indexes and Cumulative Returns
+	Group Transforms and Analysis
+		Group Factor Exposures
+		Decile and Quartile Analysis
+	More Example Applications
+		Signal Frontier Analysis
+		Future Contract Rolling
+		Rolling Correlation and Linear Regression
+
+Chapter 12. Advanced NumPy
+	ndarray Object Internals
+		NumPy dtype Hierarchy
+	Advanced Array Manipulation
+		Reshaping Arrays
+		C versus Fortran Order
+		Concatenating and Splitting Arrays
+			Stacking helpers: r_ and c_
+		Repeating Elements: Tile and Repeat
+		Fancy Indexing Equivalents: Take and Put
+	Broadcasting
+		Broadcasting Over Other Axes
+		Setting Array Values by Broadcasting
+	Advanced ufunc Usage
+		ufunc Instance Methods
+		Custom ufuncs
+	Structured and Record Arrays
+		Nested dtypes and Multidimensional Fields
+		Why Use Structured Arrays
+		Structured Array Manipulations: numpy.lib.recfunctions
+	More About Sorting
+		Indirect Sorts: argsort and lexsort
+		Alternate Sort Algorithms
+		numpy.searchsorted: Finding elements in a Sorted Array
+	NumPy Matrix Class
+	Advanced Array Input and Output
+		Memory-mapped Files
+		HDF5 and Other Array Storage Options
+	Performance Tips
+		The Importance of Contiguous Memory
+		Other Speed Options: Cython, f2py, C
+    
+Appendix. Python Language Essentials
+	The Python Interpreter
+	The Basics
+		Language Semantics
+			Indentation, not braces
+			Everything is an object
+			Comments
+			Function and object method calls
+			Variables and pass-by-reference
+			Dynamic references, strong types
+			Attributes and methods
+			“Duck” typing
+			Imports
+			Binary operators and comparisons
+			Strictness versus laziness
+			Mutable and immutable objects
+		Scalar Types
+			Numeric types
+			Strings
+			Booleans
+			Type casting
+			None
+			Dates and times
+		Control Flow
+			if, elif, and else
+			for loops
+			while loops
+			pass
+			Exception handling
+			range and xrange
+			Ternary Expressions
+	Data Structures and Sequences
+		Tuple
+			Unpacking tuples
+			Tuple methods
+		List
+			Adding and removing elements
+			Concatenating and combining lists
+			Sorting
+			Binary search and maintaining a sorted list
+			Slicing
+		Built-in Sequence Functions
+			enumerate
+			sorted
+			zip
+			reversed
+		Dict
+			Creating dicts from sequences
+			Default values
+			Valid dict key types
+		Set
+		List, Set, and Dict Comprehensions
+			Nested list comprehensions
+	Functions
+		Namespaces, Scope, and Local Functions
+		Returning Multiple Values
+		Functions Are Objects
+		Anonymous (lambda) Functions
+		Closures: Functions that Return Functions
+		Extended Call Syntax with *args, **kwargs
+		Currying: Partial Argument Application
+		Generators
+			Generator expresssions
+			itertools module
+	Files and the operating system
