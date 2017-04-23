@@ -1,0 +1,182 @@
+﻿	
+	# Chapter 1: Working with Numbers
+	## 1.1 Basic Mathematical Operations
+	## 1.2 Labels: Attaching Names to Numbers
+	## 1.3 Different Kinds of Numbers 
+	### Working with Fractions
+	### Complex Numbers
+	## 1.4 Getting User Input
+	### Handling Exceptions and Invalid Input
+	### Fractions and Complex Numbers as Input
+	## 1.5 Writing Programs That Do the Math for You
+	### Calculating the Factors of an Integer
+	### Generating Multiplication Tables
+	### Converting Units of Measurement
+	### Finding the Roots of a Quadratic Equation
+	## 1.6 What You Learned
+	## 1.7 Programming Challenges
+	### Challenge 1: Even-Odd Vending Machine
+	### Challenge 2: Enhanced Multiplication Table Generator
+	### Challenge 3: Enhanced Unit Converter
+	### Challenge 4: Fraction Calculator
+	### Challenge 5: Give Exit Power to the User
+	
+	# Chapter 2: Visualizing Data with Graphs
+	## 2.1 Understanding the Cartesian Coordinate Plane
+	## 2.2 Working with Lists and Tuples
+	### Iterating over a List or Tuple
+	## 2.3 Creating Graphs with Matplotlib
+	### Marking Points on Your Graph
+	### Graphing the Average Annual Temperature in New York City
+	### Comparing the Monthly Temperature Trends of New York City
+	### Customizing Graphs
+	### Saving the Plots
+	## 2.4 Plotting with Formulas
+	### Newton’s Law of Universal Gravitation
+	### Projectile Motion
+	## 2.5 What You Learned
+	## Programming Challenges
+	### Challenge 1: How Does the Temperature Vary During the Day
+	### Challenge 2: Exploring a Quadratic Function Visually
+	### Challenge 3: Enhanced Projectile Trajectory Comparison Program
+	### Challenge 4: Visualizing Your Expenses
+	### Challenge 5: Exploring the Relationship Between the Fibonacci Sequence and the Golden Ratio
+	
+	# Chapter 3: Describing Data with Statistics
+	## 3.1 Finding the Mean
+	## 3.2 Finding the Median
+	## 3.3 Finding the Mode and Creating a Frequency Table
+	### Finding the Most Common Elements
+	### Finding the Mode
+	### Creating a Frequency Table
+	## 3.4 Measuring the Dispersion
+	### Finding the Range of a Set of Numbers
+	### Finding the Variance and Standard Deviation
+	## 3.5 Calculating the Correlation Between Two Data Sets
+	### Calculating the Correlation Coefficient
+	### High School Grades and Performance on College Admission Tests
+	## 3.6 Scatter Plots
+	## 3.7 Reading Data from Files
+	### Reading Data from a Text File
+	### Reading Data from a CSV File
+	## 3.8 What You Learned
+	## 3.9 Programming Challenges
+	### Challenge 1: Better Correlation Coefficient–Finding Program
+	### Challenge 2: Statistics Calculator 
+	### Challenge 3: Experiment with Other CSV Data
+	### Challenge 4: Finding the Percentile
+	### Challenge 5: Creating a Grouped Frequency Table
+	
+	# Chapter 4: Algebra and Symbolic Math with SymPy
+	## 4.1 Defining Symbols and Symbolic Operations
+	## 4.2 Working with Expressions
+	### Factorizing and Expanding Expressions
+	### Pretty Printing
+	### Substituting in Values
+	### Converting Strings to Mathematical Expressions
+	## 4.3 Solving Equations
+	### Solving Quadratic Equations
+	### Solving for One Variable in Terms of Others
+	### Solving a System of Linear Equations
+	## 4.4 Plotting Using SymPy
+	### Plotting Expressions Input by the User
+	### Plotting Multiple Functions
+	## 4.5 What You Learned
+	## 4.6 Programming Challenges
+	### Challenge 1: Factor Finder 
+	### Challenge 2: Graphical Equation Solver
+	### Challenge 3: Summing a Series
+	### Challenge 4: Solving Single-Variable Inequalities
+	
+	# Chapter 5: Playing with Sets and Probability 
+	## 5.1 What’s a Set
+	### Set Construction
+	### Subsets, Supersets, and Power Sets
+	### Set Operations
+	## 5.2 Probability
+	### Probability of Event A or Event B
+	### Probability of Event A and Event B
+	### Generating Random Numbers
+	### Nonuniform Random Numbers
+	## 5.3 What You Learned
+	## 5.4 Programming Challenges
+	### Challenge 1: Using Venn Diagrams to Visualize Relationships Between Sets
+	### Challenge 2: Law of Large Numbers
+	### Challenge 3: How Many Tosses Before You Run Out of Money
+	### Challenge 4: Shuffling a Deck of Cards
+	### Challenge 5: Estimating the Area of a Circle
+	
+	# Chapter 6: Drawing Geometric Shapes and Fractals
+	## 6.1 Drawing Geometric Shapes with Matplotlib’s Patches
+	### Drawing a Circle
+	### Creating Animated Figures
+	### Animating a Projectile’s Trajectory
+	## 6.2 Drawing Fractals
+	### Transformations of Points in a Plane
+	### Drawing the Barnsley Fern
+	## 6.3 What You Learned
+	## 6.4 Programming Challenges
+	### Challenge 1: Packing Circles into a Square
+	### Challenge 2: Drawing the Sierpinski Triangle
+	### Challenge 3: Exploring Hénon’s Function
+	### Challenge 4: Drawing the Mandelbrot Set
+	
+	# Chapter 7: Solving Calculus Problems
+	## 7.1 What Is a Function
+	### Domain and Range of a Function
+	### An Overview of Common Mathematical Functions
+	## 7.2 Assumptions in SymPy
+	## 7.3 Finding the Limit of Functions
+	### Continuous Compound Interest
+	### Instantaneous Rate of Change
+	## 7.4 Finding the Derivative of Functions
+	### A Derivative Calculator
+	### Calculating Partial Derivatives
+	## 7.5 Higher-Order Derivatives and Finding the Maxima and Minima 
+	## 7.6 Finding the Global Maximum Using Gradient Ascent
+	### A Generic Program for Gradient Ascent
+	### A Word of Warning About the Initial Value
+	### The Role of the Step Size and Epsilon
+	## 7.7 Finding the Integrals of Functions
+	## 7.8 Probability Density Functions
+	## 7.9 What You Learned
+	## 7.10 Programming Challenges
+	### Challenge 1: Verify the Continuity of a Function at a Point
+	### Challenge 2: Implement the Gradient Descent 
+	### Challenge 3: Area Between Two Curves
+	### Challenge 4: Finding the Length of a Curve
+	# 8. Afterword
+	## 8.1 Things to Explore Next
+	### Project Euler
+	### Python Documentation
+	### Books
+	## 8.2 Getting Help
+	## 8.3 Conclusion
+
+	Appendix A: Software Installation
+	## Microsoft Windows 7
+	### Installing SymPy
+	### Installing matplotlib-venn
+	### Starting the Python Shell
+	## Linux
+	### Updating SymPy
+	### Installing matplotlib-venn
+	### Starting the Python Shell
+	## Mac OS X Yosemite
+	### Updating SymPy
+	### Installing matplotlib-venn
+	### Starting the Python Shell
+	
+	Appendix B: Overview of Python Topics
+	## if __name__ == '__main__
+	## List Comprehensions
+	## Dictionary Data Structure
+	## Multiple Return Values
+	## Exception Handling
+	### Specifying Multiple Exception Types
+	### The else Block
+	## Reading Files in Python
+	### Reading All the Lines at Once
+	### Specifying the Filename as Input
+	### Handling Errors When Reading Files
+	## Reusing Code
