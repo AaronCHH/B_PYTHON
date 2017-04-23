@@ -1,0 +1,11 @@
+Ch01_Navigating_the_World_of_Data_Visualization
+Ch02_The_Environment
+Ch03_Python_for_Programmers
+Ch04_Data_Organization
+Ch05_Processing_Text_Files
+Ch06_Graphs_and_Plots
+Ch07_Math_Games
+Ch08_Science_and_Visualization
+Ch09_Image_Processing
+Ch10_Advanced_File_Processing
+App_Additional_Source_Listing

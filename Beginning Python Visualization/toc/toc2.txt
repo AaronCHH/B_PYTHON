@@ -1,0 +1,406 @@
+﻿# Chapter 1: Navigating the World of Data Visualization
+## 1.1 Gathering Data
+### 1.1.1 Case Study: GPS Data
+### 1.1.2 Scanning Serial Ports
+### 1.1.3 Recording GPS Data
+## 1.2 Data Organization
+### 1.2.1 File Format
+### 1.2.2 File Naming Conventions
+### 1.2.3 Data Location
+## 1.3 Data Analysis
+### 1.3.1 Walking Directories
+### 1.3.2 Reading CSV Files
+### 1.3.3 Analyzing GPS Data
+### 1.3.4 Extracting GPS Data
+## 1.4 Data Visualization
+### 1.4.1 GPS Location Plot
+### 1.4.2 Annotating the Graph
+### 1.4.3 Velocity Plot
+### 1.4.4 Subplots
+### 1.4.5 Text
+## 1.5 Tying It All Together
+## 1.6 Final Notes and References
+ 
+# Chapter 2: The Environment
+## 2.1 Tools of the Trade
+## 2.2 Operating Systems
+### 2.2.1 GNU/Linux
+### 2.2.2 Windows
+* Stand-Alone (Natively
+* Cygwin
+* Virtual Machines
+### 2.2.3 Choosing an Operating System
+### 2.2.4 Then Again, Why Choose? Using Several Operating Systems
+## 2.3 The Python Environment
+### 2.3.1 Versions
+### 2.3.2 Python
+* Python Distributions with Scientific Packages
+### 2.3.3 Python Integrated Development Environments
+* IDLE
+* IPython
+* IPython Notebook
+* Spyder
+### 2.3.4 Scientific Computing
+* NumPy
+* SciPy
+* Matplotlib
+* Image Processing
+* PySerial
+### 2.3.5 Manually Installing a Python Package
+### 2.3.6 Installation Summary
+## 2.4 Additional Applications
+### 2.4.1 Editors
+* Selecting the Proper Editor for You
+### 2.4.2 A Short List of Text Editors
+### 2.4.3 Spreadsheets
+### 2.4.4 Word Processors
+### 2.4.5 Image Viewers
+### 2.4.6 Version-Control Systems
+* Example: Directory Structure for the Book
+## 2.5 Licensing
+## 2.6 Final Notes and References
+ 
+# Chapter 3: Python for Programmers
+## 3.1 The Building Blocks
+## 3.2 What Is Python
+## 3.3 Interactive Python
+### 3.3.1 Invoking Python
+### 3.3.2 Entering Commands
+* The Result Variable
+### 3.3.3 The Interactive Help System
+### 3.3.4 Moving Around
+## 3.4 Running Scripts
+## 3.5 Data Types
+### 3.5.1 Numbers
+* Integers
+* Other Useful Bases
+* Comparisons
+* Bitwise Operations
+* Augmented Assignments
+* Float and Complex
+### 3.5.2 Strings
+* Expressing Strings
+* String Operations
+### 3.5.3 Booleans
+* Logical Operations
+## 3.6 Data Structures
+### 3.6.1 Lists
+### 3.6.2 Tuples
+### 3.6.3 Dictionaries
+### 3.6.4 Sets
+## 3.7 Variables
+## 3.8 Statements
+### 3.8.1 Printing
+* Suppressing Line Breaks
+* Format Specifications
+### 3.8.2 User Input
+### 3.8.3 Comments
+### 3.8.4 Flow Control
+* if, elif, else
+* The pass Statement
+* Exceptions: try, else, and finally
+* Iterators
+* The for Statement
+* List Comprehensions
+* The while Statement
+* Statements break and continue
+## 3.9 Some Built-in Functions
+## 3.10 Defining Functions
+### 3.10.1 Generators
+### 3.10.2 Generator Expressions
+## 3.11 Object-Oriented Programming
+## 3.12 Modules and Packages
+### 3.12.1 The import Statement
+### 3.12.2 Modules Installed in a System
+### 3.12.3 The dir Statement
+## 3.13 Final Notes and References
+
+# Chapter 4: Data Organization
+## 4.1 Organizing Chaos
+## 4.2 File Name Conventions
+### 4.2.1 Date and Time in a File Name
+### 4.2.2 Useful File Name Titles
+### 4.2.3 File Name Extensions
+### 4.2.4 File Name Convention Recap
+* Example: Automating File Name Creation
+### 4.2.5 Other Schemes
+* Example: Running Index
+## 4.3 File Formats
+### 4.3.1 CSV File Format
+* Example: Stock Price Charts
+* Example: Automatically Reading Yahoo! Financial Data
+* Example: Creating a CSV File
+* CSV Limitations
+* What to Store
+* When to Use CSV
+### 4.3.2 Binary Files
+* An Array of Values
+* Example: Reading and Writing an Array of Binary Values
+* An Array of Structs
+* Example: Reading and Writing an Array of Structs
+* Header Files
+### 4.3.3 Readme Files
+### 4.3.4 INI Files
+* Example: Reading and Writing INI Files
+### 4.3.5 XML and Other Formats
+## 4.4 Locating Data Files
+### 4.4.1 Organization into Directories
+### 4.4.2 Searching for Files
+* Example: Storing Directory Contents in an Array
+### 4.4.3 Indexing
+* Example: Searching for Duplicate Files
+### 4.4.4 Catalogs
+* Example: Creating a Clean Catalog File
+### Files vs. a Database
+## 4.5 Final Notes and References
+ 
+# Chapter 5: Processing Text Files
+## 5.1 Text Is Everywhere
+## 5.2 Text and Strings
+### 5.2.1 Splitting Text
+* Example: Counting the Number of Words and Number of Lines in a String
+### 5.2.2 Joining Strings
+### 5.2.3 Converting Strings to Numbers
+* Example: Base Conversion—Binary, Octal, Decimal, and Hexadecimal
+* Testing Your Implementation: exec and assert
+### 5.2.4 Find and Replace
+### 5.2.5 Stripping Strings
+* Example: Removing Extra Spaces
+### 5.2.6 String Formatting
+### 5.2.7 String Conditionals
+### 5.2.8 More on Strings
+## 5.3 Files
+### 5.3.1 Opening a File
+### 5.3.2 Closing a File
+### 5.3.3 Writing Text
+### 5.3.4 Reading Text
+* Reading the Entire File at Once
+* Iterating Over the File Object
+* Using a while Loop
+## 5.4 Working with Text Files
+### 5.4.1 Example: Character, Word, and Line Count
+### 5.4.2 Example: head and tail
+### 5.4.3 Example: Splitting and Combining Files
+### 5.4.4 Example: Searching Inside a Text File
+### 5.4.5 Example: Working with Comments
+### 5.4.6 Example: Extracting Numbers from a Text File
+## 5.5 CSV Files
+### 5.5.1 The csv Module
+### 5.5.2 The csv.reader Object
+### 5.5.3 The csv.writer Object
+### 5.5.4 More CSV Functionality
+### 5.5.5 DictReader and DictWriter Objects
+## 5.6 Date and Time
+### 5.6.1 Time Module
+### 5.6.2 The struct_time Tuple
+### 5.6.3 Parsing and Formatting Date and Time
+* Example: Logging Information with a Date and Timestamp
+* Example: Extracting Date and Time Information from File Contents
+### 5.6.4 The Epoch: “Linearizing” the Time Base
+* Example: End-of-Day Report
+* Example: Combining Data from Several Sources Based on the Epoch
+### 5.6.5 Additional Time and Date Functions
+## 5.7 Regular Expressions
+### 5.7.1 Regular Expression Patterns
+* Example: Removing Extra Spaces with Regular Expressions
+### 5.7.2 Special Sequences
+### 5.7.3 Alternatives
+### 5.7.4 Ranges
+### 5.7.5 When to Use Regular Expressions
+* Example: Words Used Only Once
+## 5.8 Internationalization and Localization
+### 5.8.1 Locale
+### 5.8.2 Unicode Strings
+* Working with Unicode
+* Example: The Hebrew Alphabet
+* Example: Writing Today’s Date in the Current Locale
+* More on Unicode
+## 5.9 Final Notes and References
+ 
+# Chapter 6: Graphs and Plots
+## 6.1 Visualizing Data
+## 6.2 The matplotlib Package
+## 6.3 Interactive Graphs vs. Image Files
+### 6.3.1 Interactive Graphs
+### 6.3.2 Savings Graphs to Files
+## 6.4 Plotting Graphs
+### 6.4.1 Lines and Markers
+### 6.4.2 Plotting Several Graphs on One Figure
+### 6.4.3 Line Widths and Marker Sizes
+### 6.4.4 Colors
+## 6.5 Controlling the Graph
+### 6.5.1 Axis
+### 6.5.2 Grid and Ticks
+### 6.5.3 Subplots
+### 6.5.4 Erasing the Graph
+## 6.6 Adding Text
+### 6.6.1 Title
+### 6.6.2 Axis Labels and Legend
+### 6.6.3 Text Rendering
+### 6.6.4 Mathematical Symbols and Expressions
+* Example: A Summary Graph
+## 6.7 More Graph Types
+### 6.7.1 Bar Charts
+* Example: GDP, N Top Countries
+### 6.7.2 Histograms
+* Example: GDP, Histogram
+### 6.7.3 Pie Charts
+* Example: GDP, Pie Chart
+### 6.7.4 Logarithmic Plots
+### 6.7.5 Polar Plots
+### 6.7.6 Stem Plots
+### 6.7.7 Additional Graphs
+* Example: Plotting the Frequency Content of a Signal
+* Example: A Repelling Force Field
+* Example: A Contour Plot
+* Example: A Non-Rectangular Contour Plot
+## 6.8 Getting and Setting Values
+### 6.8.1 Setting Figure and Axis Parameters
+* Example: Modifying Subplot Parameters
+## 6.9 Patches
+### 6.9.1 Example: Adding Arrows to a Graph
+### 6.9.2 Example: Some Other Patches
+## 6.10 3D Plots
+## 6.11 The Basemap Toolkit
+### 6.11.1 Example: French Airports
+## 6.12 Final Notes and References
+ 
+# Chapter 7: Math Games
+## 7.1 Preprocessing Data Prior to Visualization
+## 7.2 Modules math and cmath
+### 7.2.1 Example: Mandelbrot Set
+### 7.2.2 Example: A Newton Fractal
+## 7.3 Module decimal
+## 7.4 Module fractions
+## 7.5 Module random
+### 7.5.1 Using Module random to Solve Probability Questions
+* Example: Hard Disk Head
+* Example: Friends Meeting
+### 7.5.2 Random Sequences
+## 7.6 Module NumPy
+### 7.6.1 Array Creation
+### 7.6.2 Slicing, Indexing, and Reshaping
+### 7.6.3 N-Dimensional Arrays
+* Example: Comparing Mortgages
+### 7.6.4 Math Functions
+* Example: Visualizing Fourier Expansion of a Rectangular Wave
+### 7.6.5 Array Methods and Properties
+* Example: A Magic Square
+### 7.6.6 Other Useful Array Functions
+## 7.7 Final Notes and References
+ 
+# Chapter 8: Science and Visualization
+## 8.1 Numerical Analysis and Signal Processing
+## 8.2 Finding Your Way: Variables and Functions
+### 8.2.1 SciPy
+## 8.3 Linear Algebra
+### 8.3.1 Solving a System of Linear Equations
+### 8.3.2 Vector and Matrix Operations
+### 8.3.3 Matrix Decomposition
+### 8.3.4 Additional Linear Algebra Functionality
+## 8.4 Numerical Integration
+### 8.4.1 More Integration Methods
+## 8.5 Interpolation and Curve Fitting
+### 8.5.1 Piecewise Linear Interpolation
+### 8.5.2 Polynomials
+### 8.5.3 Uses of Polynomials
+* Example: Linear Regression
+### 8.5.4 Listing 8-1. Linear Regression with polyfit()
+* Example: Linear Regression of Nonlinear Functions
+### 8.5.5 Listing 8-2. Fitting Exponential Data
+* Example: Approximating Functions with Polynomials
+### 8.5.6 Spline Interpolation
+## 8.6 Solving Nonlinear Equations
+## 8.7 Special Functions
+## 8.8 Signal Processing
+### 8.8.1 Functions find, nonzero, where and select
+* Example: Simple Detection of Signal in Noise, Part 1
+### 8.8.2 Listing 8-3. Randomly Placing Triangular Spikes
+### 8.8.3 Listing 8-4. Detecting Signals (a Continuation of Listing 8-3
+### 8.8.4 Functions diff and split
+* Example: Simple Detection of Signal in Noise, Part 2
+### 8.8.5 Listing 8-5. Peak Detections
+### 8.8.6 Waveforms
+## 8.9 Fourier Transform
+### 8.9.1 Example: FFT of a Sampled Cosine Wave
+### 8.9.2 Window Functions
+## 8.10 Filtering
+### 8.10.1 Filter Design
+### 8.10.2 Example: A Heart-Rate Monitor
+### 8.10.3 Example: Moving Average
+## 8.11 Final Notes and References
+ 
+# Chapter 9: Image Processing
+## 9.1 Two-Dimensional Data
+## 9.2 Reading, Writing, and Displaying Images
+### 9.2.1 Reading Images from File
+### 9.2.2 Image Attributes
+* Example: Image Catalog
+### 9.2.3 Displaying Images
+### 9.2.4 Converting File Formats
+* Example: A Function to Convert All Images in a Directory to JPEG Format
+## 9.3 Image Manipulation
+### 9.3.1 Creating New Images
+### 9.3.2 Copy and Paste
+* Example: Fractal Collage
+### 9.3.3 Crop and Resize
+### 9.3.4 Rotate
+## 9.4 Image Annotation
+### 9.4.1 Annotating with Geometrical Shapes
+### 9.4.2 Text Annotations
+* Fonts
+* Example: Thumbnail Index Image
+## 9.5 Image Processing
+### 9.5.1 Matrix Representation and Colors
+### 9.5.2 Reading an Image to a NumPy Array
+### 9.5.3 Example: Counting Objects (Five Parts
+* Part 1: Twinkle, Twinkle, Little Star
+* Part 2: The Sky at Night
+* Part 3: Flood Fill and Recursion
+* Part 4: Counting Objects
+* Part 5: Optimizing the Algorithm
+### 9.5.4 Image Arithmetic
+## 9.6 Image Filtering
+## 9.7 Making Movies
+### 9.7.1 Splitting Movies
+### 9.7.2 Creating Movies from Images
+### 9.7.3 Example: A Fractal Movie
+## 9.8 Final Notes and References
+ 
+# Chapter 10: Advanced File Processing
+## 10.1 Binary Files and Random Access
+### 10.1.1 Example: Reading the Nth Field
+### 10.1.2 Example: Efficient Tail Implementation
+### 10.1.3 Example: Creating a Fixed Size File
+### 10.1.4 Example: Recording Time-Based Binary Data
+## 10.2 Reading MATLAB Files as NumPy Arrays
+## 10.3 Reading Text Files Directly to NumPy Arrays
+### 10.3.1 Example: Reading and Writing Text Files to NumPy Arrays
+## 10.4 Object Serialization
+### 10.4.1 The Pickle Module
+* Example: Saving and Retrieving Python Session Variables
+## 10.5 Command-Line Parameters
+### 10.5.1 argv
+### 10.5.2 Example: Creating a Fixed Size File (a Stand-Alone Script
+### 10.5.3 The optparse Module
+* Example: Processing Command-Line Parameters
+### 10.5.4 The FileInput Module
+* Example: Combining Data from Several Sources Based on the Epoch
+* Example: Searching for Text in Multiple Files
+## 10.6 File and Directory Manipulation
+### 10.6.1 Module glob
+### 10.6.2 Additional os Module Functionality
+### 10.6.3 Additional os.path Module Functionality
+### 10.6.4 Module shutil
+## 10.7 File Compression
+### 10.7.1 Example: A Compressed tar File
+## 10.8 Comparing Files
+### 10.8.1 Module filecmp
+### 10.8.2 Module difflib
+## 10.9 Final Notes and References
+ 
+Appendix: Additional Source Listing
+## A.1 Nudge Subplots
+## A.2 Magic Square Arrows
+## A.3 Numerical Integration Visualization Source Code
+## A.4 Fractal Function Source Code

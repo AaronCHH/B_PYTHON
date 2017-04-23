@@ -1,0 +1,11 @@
+Chapter 1: Navigating the World of Data Visualization
+Chapter 2: The Environment
+Chapter 3: Python for Programmers
+Chapter 4: Data Organization
+Chapter 5: Processing Text Files
+Chapter 6: Graphs and Plots
+Chapter 7: Math Games
+Chapter 8: Science and Visualization
+Chapter 9: Image Processing
+Chapter 10: Advanced File Processing
+Appendix: Additional Source Listing
