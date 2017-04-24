@@ -188,6 +188,13 @@ for child in pathlib.Path('.').iterdir():
         my_func(child)
 ```
 
+```python
+import pathlib
+for child in pathlib.Path('./').iterdir():
+    if child.is_dir():
+        print(child)
+```
+
 ## 4-8. Saving Data Objects
 * Problem
 * Solution
