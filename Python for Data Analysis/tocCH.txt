@@ -1,0 +1,12 @@
+Chapter 1. Preliminaries
+Chapter 2. Introductory Examples
+Chapter 3. IPython: An Interactive Computing and Development Environment
+Chapter 4. NumPy Basics: Arrays and Vectorized Computation
+Chapter 5. Getting Started with pandas
+Chapter 6. Data Loading, Storage, and File Formats
+Chapter 7. Data Wrangling: Clean, Transform, Merge, Reshape
+Chapter 8. Plotting and Visualization
+Chapter 9. Data Aggregation and Group Operations
+Chapter 10. Time Series
+Chapter 11. Financial and Economic Data Applications
+Chapter 12. Advanced NumPy

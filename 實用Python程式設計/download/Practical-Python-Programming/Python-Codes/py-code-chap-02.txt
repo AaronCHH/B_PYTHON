@@ -1,0 +1,324 @@
+## Python Codes for Chapter 2: Data Types and Fundamental Operations
+
+#########
+
+import keyword
+
+keyword.kwlist
+
+import os
+
+mywd = "D:\Practical-Python-Programming\Python-Files"
+os.chdir(mywd)
+
+os.getcwd()
+
+dir()
+
+dir(__builtins__)
+
+x = 1
+y = [1, 2]
+z = [1, 2, 3]
+
+dir()
+
+def ls():
+	return [var for var in globals().keys() if var[0] != "_"]
+
+
+def objects():
+	return [var for var in globals().keys() if not var.startswith('_')]
+
+ls()
+
+objects()
+
+os.listdir()
+
+def clearall():
+	all = [var for var in globals() if var[0] != "_"]
+	for var in all:
+		del globals()[var]
+
+clearall()
+
+dir()
+
+x = True; y = False
+
+x and y
+
+x or y
+
+not x
+
+a = 9; b = 5
+
+a > b
+
+a < b
+
+a >= b
+
+a <= b
+
+a == b
+
+a != b
+
+y = a
+
+y is a
+
+y is not a
+
+3.6 + 1.25
+
+x = 3.6; y = 1.25
+
+x + y
+
+x - y
+
+x * y
+
+x / y
+
+z = int(x)
+z
+
+float(z)
+
+w = -x
+w
+
+abs(w)
+
+a = 5; b = 2
+
+a // b
+
+a % b 
+
+divmod(a, b)
+
+x = 2; y = 3
+
+x**y
+
+pow(y, x)
+
+c = 1 + 1j; d = complex(2, 2)
+
+d
+
+c + d
+
+d.conjugate()
+
+color = 'red'
+look = "beautiful flower"
+
+print(look)
+
+print(look[4])
+
+print(look[2:6])
+
+print(look[-6:-3])
+
+look1 = look[0:9]
+print (look1)
+
+look2 = look[-6:]
+print (look2)
+
+look3 = look1 + ' ' + color + ' ' + look2
+print('It is a ' + look3 + '.')
+
+print((look + ' ') * 3)
+
+a = []; b = list()
+a; b
+
+type(a); type(b)
+
+list_1 = [5, 3, 2, 9, 7]
+list_2 = ['red', 123, 4.56, 'flower']
+
+list_1; list_1[:]
+
+list_1[3]
+
+list_1[1:4]
+
+list_1[3:]
+
+list_2[-1]
+
+list_2[:2]; list_2[0:2]
+
+list_2[-3:]; list_2[1:]
+
+list_2[-3:-1]; list_2[1:-1];
+
+list_3 = list_1 + [10, 100, 1000]
+list_3
+
+list_4 = list_2 + [50.3, 'beautiful']
+list_4
+
+list_2*3
+
+list_2.append(99) # 在列表變數最後面增加一個資料項目
+list_2
+
+list_2.extend(['banana', 1.99]) # 將一列表之資料項目依序增加到列表的最後面
+list_2
+
+list_2.insert(2, 'better') # 將資料項目better插入到原列表指標2的位置
+list_2
+
+list_5 = ['red', 'blue', 'green', 'yellow', 'red' ]
+
+list_5.count('red') # 計算出資料項目在列表變數中的個數
+
+'green' in list_5 # 檢查資料項目是否在列表變數之中
+
+'black' in list_5
+
+list_5.index('yellow') # 找出資料項目在列表變數中第一次出現的位置指標
+
+list_5.index('white')	
+
+list_6 = ['banana', 10, 'grape', 11, 'apple']
+
+del list_6[1]# 利用指標刪除資料項目
+list_6
+
+list_6.remove('grape') # 利用資料項目名稱或數值移除資料項目
+list_6
+
+list_6.remove(11)
+list_6
+
+list_6.remove('banana', 'apple') # 一次只能移除一個資料項目，否則會出現錯誤訊息
+
+list_6.remove('grape')#要刪除的資料不在列表變數中會出現錯誤訊息
+
+list_7 = ['red', 'blue', 'green']
+list_7.pop()# 刪除列表中最後一個資料項目並將它顯示出來
+
+list_7
+
+list_7.pop(1)#移除列表中被指定之指標位置之資料項目並將它顯示出來
+
+list_7
+
+list_7.pop()
+
+list_7
+
+list_7.pop() #移除空集合列表之資料項目會出現錯誤訊息
+
+a =(); b = tuple()
+a; b
+
+type(a); type(b)
+
+c = 'cat',
+c1 = ('cat',)
+d = 'cat'
+
+c; c1
+
+type(c); type(c1)
+
+type(d)
+
+e = 10,
+e1 = (10,)
+f = 10
+e; e1
+
+f
+
+type(e); type(e1)
+
+type(f)
+
+tuple_1 = ('red', 123, 4.56, 'flower')
+tuple_1.append(99,) #出現錯誤訊息
+
+tuple_1.extend(['banana', 1.99]) #出現錯誤訊息
+
+tuple_1.insert(2, 'better') #出現錯誤訊息
+
+del tuple_1[1] #出現錯誤訊息
+
+tuple_1.remove('red', 4.56)#出現錯誤訊息
+
+tuple_1.pop()#出現錯誤訊息
+
+list_a = [1, 2, 3]
+type(list_a)
+
+tuple_a = tuple(list_a)
+tuple_a
+
+type(tuple_a)
+
+list_b = list(tuple_a)
+list_b
+
+type(list_b)
+
+dict1 = {}
+dict1
+
+type(dict1)
+
+dict2 = dict()
+dict2
+
+type(dict2)
+
+dict_1 = {'color':'yellow', 'fruit':'banana'}
+dict_2 = dict({'color':'yellow', 'fruit':'banana'})
+dict_3 = dict([('color', 'yellow'), ('fruit', 'banana')])
+dict_4 = dict(zip(('color', 'fruit'), ('yellow', 'banana')))
+dict_5 = dict(color='yellow', fruit='banana')
+
+dict_1 == dict_2 == dict_3 == dict_4== dict_5
+
+dict_6 = {1:'yellow', 2:'banana'}
+dict_7 = dict({1:'yellow', 2:'banana'})
+dict_8 = dict([(1, 'yellow'), (2, 'banana')])
+dict_9 = dict(zip((1, 2), ('yellow', 'banana')))
+dict_10 = dict(1='yellow', 2='banana')
+
+dict_6 == dict_7 == dict_8 == dict_9
+
+dict_6[1]
+
+dict_6[2] = 'orange'
+dict_6['amount'] = 100
+
+dict_6
+
+del dict_6[2]
+dict_6
+
+dict_6.clear()
+dict_6
+
+dict_11 = {'number':11, 'string':'apple', 'tuple':(12, 'banana'), 'list':[13, 'grape'], 'dict_12':{14:'yellow', 'list1':[11.2, 20.3]}}
+
+dict_11
+
+dict_11.keys()
+
+dict_11.items()
+
+#########

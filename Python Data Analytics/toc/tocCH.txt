@@ -1,0 +1,13 @@
+Chapter 1: An Introduction to Data Analysis
+Chapter 2: Introduction to the Python’s World
+Chapter 3: The NumPy Library
+Chapter 4: The pandas Library—An Introduction
+Chapter 5: pandas: Reading and Writing Data
+Chapter 6: pandas in Depth: Data Manipulation
+Chapter 7: Data Visualization with matplotlib
+Chapter 8: Machine Learning with scikit-learn
+Chapter 9: An Example—Meteorological Data
+Chapter 10: Embedding the JavaScript D3 Library in IPython Notebook
+Chapter 11: Recognizing Handwritten Digits
+Appendix A: Writing Mathematical Expressions with LaTeX
+Appendix B: Open Data Sources

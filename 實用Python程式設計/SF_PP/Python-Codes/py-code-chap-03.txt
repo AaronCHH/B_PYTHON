@@ -1,0 +1,906 @@
+## Python Codes for Chapter 3: Arays: Numpy
+
+#########
+
+import numpy as np  #載入 numpy package
+
+np.__version__
+
+np.info(np)
+
+help(np)  # right-click to preview
+
+np.lookfor("isclose")
+
+a = np.array([1, 4, 5, 8, 7], dtype = float)  
+
+a
+
+np.array(1, 4, 5, 8, 7)
+
+type(a)
+
+a.dtype
+
+a.dtype.name
+
+a.ndim
+
+len(a); a.size
+
+np.shape(a); a.shape
+
+np.shape(a)[0]
+
+np.shape(a)[1]
+
+np.array([-2+3j, 4-5j, 6.7+10.5j], dtype = complex)
+
+np.array(["Pamela", "Monica", "Violana"], dtype = str)
+
+np.zeros(3)
+
+np.ones(3)
+
+np.arange(5, dtype = int)
+
+np.arange(start = 1, stop = 10, step = 2, dtype = int)
+
+np.linspace(start = 0, stop = 1, num = 10)
+
+np.logspace(start = 0, stop = 2, num = 10)
+
+a[2]
+
+a[:3]
+
+a[-2]
+
+a[-2:]
+
+np.delete(a, [1, 3])
+
+index = np.array([0, 4, 0, 1])
+
+a[index]; np.take(a, index); a.take(index)
+
+d = np.array([11, 22, 33, 44])
+d
+
+d[1] = 55
+d
+
+d[[0, 1, 3]] = 101
+d
+
+index = [0, 1, 3]
+d[index] = 202
+d
+
+a = np.array([1, 2])
+b = np.array([3, 4, 5])
+c = np.array([6, 7, 8, 9])
+
+np.concatenate((a, b)) 
+
+np.concatenate((a, b, c))
+
+np.concatenate((a, [99]))
+
+np.concatenate((a, [88, 99]))
+
+np.sign(np.array([-2.5, 0, 3.4]))
+
+np.log(np.array([1, 10, 100]))
+
+np.log10(np.array([1, 10, 100]))
+
+np.log2(np.array([1, 2, 4, 8]))
+
+x = np.arange(5) * np.pi/4
+x
+
+sx = np.sin(x)
+sx
+
+asx = np.arcsin(sx)
+asx
+
+asx - x
+
+np.math.factorial(4)
+
+x = np.array([1.123, 1.5, 1.999], float)
+x
+
+np.ceil(x)
+
+np.floor(x)
+
+np.rint(x) 
+
+np.trunc(np.array([-2.55, 0, 2.55]))
+
+np.round(np.array([-1.123, 1.5, 1.999]))
+
+np.round(np.array([-1.123, 1.5, 1.999]), decimals = 2)
+
+np.unique(np.array([1, 1, 4, 5, 5, 5, 7])) 
+
+x = np.array([1.123, 1.5, 1.999], float)
+x
+
+np.sum(x); x.sum()
+
+x = np.array([1.2, 3.5, -4.7, 0])
+x
+
+np.min(x); x.min()
+
+np.max(x); x.max()
+
+x = np.array([1.2, -4.7, -4.7, 0, 1.2])
+
+np.argmin(x); x.argmin()
+
+np.argmax(x); x.argmax()
+
+len(x)
+
+x = np.array([1.2, -4.7, -4.7, 0, 1.2, 2.8])
+x
+
+np.mean(x); x.mean()
+
+np.median(x)
+
+np.var(x); x.var()
+
+np.var(x, ddof = 0)  # divided by len(x)
+
+np.var(x, ddof = 1)  # divided by len(x) - 1
+
+np.std(x); x.std() 
+
+np.std(x, ddof = 0)  # divided by len(x)
+
+np.std(x, ddof = 1)  # divided by len(x) - 1
+
+np.percentile(x, [25, 50, 75, 100])
+
+a = np.array([1, 4, 5, 8, 7], dtype = float)  
+a
+
+b = np.array([1, 2, 3, 4, 5], dtype = int)  
+b
+
+a + b
+
+a - b
+
+a * b
+
+a / b
+
+a**b
+
+a + 5  # broadcast
+
+b = np.array([1, 2, 3])
+a + b  # arrays do not match
+
+np.dot(a, b)  
+a.dot(b)
+np.inner(a, b)
+np.sum(a * b)
+
+np.outer(a, b)  # outer product
+
+np.cross(a, b)  # a vector perpendicular to both `a` and `b`
+
+a = np.array([1.1, 2.2, 3.3])
+a
+
+b = list(a)
+b
+
+type(b)
+
+c = a.tolist()
+c
+
+type(c)
+
+s = a.tostring()  # convert to binary string (not in human-readable form)
+s
+
+type(s)
+
+w = np.fromstring(s)  # convert back to array
+w
+
+type(w)
+
+A = np.array([1.2, -3.4, 5.6, -6.5, 4.3, -2.1]).reshape(2, 3)
+A = np.reshape([1.2, -3.4, 5.6, -6.5, 4.3, -2.1], (2, 3))
+A = np.array([[1.2, -3.4, 5.6], [-6.5, 4.3, -2.1]])
+A
+
+type(A)
+
+A.dtype.name 
+
+A.ndim
+
+np.shape(A); A.shape
+
+A.shape[0]; len(A)
+
+A.shape[1]
+
+A.size; A.shape[0] * A.shape[1]
+
+A.flatten()  
+
+A.ravel()
+
+A
+
+np.zeros((2, 3))
+np.diag([0, 0, 0]) 
+
+np.ones((2, 3))
+
+np.identity(3)  
+np.eye(3)  
+np.diag([1, 1, 1])
+
+np.diag([1, 2, 3])
+
+A = np.array(np.arange(1, 10)).reshape(3, 3)
+A
+
+B = np.array(np.arange(2, 11)).reshape(3, 3)
+B
+
+A + B
+
+A - B
+
+np.dot(A, B); A.dot(B)
+
+A * B
+
+C = np.array([[1, 2], [3, 4], [5, 6]])
+C
+array([[1, 2],
+       [3, 4],
+       [5, 6]])
+
+C + 5  # broadcast
+
+d1 = np.array([-1, 3])
+d1
+
+C + d1  # broadcast
+
+C + d1[np.newaxis, :]  # broadcast row-wise
+
+d2 = np.array([-1, 3, 2])
+d2
+
+C + d2[:, np.newaxis]  # broadcast column-wise
+
+d3 = np.array([[-1, 3], [1, -3]])
+d3
+
+C + d3
+
+A[1, 2]
+
+R1 = A[0,:]
+R1
+
+A[0,]
+
+R1[0, 2]
+
+np.dot(R1, A)
+
+np.dot(A, R1)
+
+A[:, 0]
+
+A[, 0]
+
+RV = R1[np.newaxis, :]  # convert to a row vector (a matrix)
+RV
+
+np.shape(RV)
+
+CV = R1[:, np.newaxis]  # convert to a column vector (a matrix)
+CV
+
+np.shape(CV)
+
+A[[0, 2], :]; A[(0, 2), :]  # row slicing
+
+A[:, [0, 2]]; A[:, (0, 2)]  # column slicing
+
+A[-1, :]
+
+A[:, -2]
+
+A[-1, -2]
+
+A[-1, -2:]
+
+x = np.delete(A, [0, 2], axis = 0)  # delete rows
+x
+
+np.shape(x)
+
+y = np.delete(A, [0, 2], axis = 1)  # delete columns
+y
+
+np.shape(y)
+
+index = np.array([0, 0, 2, 1], dtype = int)
+
+A[index, :]; np.take(A, index, axis = 0); A.take(index, axis = 0)  # take rows
+
+A[:, index]; np.take(A, index, axis = 1); A.take(index, axis = 1)  # take columns
+
+row_index = np.array([0, 0, 2, 1, 0], int)
+column_index = np.array([0, 2, 1, 0, 2], int)
+A[row_index, column_index]  # paired indices
+
+row_index = np.array([0, 0, 2, 1, 0, 2], int).reshape(2, 3)
+row_index
+
+column_index = np.array([0, 2, 1, 0, 2, 2], int).reshape(2, 3)
+column_index
+
+A[row_index, column_index]  # paired indices
+
+index = [row_index, column_index]
+
+A[index]
+
+A = np.array([[1, 2], [3, 4]], float)
+A 
+
+B = np.array([[5, 6], [7, 8]], float)
+B 
+
+np.concatenate((A, B))  # row bind
+
+np.concatenate((A, B), axis = 0)  # row bind
+
+np.row_stack((A, B))  # row bind
+
+np.vstack((A, B))  # vertical stack
+
+np.concatenate((A, B), axis = 1)  # column bind
+
+np.column_stack((A, B))  # column bind
+
+np.hstack((A, B))  # horizontal stack
+
+A = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+A
+
+np.transpose(A)
+
+A.transpose()
+
+np.dot(np.transpose(A), A)
+
+np.diag(A)
+
+np.sum(np.diag(A))
+
+np.sum(A, axis = 0); A.sum(axis = 0)  # along the first axis (by column)
+
+np.mean(A, axis = 1); A.mean(axis = 1)  # along the second axis (by row)
+
+help(np.linalg)
+
+A = np.array([[1, 3, 2], [0, 0.5, 1], [0, 0, 0.25]])
+np.linalg.det(A)  
+
+Ainv = np.linalg.inv(A)
+Ainv
+
+np.dot(A, Ainv)  # must be an identity matrix
+
+A = np.array([[1, 3, 2], [0, 0.5, 1], [0, 0, 0.25]])
+A
+b = np.array([2, 1, 3])
+x = np.linalg.solve(A, b)  
+x
+np.allclose(b, np.dot(A, x)) 
+	# element-wise equal within a tolerance or not
+
+A = np.array([[0, 0, 4], [2, 1, 1], [0, 3, 1]])
+A
+b = np.array([4, 5, 6])
+np.linalg.lstsq(A, b)  
+
+A = np.array([[1, 2, 3], [2, 6, 14], [3, 14, 44]])
+A
+L = np.linalg.cholesky(A)
+L
+np.allclose(A, np.dot(L, np.transpose(L)))
+
+A = np.array([[1, 0, 0], [4, 2, 0], [5, 7, 3]])
+eigenvalues, eigenvectors = np.linalg.eig(A)  
+eigenvalues
+eigenvectors
+
+A = np.array([[0, 1], [1, 1], [1, 1], [2, 1]])
+A
+q, r = np.linalg.qr(A)
+q
+r
+np.allclose(A, np.dot(q, r))
+
+A = np.array([[2, 0], [0, -3], [0, 0]])
+A
+U, S, Vh = np.linalg.svd(A)  
+U
+S
+Vh
+D = np.zeros((3, 2), dtype = complex)
+D[0, 0] = S[0]
+D[1, 1] = S[1]
+D
+np.dot(U, np.dot(D, Vh))
+np.allclose(A, np.dot(U, np.dot(D, Vh)))
+
+A = np.arange(1, 25).reshape((2, 4, 3))
+A
+
+A[0, 1, 2]
+
+A[:, (0, 1), :]
+
+A[0, (0, 1), :]
+
+A[0, (0, 1), 1]
+
+import numpy as np
+import copy
+
+u = np.array([0, 1, 2, 3, 4, 5])
+
+v = u  # 僅給物件 u 一個新名稱 v 
+w = u[:]  # cloning
+x = u.copy()  # 產生一個新的獨立的物件 x
+y = np.copy(u)  # 產生一個新的獨立的物件 y
+z1 = copy.copy(u)  # 淺複製 
+z2 = copy.deepcopy(u) # 深複製
+
+u; v; w; x; y; z1; z2
+
+v == u; w == u; x == u; y == u; z1 == u; z2 == u
+
+[v is u, w is u, x is u, y is u, z1 is u, z2 is u]  
+
+[id(v) == id(u), id(w) == id(u), id(x) == id(u), id(y) == id(u), id(z1) == id(u), id(z2) == id(u)]
+
+id(u); id(v); id(w); id(x); id(y); id(z1); id(z2)
+
+v[0] = v[0] + 1; w[0] = w[0] + 2; 
+x[0] = x[0] + 10; y[0] = y[0] + 11;
+z1[0] = z1[0] + 12; z2[0] = z2[0] + 13
+
+u; v; w; x; y; z1; z2
+
+u = np.array([0, 1, 2, 3, 4, 5])
+v = u; w = u[:]; 
+x = u.copy(); y = np.copy(u); 
+z1 = copy.copy(u); z2 = copy.deepcopy(u)
+
+v = v + 1; w = w + 2; 
+x = x + 3; y = y + 4; 
+z1 = z1 + 5; z2 = z2 + 6  
+
+u; v; w; x; y; z1; z2
+
+u = np.array([[1, 2, 3], [4, 5, 6]])
+
+v = u  # 僅給物件 u 一個新名稱 v 
+w = u[:]  # cloning
+x = u.copy()  # 產生一個新的獨立的物件 x
+y = np.copy(u)  # 產生一個新的獨立的物件 y
+z1 = copy.copy(u)  # 淺複製 
+z2 = copy.deepcopy(u) # 深複製
+
+u; v; w; x; y; z1; z2
+
+v == u; w == u; x == u; y == u; z1 == u; z2 == u
+
+[v is u, w is u, x is u, y is u, z1 is u, z2 is u]  
+
+[id(v) == id(u), id(w) == id(u), id(x) == id(u), id(y) == id(u), id(z1) == id(u), id(z2) == id(u)]
+
+id(u); id(v); id(w); id(x); id(y); id(z1); id(z2)
+
+v[0, 0] = v[0, 0] + 1; w[0, 0] = w[0, 0] + 2; 
+x[0, 0] = x[0, 0] + 10; y[0, 0] = y[0, 0] + 11; 
+z1[0, 0] = z1[0, 0] + 12; z2[0, 0] = z2[0, 0] + 13  
+
+u; v; w; x; y; z1; z2
+
+u = np.array([[1, 2, 3], [4, 5, 6]])
+v = u; w = u[:]; 
+x = u.copy(); y = np.copy(u); 
+z1 = copy.copy(u); z2 = copy.deepcopy(u)
+
+v[0, :] = v[0, :] + 1; w[0, :] = w[0, :] + 2; 
+x[0, :] = x[0, :] + 10; y[0, :] = y[0, :] + 11; 
+z1[0, :] = z1[0, :] + 12; z2[0, :] = z2[0, :] + 13  
+
+u; v; w; x; y; z1; z2
+
+u = np.array([[1, 2, 3], [4, 5, 6]])
+v = u; w = u[:]; 
+x = u.copy(); y = np.copy(u); 
+z1 = copy.copy(u); z2 = copy.deepcopy(u)
+
+v[:, 0] = v[:, 0] + 1; w[:, 0] = w[:, 0] + 2; 
+x[:, 0] = x[:, 0] + 10; y[:, 0] = y[:, 0] + 11; 
+z1[:, 0] = z1[:, 0] + 12; z2[:, 0] = z2[:, 0] + 13  
+
+u; v; w; x; y; z1; z2
+
+u = np.array([[1, 2, 3], [4, 5, 6]])
+v = u; w = u[:]; 
+x = u.copy(); y = np.copy(u); 
+z1 = copy.copy(u); z2 = copy.deepcopy(u)
+
+v[:, :] = v[:, :] + 1; w[:, :] = w[:, :] + 2; 
+x[:, :] = x[:, :] + 10; y[:, :] = y[:, :] +11; 
+z1[:, :] = z1[:, :] + 12; z2[:, :] = z2[:, :] + 13  
+
+u; v; w; x; y; z1; z2
+
+u = np.array([[1, 2, 3], [4, 5, 6]])
+v = u; w = u[:]; 
+x = u.copy(); y = np.copy(u); 
+z1 = copy.copy(u); z2 = copy.deepcopy(u)
+
+v = v + 1; w = w + 2; 
+x = x + 3; y = y + 4; 
+z1 = z1 + 5; z2 = z2 + 6  
+
+u; v; w; x; y; z1; z2
+
+[v is u, w is u, x is u, y is u, z1 is u, z2 is u]
+
+p = [4, 3, 2, 1, -5]
+
+p = np.array([4, 3, 2, 1, -5])
+
+p = np.poly1d([4, 3, 2, 1, -5])
+
+type(p)
+
+p[0], p[1], p[2], p[3], p[4]
+
+a = np.poly1d([0, 0, 1, 3, 0, 4])
+a
+
+p = np.poly1d([4, 3, 2, 1, -5])
+
+np.polyval(p, 1)  # p(1)
+
+np.polyval(p, 2+3j)  # p(2+3j)
+
+np.polyder(p)  # derivative of p(s)
+
+np.polyint(p)  # Integration constant is set to zero by default.
+
+np.roots(p)  # zeros of p(s)
+
+a = np.poly([1, 2, 3])  # Get polynomial from zeros.
+a
+
+type(a)
+
+a = [1, 2, 3, 4]
+b = [1, 2, 3]
+
+np.polyadd(a, b)  # polynomial addition
+
+np.polysub(a, b)  # polynomial subtraction
+
+np.polymul(a, b)  # polynomial multiplication
+
+np.polydiv(a, b)  # polynomial division
+
+q, r = np.polydiv(a, b)  # a = q * b + r
+
+q  # quotient polynomial
+
+r  # remainder polynomial
+
+x = np.array([1, 2.5, 3.6, 3.2, 5.5])
+y = np.array([-2.5, 3.3, 0, 2.2, -7])
+
+np.polyfit(x, y, deg = 2)  # quadratic polynomial regression
+
+np.info(np.random)
+
+help(np.random)  # right-click to preview
+
+np.random.randn(3)
+
+np.random.seed(543)  # set the random number seed
+np.random.randn(3)
+
+np.random.seed(543)  
+np.random.randn(3)
+
+np.random.seed(543)  
+np.random.normal(size = 3)
+
+np.random.randint(low = 5, high = 10)  
+
+np.random.randint(low = 5, high = 10, size = 3)  
+
+np.random.binomial(n = 10, p = 0.4, size = 3)
+
+np.random.poisson(lam = 6.0, size = 3)  
+
+np.random.geometric(p = 0.2, size = 3)
+
+np.random.sample()  
+np.random.rand()  
+np.random.uniform()
+
+np.random.sample(3)  
+np.random.rand(3)  
+np.random.uniform(size = 3)
+
+np.random.uniform(2, 3)  
+np.random.rand(6).reshape(2, 3)  
+
+np.random.uniform(low = 2, high = 4, size = 3)  
+
+np.random.normal(size = 3)
+
+np.random.normal(loc = 1.5, scale = 4.0, size = 3)  
+
+np.random.exponential(scale = 2, size = 3)
+
+mean = (1, 2)
+cov = [[1, 0], [0, 1]]
+np.random.seed(1)
+x = np.random.multivariate_normal(mean, cov, size = (3, 3))
+x
+
+x.shape
+
+np.random.seed(1)
+np.random.choice([1, 3, 2, 4, 4, 5])  
+
+np.random.seed(1)
+np.random.choice([1, 3, 2, 4, 4, 5], size = 5)  
+
+np.random.seed(1)
+np.random.choice([1, 3, 2, 4, 4, 5], size = 5, replace = True) 
+
+np.random.seed(1)
+np.random.choice([1, 3, 2, 4, 4, 5], size = 5, replace = False) 
+
+y = np.array([1, 3, 2, 4, 4, 5, 3, 2, 1])
+y
+
+z = np.copy(y)
+np.random.seed(1)
+np.random.shuffle(z)  
+z
+
+np.random.seed(1)
+np.random.choice(y, size = 9, replace = False)
+
+np.random.seed(1)
+np.random.permutation(y)
+
+ra = np.zeros((3,), dtype = ('a10, i4, f4'))
+ra
+
+c1 = ["red", "green", "blue"]
+c2 = [1, 2, 3]
+c3 = np.array([4, 5, 6], float)
+
+ra[:] = list(zip(c1, c2, c3))
+ra
+
+list(ra)
+
+ra.dtype.names = ('c1', 'c2', 'c3')
+
+ra
+
+ra[0]; ra[1]; ra[2]
+
+ra["c1"]
+
+ra["c2"]
+
+ra["c3"]
+
+import os
+
+mywd = "D:\\Practical-Python-Programming\\Python-Files"
+os.chdir(mywd)
+
+os.getcwd()
+
+import numpy as np
+import os
+
+a = np.arange(10)
+a
+
+np.savetxt("savetext1.txt", a, fmt = '%i ')
+
+np.savetxt("savetext2.txt", a, fmt = '%i', newline = os.linesep)
+
+x = np.arange(5)
+y = np.linspace(10, 11, 5)
+z = np.arange(100, 105) 
+
+x
+y
+z
+
+np.savetxt("savetext3.txt", (x, y, z), fmt = '%.2f ')
+
+x = x[:, np.newaxis]
+x
+
+y = y[:, np.newaxis]
+y
+
+z = z[:, np.newaxis]
+z
+
+np.savetxt("savetext4.txt", np.hstack([x, y, z]), fmt = ['%i', '%0.2f', '%i'])
+
+np.savetxt("savetext5.txt", np.hstack([x, y, z]), fmt = ['%i', '%0.2f', '%i'], newline = os.linesep)
+
+a1 = np.loadtxt("savetext1.txt")
+a1
+
+a2 = np.loadtxt("savetext2.txt")
+a2
+
+a3 = np.loadtxt("savetext3.txt")
+a3
+
+a4 = np.loadtxt("savetext4.txt")
+a4
+
+a5 = np.loadtxt("savetext5.txt")
+a5
+
+d0, d2 = np.loadtxt("savetext5.txt", unpack = True, usecols = [0, 2])
+
+d0
+d2
+
+x1 = np.array([[1, 2, 3], [0.1, 0.2, 0.3]])
+y1 = np.array(["aa", "bb"])
+z1 = np.array([11, 12, 13, 14, 15])
+
+np.save("save1.npy", (x1, y1, z1))
+
+xyz = np.load("save1.npy")
+
+xyz
+
+xyz[0]
+
+xyz[1]
+
+xyz[2]
+
+np.savez("savez1", x1, y1, z1)
+
+npzdata1 = np.load("savez1.npz")
+
+npzdata1
+
+npzdata1.keys()
+
+npzdata1['arr_0']
+
+npzdata1['arr_1']
+
+npzdata1['arr_2']
+
+np.savez("savez2", x1 = x1, y1 = y1, z1 = z1)
+npzdata2 = np.load("savez2.npz")
+
+npzdata2.keys()
+
+data1 = npzdata2['x1']
+data1
+
+data2 = npzdata2['y1']
+data2
+
+data3 = npzdata2['z1']
+data3
+
+dict1 = {'A': np.array([1,2,3]), 'B': np.array([4,5,6])}
+dict2 = {1: np.array(["apple", "banana"]), 2: np.array([[11, 12, 13, 14],[15, 16, 17]])}
+
+a = {'dict1': dict1, 'dict2': dict2}
+
+a.keys()
+
+a["dict2"][1][0]
+
+a["dict2"][2][0]
+
+np.savez("saveza", **a)
+
+anpz = np.load("saveza.npz")
+
+anpz.keys()
+
+anpz["dict2"][1][0]
+
+anpz["dict2"][2][0]
+
+anpz["dict2"].item()[1][0]
+
+anpz["dict2"].item()[2][0]
+
+d1 = {'A': np.array([1, 2, 3]), 'B': np.array([4, 5, 6]), 'C': {0: np.array([0.1, 0.2, 0.3]), 1: np.array([[0.4, 0.5],[0.6, 0.7]]), 2: {'dd': np.array([[101, 102], [111, 112]])}}}
+
+d2 = np.array([[1, 2],[3, 4]])
+
+d3 = {'d31': np.array([321]), 'd32': np.array([[100, 200], [300, 400]])}
+
+d4 = [1000, 2000]
+
+b = {'d1': d1, 'd2': d2, 'd3': d3, 'd4': d4}
+
+b.keys()
+
+b['d1']['C'][2]['dd'][1, 1]
+
+np.savez("savezb", **b)
+
+bnpz = np.load("savezb.npz")
+
+bnpz.keys()
+
+bnpz['d1'].item()['C'][2]['dd'][1, 1]
+
+a = np.arange(10)
+
+np.savetxt("D://Practical-Python-Programming//Python-Files//savetext1.txt", a, fmt = '%i')
+
+x1 = np.array([[1, 2, 3], [0.1, 0.2, 0.3]])
+y1 = np.array(["aa", "bb"])
+z1 = np.array([11, 12, 13, 14, 15])
+
+np.save("D://Practical-Python-Programming//Python-Files//save1.npy", (x1, y1, z1))
+
+np.savez("D://Practical-Python-Programming//Python-Files//savez2", x1 = x1, y1 = y1, z1 = z1)
+
+dict1 = {'A': np.array([1,2,3]), 'B': np.array([4,5,6])}
+dict2 = {1: np.array(["apple", "banana"]), 2: np.array([[11, 12, 13, 14],[15, 16, 17]])}
+
+a = {'dict1': dict1, 'dict2': dict2}
+
+np.savez("D://Practical-Python-Programming//Python-Files//saveza",  **a)
+
+#########

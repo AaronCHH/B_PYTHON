@@ -1,0 +1,207 @@
+## Python Codes for Chapter 9: Image and Video Processing: OpenCV
+
+#########
+
+import numpy as np
+import cv2
+
+cv2.__version__
+
+help(cv2)  # right-click to preview
+
+import cv2  #載入 OpenCV
+
+import numpy as np  # 載入 numpy 可以針對影像資料進行陣列處理
+
+import os  # 載入系統資訊與變更目前工作目錄
+os.getcwd() # 確認目前工作目錄
+
+mywd = "D:\Practical-Python-Programming\Python-Data-Sets"
+os.chdir(mywd) # 更改工作目錄	
+os.getcwd() # 再次確認目前工作目錄
+
+cv2.namedWindow("ILoveOpenCV")
+
+img = cv2.imread("baboon.tiff",0)
+cv2.imwrite("Hibaboon.tiff",img)
+type(img)
+
+img = cv2.imread("lena.tiff", 0)
+cv2.imwrite("lena.jpg",img,[int(cv2.IMWRITE_JPEG_QUALITY), 20])
+
+cv2.namedWindow("Test",1)
+img = cv2.imread("baboon.tiff",1)
+cv2.imshow("Test",img)
+
+img = cv2.imread('lena.tiff', 1)
+dst = abs(255-img)  #負片
+cv2.imshow('image', dst)
+
+Original = cv2.imread('lena.tiff', 1)
+
+Averaging = cv2.blur(Original,(5, 5))  # Averaging
+
+Gaussian = cv2.GaussianBlur(Original,(5, 5), 0) # Gaussian Filtering
+
+Median = cv2.medianBlur(Original, 5)  # Median Filtering
+
+Bilateral = cv2.bilateralFilter(Original, 9, 75, 75) # Bilateral Filtering
+cv2.imshow('Original',Original)
+cv2.imshow('Averaging',Averaging)
+cv2.imshow('Gaussian',Gaussian)
+cv2.imshow('Median',Median)
+cv2.imshow('Bilateral',Bilateral)
+
+cv2.destroyAllWindows()
+
+img = cv2.imread('baboon.tiff', 1)
+K = np.ones((5,5),np.float32) / 25 # 平滑化
+dst = cv2.filter2D(img, -1, K) # -1表示輸出圖像與輸入圖像的數據類型一致
+cv2.imwrite('baboon_Smooth.tiff', dst) # 儲存
+cv2.imshow('image', dst) # 顯示圖示
+
+img = np.zeros((128, 128, 3), np.uint8) # 建立一個128×128的黑色畫布
+cv2.rectangle(img,(50, 50),(100, 100),(255, 255, 0), 3)
+cv2.imshow('image', img)
+
+img = np.zeros((512, 512, 3), np.uint8)
+cv2.line(img,(0, 0), (511, 511), (255, 0, 0), 5) # BGR
+cv2.rectangle(img, (384, 0), (510, 128), (0, 255, 0), 3)
+
+cv2.circle(img,(447, 63), 63, (0, 0, 255), -1) #封閉圖形 -1為填滿
+pts = np.array([[20, 10], [60, 120], [120, 60], [80, 10]], np.int32)
+cv2.polylines(img, [pts], True, (0, 255, 255), 2)
+font = cv2.FONT_HERSHEY_SIMPLEX
+cv2.putText(img, 'OpenCV', (10, 500), font, 4, (255, 255, 255), 2)
+cv2.imshow('draw', img)
+
+img = np.zeros((512,512,3), np.uint8)
+font = cv2.FONT_HERSHEY_SIMPLEX
+font1 = cv2.FONT_HERSHEY_PLAIN
+font2 = cv2.FONT_HERSHEY_DUPLEX
+font3 = cv2.FONT_HERSHEY_COMPLEX
+font4 = cv2.FONT_HERSHEY_TRIPLEX
+font5 = cv2.FONT_HERSHEY_SCRIPT_SIMPLEX
+font6 = cv2.FONT_HERSHEY_SCRIPT_COMPLEX
+cv2.imshow('draw',img)
+cv2.putText(img,'OpenCV',(10,500), font6, 2,(255,255,255),2)
+cv2.putText(img,'OpenCV',(10,450), font5, 2,(255,255,255),2)
+cv2.putText(img,'OpenCV',(10,400), font4, 2,(255,255,255),2)
+cv2.putText(img,'OpenCV',(10,350), font3, 2,(255,255,255),2)
+cv2.putText(img,'OpenCV',(10,300), font2, 2,(255,255,255),2)
+cv2.putText(img,'OpenCV',(10,250), font1, 2,(255,255,255),2)
+cv2.putText(img,'OpenCV',(10,200), font, 2,(255,255,255),2)
+cv2.imshow('draw',img)
+
+img = cv2.imread('lena.tiff',1) #載入來源影像，不調整顏色
+result = cv2.pyrDown(img) #降低解析度
+cv2.namedWindow("src",1)                             
+cv2.namedWindow("result",1)
+cv2.imshow("src",img)
+cv2.imshow("result",result)                          
+
+img = cv2.imread('lena.tiff',1)                                       
+result = cv2.Canny(img,10,100) # 使用Canny運算子
+cv2.namedWindow("result",1)  
+cv2.imshow("result",result)
+
+img = cv2.imread('lena.tiff',0) #載入影像
+
+sobel = cv2.Sobel(img, -1, 1, 1, ksize=5) #使用Sobel方法描繪出物體的邊
+
+cv2.imwrite('sobel7.png', sobel) #使用imwrite方法儲存影像
+cv2.namedWindow("sobel", 1)
+cv2.imshow("sobel", sobel)
+
+#erosion dilation
+kernel = np.ones((5, 5), np.uint8)
+Original = cv2.imread('j.png', 0)
+# erosion
+erosion = cv2.erode(Original, kernel, iterations = 1)
+# dilation
+dilation = cv2.dilate(Original, kernel, iterations = 1)
+cv2.imshow('Original',Original)
+cv2.imshow('erosion',erosion)
+cv2.imshow('dilation',dilation)
+cv2.imwrite('erosion.png',erosion)
+cv2.imwrite('dilation.png',dilation)
+
+cap = cv2.VideoCapture('test1.mp4')  # 開啟影片
+while(True):
+    ret, frame = cap.read()
+    if ret==True:
+        cv2.imshow('frame',frame)
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break
+    else:
+        break
+
+cap.release()
+
+cv2.destroyAllWindows()
+
+cap = cv2.VideoCapture(0)  # 開啟預設攝影機
+while(cap.isOpened()):  # 或while(True):
+    ret, frame = cap.read()  # 一張一張讀出畫面
+    cv2.imshow('frame', frame)  # 將讀到的畫面一張一張顯示
+    if cv2.waitKey(1) & 0xFF == ord('q'):  # 設計使用按”q”鍵結束放映
+        break
+		
+cap.release()  # 釋放記憶體
+cv2.destroyAllWindows()  # 關閉視窗
+
+cap = cv2.VideoCapture(1) #讀取攝影機資訊
+
+while(True):
+    ret, frame = cap.read() #讀取影像資訊
+    cv2.imshow('frame', frame) #顯示影像
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+
+cap.release()
+cv2.destroyAllWindows()
+
+cap = cv2.VideoCapture(0) # 攝影機資訊
+
+# 編碼方式
+fourcc = cv2.VideoWriter_fourcc(*'XVID')
+# 影像資訊儲存
+out = cv2.VideoWriter('output.mp4',fourcc, 20.0, (640, 480))
+
+# 判斷是否有影像資訊
+while(cap.isOpened()):
+    ret, frame = cap.read()
+    if ret==True:
+        out.write(frame) # 儲存影像影格
+        cv2.imshow('frame', frame)
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break
+    else:
+        break
+
+cap.release()
+out.release()
+cv2.destroyAllWindows()
+
+cap = cv2.VideoCapture(0)
+
+# 定義視訊處理程式
+def videoprocess(frame):
+    frame = cv2.flip(frame, 0)
+    return frame
+
+while(cap.isOpened()):
+    ret, frame = cap.read()
+    if ret==True:
+        cv2.imshow('frame', frame) # 原始視訊影像
+        frame2 =videoprocess(frame) # 呼叫自行定義的視訊程式
+        cv2.imshow('frame2', frame2) # 即時處理後的視訊影像成果
+        if cv2.waitKey(1) & 0xFF == ord('q'): # 使用者按下鍵盤q即結束畫面
+            break
+    else:
+        break
+
+cap.release()
+cv2.destroyAllWindows()
+
+#########

@@ -1,0 +1,323 @@
+﻿# Chapter 1: An Introduction to Data Analysis
+## 1.1 Data Analysis
+## 1.2 Knowledge Domains of the Data Analyst
+### Computer Science
+### Mathematics and Statistics
+### Machine Learning and Artificial Intelligence
+### Professional Fields of Application
+## 1.3 Understanding the Nature of the Data
+### When the Data Become Information
+### When the Information Becomes Knowledge
+### Types of Data
+## 1.4 The Data Analysis Process
+### Problem Definition
+### Data Extraction
+### Data Preparation
+### Data Exploration/Visualization
+### Predictive Modeling
+### Model Validation
+### Deployment
+## 1.5 Quantitative and Qualitative Data Analysis
+## 1.6 Open Data
+## 1.7 Python and Data Analysis
+## 1.8 Conclusions
+ 
+ # Chapter 2: Introduction to the Python’s World
+ ## 2.1 Python—The Programming Language
+ ## 2.2 Python—The Interpreter
+ ### Cython
+ ### Jython
+ ### PyPy
+ ## 2.3 Python 2 and Python 3
+ ## 2.4 Installing Python
+ ## 2.5 Python Distributions
+ ### Anaconda
+ ### Enthought Canopy
+ ### Python(x,y
+ ## 2.6 Using Python
+ ### Python Shell
+ ### Run an Entire Program Code
+ ### Implement the Code Using an IDE
+ ### Interact with Python
+ ## 2.7 Writing Python Code
+ ### Make Calculations
+ ### Import New Libraries and Functions
+ * Data Structure
+ ### Functional Programming (Only for Python 3.4
+ ### Indentation
+ ## 2.8 IPython
+ ### IPython Shell
+ ### IPython Qt-Console
+ * IPython Notebook
+ * The Jupyter Project
+ ## 2.9 PyPI—The Python Package Index
+ ## 2.10 The IDEs for Python
+ ### IDLE (Integrated DeveLopment Environment
+ ### Spyder
+ ### Eclipse (pyDev
+ ### Sublime
+ ### Liclipse
+ ### NinjaIDE
+ ### Komodo IDE
+ ## 2.11 SciPy
+ ### NumPy
+ ### Pandas
+ ### matplotlib
+ ## 2.12 Conclusions
+ 
+ # Chapter 3: The NumPy Library
+ ## NumPy: A Little History
+ ## The NumPy Installation
+ ## Ndarray: The Heart of the Library
+ ### Create an Array
+ ### Types of Data
+ ### The dtype Option
+ ### Intrinsic Crea tion of an Array
+ ## Basic Operations
+ ### Arit hmetic Operators
+ ### The M atrix Product
+ ### Increm ent and Decrement Operators
+ ### Universal Functions (ufunc
+ ### Aggregat e Functions
+ ## Indexing, Slicing, and Iterating
+ ### Indexing
+ ### Slicing
+ ### Iterating an Array
+ ## Conditions an d Boolean Arrays
+ ## Shape Manipulation
+ ## Array Manipulation
+ ### Joining Arrays
+ ### Splitting Arrays
+ ## General Concepts
+ ### Copies or Views of Objects
+ ### Vectorization
+ ### Broadcasting
+ ## Structured Arrays
+ ## Reading and Writing Array Data on Files
+ ### Loading and Saving Data in Binary Files
+ ### Reading File with T abular Data
+ ## Conclusions
+ 
+ # Chapter 4: The pandas Library—An Introduction
+ ## pandas: The Python Data Analysis Library
+ ## Installation
+ ### Installation from Anaconda
+ ### Installation from PyPI
+ ### Installation on Linux
+ ### Installation from Source
+ ### A Module Repository for Windows
+ ## Test Your pandas Installation
+ ## Getting Started with pandas
+ ## Introduction to pandas Data Structures
+ ### The Series
+ * Declaring a Series
+ * Selecting the Internal Elements
+	 * Assigning Values to the Elements
+ * Defining Series from NumPy Arrays and Other Series
+	 * Filtering Values
+	 * Operations and Mathematical Functions
+	 * Evaluating Values
+	 * NaN Values
+ * Series as Dictionaries
+ * Operations between Series
+ ### The DataFrame
+ * Defining a DataFrame
+	 * Selecting Elements
+	 * Assigning Values
+ * Membership of a Value
+ * Deleting a Column
+	 * Filtering
+ * DataFrame from Nested dict
+	 * Transposition of a DataFrame
+ ### The Index Objects
+ * Methods on Index
+ * Index with Duplicate Labels
+ ## Other Functionalities on Indexes
+ ### Reindexing
+ ### Dropping
+ ### Arithmetic and Data Alignment
+ ## Operations between Data Structures
+ ### Flexible Arithmetic Methods
+ ### Operations between DataFrame and Series
+ ## Function Application and Mapping
+ ### Functions by Element
+ ### Functions by Row or Column
+ ### Statistics Functions
+ ## Sorting and Ranking
+ ## Correlation and Covariance
+ ## “Not a Number” Data
+ ### Assigning a NaN Value
+ ### Filtering Out NaN Values
+ ### Filling in NaN Occurrences
+ ## Hierarchical Indexing and Leveling
+ ### Reordering and Sorting Levels
+ ### Summary Statistic by Level
+ ## Conclusions
+ 
+ # Chapter 5: pandas: Reading and Writing Data
+ ## I/O API Tools
+ ## CSV and Textual Files
+ ## Reading Data in CSV or Text Files
+ ### Using RegExp for Parsing TXT Files
+ ### Reading TXT Files into Parts or Partially
+ ### Writing Data in CSV
+ ## Reading and Writing HTML Files
+ ### Writing Data in HTML
+ ### Reading Data from an HTML File
+ ## Reading Data from XML
+ ## Reading and Writing Data on Microsoft Excel Files
+ ## JSON Data
+ ## The Format HDF5
+ ## Pickle—Python Object Serialization
+ ### Serialize a Python Object with cPickle
+ ### Pickling with pandas
+ ## Interacting with Databases
+ ### Loading and Writing Data with SQLite3
+ ### Loading and Writing Data with PostgreSQL
+ ## Reading and Writing Data with a NoSQL Database: MongoDB
+ ## Conclusions
+ 
+# Chapter 6: pandas in Depth: Data Manipulation
+## Data Preparation
+### Merging
+* Merging on Index
+## Concatenating
+### Combining
+### Pivoting
+* Pivoting with Hierarchical Indexing
+* Pivoting from “Long” to “Wide” Format
+### Removing
+## Data Transformation
+### Removing Duplicates
+### Mapping
+* Replacing Values via Mapping
+* Adding Values via Mapping
+* Rename the Indexes of the Axes
+## Discretization and Binning
+### Detecting and Filtering Outliers
+## Permutation 		
+* Random Sampling
+## String Manipulation
+### Built-in Methods for Manipulation of Strings
+### Regular Expressions
+## Data Aggregation
+### GroupBy
+### A Practical Example
+### Hierarchical Grouping
+## Group Iteration
+### Chain of Transformations
+### Functions on Groups
+## Advanced Data Aggregation
+## Conclusions
+ 
+# Chapter 7: Data Visualization with matplotlib
+## 7.1 The matplotlib Library
+## 7.2 Installation
+## 7.3 IPython and IPython QtConsole
+## 7.4 matplotlib Architecture
+### Backend Layer
+### Artist Layer
+### Scripting Layer (pyplot
+### pylab and pyplot
+## 7.5 pyplot
+### A Simple Interactive Chart
+### Set the Properties of the Plot
+### matplotlib and NumPy
+## 7.6 Using the kwargs
+### Working with Multiple Figures and Axes
+## 7.7 Adding Further Elements to the Chart
+### Adding Text
+### Adding a Grid
+### Adding a Legend
+## 7.8 Saving Your Charts
+### Saving the Code
+### Converting Your Session as an HTML File
+### Saving Your Chart Directly as an Image
+## 7.9 Handling Date Values
+## 7.10 Chart Typology
+## 7.11 Line Chart
+### Line Charts with pandas
+## 7.12 Histogram
+## 7.13 Bar Chart
+### Horizontal Bar Chart
+### Multiserial Bar Chart
+### Multiseries Bar Chart with pandas DataFrame
+### Multiseries Stacked Bar Charts
+### Stacked Bar Charts with pandas DataFrame
+### Other Bar Chart Representations
+## 7.14 Pie Charts
+### Pie Charts with pandas DataFrame
+## 7.15 Advanced Charts
+### Contour Plot
+### Polar Chart
+## 7.16 mplot3d
+### 3D Surfaces
+### Scatter Plot in 3D
+### Bar Chart 3D
+## 7.17 Multi-Panel Plots
+### Display Subplots within Other Subplots
+### Grids of Subplots
+## 7.18 Conclusions
+ 
+ # Chapter 8: Machine Learning with scikit-learn
+ ## 8.1 The scikit-learn Library
+ ## 8.2 Machine Learning
+ ### Supervised and Unsupervised Learning
+ ### Training Set and Testing Set
+ ## 8.3 Supervised Learning with scikit-learn
+ ## 8.4 The Iris Flower Dataset
+ ### The PCA Decomposition
+ ## 8.5 K-Nearest Neighbors Classifier
+ ## 8.6 Diabetes Dataset
+ ## 8.7 Linear Regression: The Least Square Regression
+ ## 8.8 Support Vector Machines (SVMs
+ ### Support Vector Classification ( SVC
+ ### Nonlinear SVC
+ ### Plotting Different SVM Classifiers Using the Iris Dataset
+ ### Support Vector Regression (SVR
+ ## 8.9 Conclusions
+ 
+ # Chapter 9: An Example—Meteorological Data
+ ## A Hypothesis to Be Tested: The Influence of the Proximity of the Sea
+ ### The System in the Study: The Adriatic Sea and the Po Valley
+ ## Data Source
+ ## Data Analysis on IPython Notebook
+ ## The RoseWind
+ ### Calculating the Distribution of the Wind Speed Means
+ ## Conclusions
+ 
+ # Chapter 10: Embedding the JavaScript D3 Library in IPython Notebook
+ ## The Open Data Source for Demographics
+ ## The JavaScript D3 Library
+ ## Drawing a Clustered Bar Chart
+ ## The Choropleth Maps
+ ## The Choropleth Map of the US Population in 2014
+ ## Conclusions
+ 
+ # Chapter 11: Recognizing Handwritten Digits
+ ## Handwriting Recognition
+ ## Recognizing Handwritten Digits with scikit-learn
+ ## The Digits Dataset
+ ## Learning and Predicting
+ ## Conclusions
+ 
+ Appendix A: Writing Mathematical Expressions with LaTeX
+ ## With matplotlib
+ ## With IPython Notebook in a Markdown Cell
+ ## With IPython Notebook in a Python 2 Cell
+ ## Subscripts and Superscripts
+ ## Fractions, Binomials, and Stacked Numbers
+ ## Radicals
+ ## Fonts
+ ## Accents
+ 
+ Appendix B: Open Data Sources
+ ## Political and Government Data
+ ## Health Data
+ ## Social Data
+ ## Miscellaneous and Public Data Sets
+ ## Financial Data
+ ## Climatic Data
+ ## Sports Data
+ ## Publications, Newspapers, and Books
+ ## Musical Data

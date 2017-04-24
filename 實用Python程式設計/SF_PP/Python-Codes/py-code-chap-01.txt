@@ -1,0 +1,67 @@
+## Python Codes for Chapter 1: What is Python Language?
+
+#########
+
+x = 5  # 令 x 的值為 5
+
+x = 5; y = 5; z = 5
+(x + y) * z
+
+import sys
+sys.path # 顯示 import 的搜尋路徑
+mypath = "D:\Practical-Python-Programming\Python-Files"
+sys.path.append(mypath)  # 附加 import 的搜尋路徑
+sys.path
+
+import os
+os.getcwd() # 顯示目前工作目錄
+mywd = "D:\Practical-Python-Programming\Python-Files"
+os.chdir(mywd) # 更改工作目錄	
+os.getcwd() # 再次確認目前工作目錄
+
+import numpy
+
+x = numpy.zeros(10)
+y = numpy.ones(10)
+
+import numpy as np
+x = np.zeros(10)
+y = np.ones(10)
+
+from numpy import *
+x = zeros(10)
+y = ones(10)
+
+import numpy.random
+
+z = numpy.random.normal(0, 1, 10)
+
+from numpy import random
+z = random.normal(0, 1, 10)
+
+from numpy.random import normal
+
+z = normal(0, 1, 10)
+
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+
+import scipy
+import scipy.cluster
+import scipy.optimize
+from scipy.optimize import fsolve
+from scipy.optimize import minimize
+from scipy.optimize import minimize_scalar
+from scipy.optimize import curve_fit
+import scipy.integrate
+from scipy.integrate import quad
+import scipy.interpolate
+from scipy.integrate import quad, trapz
+from scipy.integrate import odeint
+from scipy.interpolate import interp1d
+from scipy.interpolate import UnivariateSpline
+import scipy.signal
+import scipy.stats as stats
+from scipy.stats import norm
+
+#########

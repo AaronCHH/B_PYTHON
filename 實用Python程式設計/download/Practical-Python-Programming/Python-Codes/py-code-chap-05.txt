@@ -1,0 +1,377 @@
+## Python Codes for Chapter 5: Functions
+
+#########
+
+import numpy as np
+
+help(np.sum)
+
+A = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+A
+
+np.sum(A)
+
+np.sum(A, axis = 0)  # by column
+
+np.sum(A, axis = 1)  # by row
+
+from inspect import getargspec, getfullargspec
+
+getargspec(np.sum)
+
+getfullargspec(np.sum)
+
+f = lambda x: 0.01 * x**3 * np.cos(x) + 0.05 * x - 1
+
+def f(x):
+	return 0.01 * x**3 * np.cos(x) + 0.05 * x - 1
+
+f(-5)
+
+f(0)
+
+f(5)
+
+f(np.array([-5, 0, 5]))
+
+type(f)
+
+g = f
+g(np.array([-5, 0, 5]))
+
+f = lambda x: np.where((-1 <= x) & (x <= 1), np.cos(x), 0)
+f = lambda x: np.cos(x) * ((-1 <= x) & (x <= 1))  
+
+f(np.array([-2, 0, np.pi / 4, np.pi]))
+
+f = lambda x: 3 * x[0] - 4 * x[1] + x[0] * x[2]
+
+f([0, 0, 0])
+
+f([1, -1, 1])
+
+range = lambda x: np.array([np.min(x), np.max(x)])
+
+x = np.array([1.2, -4.7, -4.7, 0, 1.2])
+range(x)
+
+rep = lambda x, k: np.array(list(x)*k)
+
+x = np.array([1, 2, 3])
+rep(x, 3)
+
+np.repeat(x, 3)
+
+rev = lambda x: x[range(len(x) - 1, -1, -1)]
+
+x = np.array([1.2, -3.4, 5.7, -6, 0, 3])
+x
+
+rev(x)
+
+which = lambda status: np.arange(len(status))[status]
+
+a = np.array([1.5, 4.6, -0.7, 3.5, 9.8, -6]) 
+a
+
+b = which(a > 0)
+b
+
+type(b)
+
+c = np.where(a > 0)
+c
+
+type(c)
+
+which((1 < a) & (a < 4))
+
+a[which((1 < a) & (a < 4))]
+
+which((a < 0) | (a > 4))
+
+a[which((a < 0) | (a > 4))]
+
+len(which(a > 2))
+
+len(which(a > 10))
+
+scale = lambda x: (x-np.mean(x, axis=0)) / np.std(x, axis=0, ddof=1)
+
+a = np.array([6, 0, 5, -1], float)
+scale(a)
+
+a = np.array([[0, 2, 1], [3, -1, 2], [3, 5, -7]], float)
+scale(a)
+
+def clipping(x, lower, upper):
+	y = np.where(x < lower, lower, x)
+	z = np.where(y > upper, upper, y)
+	return z
+
+x = np.array([6, 2, 5, -1, 0])
+x
+
+clipping(x, lower = 0, upper = 5)
+
+clipping(x, 0, 5)
+
+clipping(x, 0, upper = 5)
+
+clipping(x, lower = 0, 5)
+
+def Fib(n):
+	x = [0]*n
+	x[0] = 1
+	x[1] = 1
+	for i in range(2, n):
+		x[i] = x[i-1] + x[i-2]
+	return x
+
+Fib(20)
+
+f = lambda x: np.exp(x)
+g = lambda x : np.cos(x)
+h = lambda x: f(g(x))
+
+f = lambda x: np.cos(x)
+g = lambda x: f(f(x))
+h = lambda x: f(g(x))
+
+def f(x, u = 2, v = 1, w):
+	return u * x**2 - v * x + w * np.cos(x)
+
+def f(x, w, u = 2, v = 1):
+	return u * x**2 - v * x + w * np.cos(x)
+
+f(2, 1.5); f(2, w = 1.5); f(x = 2, w = 1.5)
+
+f(x = 2, 1.5)
+
+f(2, 1.5, 3, 2) 
+f(2, 1.5, 3, v = 2)
+f(2, 1.5, u = 3, v = 2)
+f(2, w = 1.5, u = 3, v = 2)
+f(x = 2, w = 1.5, u = 3, v = 2)
+
+f(2, 1.5, v = 2, u = 3)
+f(2, u = 3, v = 2, w = 1.5)
+f(v = 2, u = 3, w = 1.5, x = 2)
+
+np.random.seed(1)
+x = np.random.normal(size = 100)
+
+def f1(x):
+	size = len(x)
+	mean = np.mean(x)
+	variance = np.var(x, ddof = 1)
+	quantiles = np.percentile(x, [25, 50, 75])
+	return [size, mean, variance, quantiles]
+
+g1 = f1(x)
+
+type(g1)
+
+print("Size = " + str(g1[0])
+
+print("Mean = " + str(g1[1]))
+
+print("Variance = " + str(g1[2]))
+
+print("Quantiles = " + str(g1[3]))
+
+def f2(x):
+	size = len(x)
+	mean = np.mean(x)
+	variance = np.var(x, ddof = 1)
+	quantiles = np.percentile(x, [25, 50, 75])
+	return {"size": size, "mean": mean, "variance": variance, "quantiles": quantiles}
+
+g2 = f2(x)
+
+type(g2)
+
+print("Size = " + str(g2["size"]))
+
+print("Mean = " + str(g2["mean"]))
+
+print("Variance = " + str(g2["variance"]))
+
+print("Quantiles = " + str(g2["quantiles"]))
+
+def f3(x):
+	size = len(x)
+	mean = np.mean(x)
+	variance = np.var(x, ddof = 1)
+	quantiles = np.percentile(x, [25, 50, 75])
+	return [size, mean, variance], (quantiles)
+
+g3 = f3(x)
+
+type(g3)
+
+print("Size = " + str(g3[0][0]))
+
+print("Mean = " + str(g3[0][1]))
+
+print("Variance = " + str(g3[0][2]))
+
+print("Quantiles = " + str(g3[1]))
+
+A = np.arange(1, 13).reshape(4, 3)
+A
+
+np.sum(A, axis = 1)
+
+np.apply_along_axis(np.sum, 1, A)
+
+m1 = np.apply_over_axes(np.sum, A, axes = 1)
+m1
+
+type(m1)
+
+np.shape(m1)
+
+np.sum(A, axis = 1, keepdims = True)
+
+np.apply_over_axes(np.sum, A, axes = 1).flatten()
+
+np.mean(A, axis = 0)
+np.apply_along_axis(np.mean, 0, A)
+np.apply_over_axes (np.mean, A, axes = 0).flatten()
+
+cv = lambda x: np.std(x, ddof = 1) / np.mean(x)
+
+np.apply_along_axis(cv, 1, A)
+
+np.apply_along_axis(lambda x: np.std(x, ddof = 1) / np.mean(x), 1, A)
+
+np.apply_over_axes(cv, A, axes = 1)
+
+A = np.arange(24).reshape(2, 3, 4)
+A
+
+np.apply_over_axes(np.sum, A, axes = 0)
+
+np.apply_over_axes(np.sum, A, axes = [0, 1])
+
+np.apply_over_axes(np.sum, A, [0, 2])
+
+x = np.array([1.2, -3.4, 5.7, -6, 0, 3])
+x
+
+np.sort(x)
+
+np.argsort(x)
+
+def rank_sort(x):  
+        x_order = np.argsort(x)
+        x_rank = np.zeros(len(x), int)
+        j = 0
+        for i in x_order:
+                x_rank[i] = j
+                j = j + 1
+        return x_rank
+
+rank_sort(x)
+
+rank = lambda x: np.argsort(np.argsort(x)) 
+
+rank(x)
+
+a = np.array([2.5, 2.5, 2.5, 2.5, 2.3, 4.7, -2.2, 4.6, 4.6])
+
+rank_sort(a)
+
+rank(a)
+
+np.sort(x)
+
+x[np.argsort(x)]
+
+np.argsort(x)[2]
+
+np.where(rank(x) == 2)
+
+a = np.array([6, 2, 5, -1, 0])
+
+a.sort()
+a
+
+rev = lambda x: x[range(len(x) - 1, -1, -1)]
+
+x = np.array([1.2, -3.4, 5.7, -6, 0, 3])
+x
+
+rev(np.sort(x))
+
+-np.sort(-x)
+
+rev(rank(x))
+
+a = [5, 4, 3, 2, 1]
+b = [-5, -4, 1, 2, 3]
+np.polyadd(a, b)
+
+np.poly1d(np.polyadd(a, b))
+
+
+eps = 1.0e-7
+
+def poly_redu(a):
+    a = list(a)  # Force it to be a list.
+    while np.abs(a[0]) < eps:
+        a = np.delete(a, 0)
+    return a  # return a list
+
+poly_redu([4, 3, 2, 1])
+
+poly_redu([0, 0, 4, 3, 2, 1, 0])
+
+def poly_add(*poly):
+    n = len(poly)
+    if n == 1:
+        c = poly[0]
+        c = poly_redu(c)
+    elif n == 2:
+        c = np.polyadd(poly[0], poly[1])
+        c = poly_redu(c)
+    else:
+        c = np.polyadd(poly[0], poly[1])
+        c = poly_redu(c)
+        for i in range(2, n):
+            c = np.polyadd(c, poly[i])
+            c = poly_redu(c)
+    return c
+
+p1 = [1]
+p2 = [2, 1]
+p3 = [3, 2, 1]
+p4 = [4, 3, 2, 1]
+
+poly_add(p1, p2)
+
+poly_add(p1, p2, p3)
+
+poly_add(p1, p2, p3, p4)
+
+import sys
+
+mypath = 'D:\\Practical-Python-Programming\\Python-Files'
+sys.path.append(mypath)
+
+import mymodule
+
+mymodule.add(10, 2)
+
+mymodule.sub(10, 2)
+
+import py_compile
+py_compile.compile('mymodule.py')
+
+import os
+mypath = 'D:\\Practical-Python-Programming\\Python-Files' 
+os.chdir(mypath)
+os.getcwd()
+
+#########
