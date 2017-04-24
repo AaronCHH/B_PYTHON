@@ -1,0 +1,16 @@
+Chapter 1: Strings and Texts
+Chapter 2: Numbers, Dates, and Times
+Chapter 3: Iterators and Generators
+Chapter 4: Files and I/O
+Chapter 5: Python Data Analysis with pandas
+Chapter 6: Functions
+Chapter 7: Classes and Objects
+Chapter 8: Metaprogramming
+Chapter 9: Networking and the Internet
+Chapter 10: Modules and Packages
+Chapter 11: Numerics and Numpy
+Chapter 12: Concurrency
+Chapter 13: Utilities
+Chapter 14: Testing and Debugging
+Chapter 15: C and Other Extensions
+Chapter 16: Arduino and RPi Recipes
