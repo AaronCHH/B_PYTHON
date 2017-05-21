@@ -1,10 +1,11 @@
 # Doing Math with Python
 
+<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
+<!-- tocstop -->
 <img src="cover.png" alt="" height="300">
-
 ## info
-* [publisher](https://www.nostarch.com/doingmathwithpython)  
-* [github](https://github.com/doingmathwithpython/code)  
+* [publisher](https://www.nostarch.com/doingmathwithpython)
+* [github](https://github.com/doingmathwithpython/code)
 
 ## toc
 * [Chapter 1: Working with Numbers](Ch01_Working_with_Numbers.md)

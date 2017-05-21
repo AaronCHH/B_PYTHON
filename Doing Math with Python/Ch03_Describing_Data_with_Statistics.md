@@ -1,7 +1,34 @@
 
 # Chapter 3: Describing Data with Statistics
+<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
 
-<div id="toc"></div>
+* [Chapter 3: Describing Data with Statistics](#chapter-3-describing-data-with-statistics)
+  * [3.1 Finding the Mean](#31-finding-the-mean)
+  * [3.2 Finding the Median](#32-finding-the-median)
+  * [3.3 Finding the Mode and Creating a Frequency Table](#33-finding-the-mode-and-creating-a-frequency-table)
+    * [Finding the Most Common Elements](#finding-the-most-common-elements)
+    * [Finding the Mode](#finding-the-mode)
+    * [Creating a Frequency Table](#creating-a-frequency-table)
+  * [3.4 Measuring the Dispersion](#34-measuring-the-dispersion)
+    * [Finding the Range of a Set of Numbers](#finding-the-range-of-a-set-of-numbers)
+    * [Finding the Variance and Standard Deviation](#finding-the-variance-and-standard-deviation)
+  * [3.5 Calculating the Correlation Between Two Data Sets](#35-calculating-the-correlation-between-two-data-sets)
+    * [Calculating the Correlation Coefficient](#calculating-the-correlation-coefficient)
+    * [High School Grades and Performance on College Admission Tests](#high-school-grades-and-performance-on-college-admission-tests)
+  * [3.6 Scatter Plots](#36-scatter-plots)
+  * [3.7 Reading Data from Files](#37-reading-data-from-files)
+    * [Reading Data from a Text File](#reading-data-from-a-text-file)
+    * [Reading Data from a CSV File](#reading-data-from-a-csv-file)
+  * [3.8 What You Learned](#38-what-you-learned)
+  * [3.9 Programming Challenges](#39-programming-challenges)
+    * [Challenge 1: Better Correlation Coefficient–Finding Program](#challenge-1-better-correlation-coefficientfinding-program)
+    * [Challenge 2: Statistics Calculator](#challenge-2-statistics-calculator)
+    * [Challenge 3: Experiment with Other CSV Data](#challenge-3-experiment-with-other-csv-data)
+    * [Challenge 4: Finding the Percentile](#challenge-4-finding-the-percentile)
+    * [Challenge 5: Creating a Grouped Frequency Table](#challenge-5-creating-a-grouped-frequency-table)
+
+<!-- tocstop -->
+
 
 ## 3.1 Finding the Mean
 
@@ -50,7 +77,7 @@ if __name__ == '__main__':
 ```
 
     Mean donation over the last 12 days is 477.75
-    
+
 
 ## 3.2 Finding the Median
 
@@ -103,7 +130,7 @@ if __name__ == '__main__':
 ```
 
     Median donation over the last 12 days is 500.0
-    
+
 
 ## 3.3 Finding the Mode and Creating a Frequency Table
 
@@ -206,11 +233,11 @@ if __name__=='__main__':
 ```
 
     The mode of the list of numbers is: 9
-    
+
 
 
 ```python
-#P68: 
+#P68:
 
 '''
 Calculating the mode when the list of numbers may have multiple modes
@@ -236,7 +263,7 @@ if __name__ == '__main__':
     The mode(s) of the list of numbers are:
     5
     4
-    
+
 
 ### Creating a Frequency Table
 
@@ -269,7 +296,7 @@ if __name__=='__main__':
     1	2
     2	1
     4	1
-    
+
 
 
 ```python
@@ -304,7 +331,7 @@ if __name__ == '__main__':
     8	2
     9	5
     10	2
-    
+
 
 ## 3.4 Measuring the Dispersion
 
@@ -331,7 +358,7 @@ if __name__ == '__main__':
 ```
 
     Lowest: 60 Highest: 1200 Range: 1140
-    
+
 
 
 ```python
@@ -352,7 +379,7 @@ if __name__ == '__main__':
 ```
 
     Lowest: 60 Highest: 1200 Range: 1140
-    
+
 
 ### Finding the Variance and Standard Deviation
 
@@ -375,7 +402,7 @@ def find_differences(numbers):
     mean = calculate_mean(numbers)
     # find the differences from the mean
     diff = []
-    
+
     for num in numbers:
         diff.append(num-mean)
     return diff
@@ -402,7 +429,7 @@ if __name__ == '__main__':
 
     The variance of the list of numbers is 141047.35416666666
     The standard deviation of the list of numbers is 375.5627166887931
-    
+
 
 ## 3.5 Calculating the Correlation Between Two Data Sets
 
@@ -420,12 +447,12 @@ for x,y in zip(simple_list1, simple_list2):
     1 4
     2 5
     3 6
-    
+
 
 
 ```python
 #P77: Function to calculate the linear correlation
-def find_corr_x_y(x,y):    
+def find_corr_x_y(x,y):
     n = len(x)
     # find the sum of the products
     prod = []
@@ -446,14 +473,14 @@ def find_corr_x_y(x,y):
         y_square.append(yi**2)
     # find the sum
     y_square_sum = sum(y_square)
-    
+
     # use formula to calculate correlation
     numerator = n*sum_prod_x_y - sum_x*sum_y
     denominator_term1 = n*x_square_sum - squared_sum_x
     denominator_term2 = n*y_square_sum - squared_sum_y
     denominator = (denominator_term1*denominator_term2)**0.5
     correlation = numerator/denominator
-    
+
     return correlation
 
 
@@ -474,7 +501,7 @@ if __name__=='__main__':
 ```
 
     Correlation coefficient: 0.3183785775683751
-    
+
 
 
 ```python
@@ -489,7 +516,7 @@ if __name__=='__main__':
 ```
 
     Correlation coefficient: 0.9989633063220916
-    
+
 
 ## 3.6 Scatter Plots
 
@@ -529,7 +556,7 @@ if __name__ == '__main__':
 ```
 
     Sum of the numbers: 5733.0
-    
+
 
 
 ```python
@@ -549,7 +576,7 @@ def calculate_mean(numbers):
     s = sum(numbers)
     N = len(numbers)
     mean = s/N
-    
+
     return mean
 
 if __name__ == '__main__':
@@ -559,7 +586,7 @@ if __name__ == '__main__':
 ```
 
     Mean: 477.75
-    
+
 
 ### Reading Data from a CSV File
 
@@ -575,7 +602,7 @@ def scatter_plot(x, y):
     plt.xlabel('Number')
     plt.ylabel('Square')
     plt.show()
-    
+
 def read_csv(filename):
     numbers = []
     squared = []
@@ -594,7 +621,7 @@ if __name__ == '__main__':
 
 
 ```python
-#P86/88: Calculate correlation and create a scatter plot similar to that 
+#P86/88: Calculate correlation and create a scatter plot similar to that
 # on Google correlate
 import matplotlib.pyplot as plt
 import csv
@@ -618,7 +645,7 @@ if __name__ == '__main__':
 ```
 
     Highest correlation: 0.9605138954331739
-    
+
 
 
 ![png](Ch03_Describing_Data_with_Statistics_files/Ch03_Describing_Data_with_Statistics_44_1.png)
@@ -630,7 +657,7 @@ if __name__ == '__main__':
 
 ### Challenge 1: Better Correlation Coefficient–Finding Program
 
-### Challenge 2: Statistics Calculator 
+### Challenge 2: Statistics Calculator
 
 ### Challenge 3: Experiment with Other CSV Data
 
@@ -651,7 +678,7 @@ def create_classes(numbers, n):
     b = low + width
     classes = []
     while a < (high-width):
-        classes.append((a, b)) 
+        classes.append((a, b))
         a= b
         b = a + width
     # The last class may be of a size that is less than width

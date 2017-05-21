@@ -1,7 +1,24 @@
 
 # Chapter 6: Drawing Geometric Shapes and Fractals
+<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
 
-<div id="toc"></div>
+* [Chapter 6: Drawing Geometric Shapes and Fractals](#chapter-6-drawing-geometric-shapes-and-fractals)
+  * [6.1 Drawing Geometric Shapes with Matplotlib’s Patches](#61-drawing-geometric-shapes-with-matplotlibs-patches)
+    * [Drawing a Circle](#drawing-a-circle)
+    * [Creating Animated Figures](#creating-animated-figures)
+    * [Animating a Projectile’s Trajectory](#animating-a-projectiles-trajectory)
+  * [6.2 Drawing Fractals](#62-drawing-fractals)
+    * [Transformations of Points in a Plane](#transformations-of-points-in-a-plane)
+    * [Drawing the Barnsley Fern](#drawing-the-barnsley-fern)
+  * [6.3 What You Learned](#63-what-you-learned)
+  * [6.4 Programming Challenges](#64-programming-challenges)
+    * [Challenge 1: Packing Circles into a Square](#challenge-1-packing-circles-into-a-square)
+    * [Challenge 2: Drawing the Sierpinski Triangle](#challenge-2-drawing-the-sierpinski-triangle)
+    * [Challenge 3: Exploring Hénon’s Function](#challenge-3-exploring-hénons-function)
+    * [Challenge 4: Drawing the Mandelbrot Set](#challenge-4-drawing-the-mandelbrot-set)
+
+<!-- tocstop -->
+
 
 ## 6.1 Drawing Geometric Shapes with Matplotlib’s Patches
 
@@ -166,7 +183,7 @@ if __name__ == '__main__':
 
     Enter the initial velocity (m/s): 20
     Enter the angle of projection (degrees): 60
-    
+
 
 
 ![png](Ch06_Drawing_Geometric_Shapes_and_Fractals_files/Ch06_Drawing_Geometric_Shapes_and_Fractals_10_1.png)
@@ -226,7 +243,7 @@ if __name__ == '__main__':
 ```
 
     Enter the number of iterations: 10
-    
+
 
 
 ![png](Ch06_Drawing_Geometric_Shapes_and_Fractals_files/Ch06_Drawing_Geometric_Shapes_and_Fractals_13_1.png)
@@ -317,7 +334,7 @@ if __name__ == '__main__':
 ```
 
     Enter the number of points in the Fern: 10
-    
+
 
 
 ![png](Ch06_Drawing_Geometric_Shapes_and_Fractals_files/Ch06_Drawing_Geometric_Shapes_and_Fractals_15_1.png)
@@ -363,7 +380,7 @@ import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import random
 
-def initialize_image(x_p, y_p): 
+def initialize_image(x_p, y_p):
     image = []
     for i in range(y_p):
         x_colors = []
@@ -383,7 +400,7 @@ def color_points():
                cmap=cm.Greys_r, interpolation='nearest')
     plt.colorbar()
     plt.show()
-    
+
 if __name__ == '__main__':
     color_points()
 ```

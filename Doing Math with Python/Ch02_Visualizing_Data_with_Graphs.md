@@ -1,7 +1,32 @@
 
 # Chapter 2: Visualizing Data with Graphs
 
-<div id="toc"></div>
+<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
+
+* [Chapter 2: Visualizing Data with Graphs](#chapter-2-visualizing-data-with-graphs)
+  * [2.1 Understanding the Cartesian Coordinate Plane](#21-understanding-the-cartesian-coordinate-plane)
+  * [2.2 Working with Lists and Tuples](#22-working-with-lists-and-tuples)
+    * [Iterating over a List or Tuple](#iterating-over-a-list-or-tuple)
+  * [2.3 Creating Graphs with Matplotlib](#23-creating-graphs-with-matplotlib)
+    * [Marking Points on Your Graph](#marking-points-on-your-graph)
+    * [Graphing the Average Annual Temperature in New York City](#graphing-the-average-annual-temperature-in-new-york-city)
+    * [Comparing the Monthly Temperature Trends of New York City](#comparing-the-monthly-temperature-trends-of-new-york-city)
+    * [Customizing Graphs](#customizing-graphs)
+    * [Saving the Plots](#saving-the-plots)
+  * [2.4 Plotting with Formulas](#24-plotting-with-formulas)
+    * [Newton’s Law of Universal Gravitation](#newtons-law-of-universal-gravitation)
+    * [Projectile Motion](#projectile-motion)
+  * [2.5 What You Learned](#25-what-you-learned)
+  * [Programming Challenges](#programming-challenges)
+    * [Challenge 1: How Does the Temperature Vary During the Day](#challenge-1-how-does-the-temperature-vary-during-the-day)
+    * [Challenge 2: Exploring a Quadratic Function Visually](#challenge-2-exploring-a-quadratic-function-visually)
+    * [Challenge 3: Enhanced Projectile Trajectory Comparison Program](#challenge-3-enhanced-projectile-trajectory-comparison-program)
+    * [Challenge 4: Visualizing Your Expenses](#challenge-4-visualizing-your-expenses)
+    * [Challenge 5: Exploring the Relationship Between the Fibonacci Sequence and the Golden Ratio](#challenge-5-exploring-the-relationship-between-the-fibonacci-sequence-and-the-golden-ratio)
+
+<!-- tocstop -->
+
+
 
 ## 2.1 Understanding the Cartesian Coordinate Plane
 
@@ -107,7 +132,7 @@ plot(x_numbers, y_numbers)
 ```
 
     Populating the interactive namespace from numpy and matplotlib
-    
+
 
 
 
@@ -400,7 +425,7 @@ def create_graph():
     y_numbers = [2, 4, 6]
     plt.plot(x_numbers, y_numbers)
     plt.show()
-    
+
 if __name__ == '__main__':
     create_graph()
 ```
@@ -452,7 +477,7 @@ def draw_graph(x, y):
     plt.ylabel('Gravitational force in newtons')
     plt.title('Gravitational force and distance')
     plt.show()
-    
+
 def generate_F_r():
     # Generate values for r
     r = range(100, 1001, 50)
@@ -463,15 +488,15 @@ def generate_F_r():
     # Two masses
     m1 = 0.5
     m2 = 1.5
-    
+
     # Calculate force and add it to the list, F
     for dist in r:
         force = G*(m1*m2)/(dist**2)
         F.append(force)
-        
+
     # Call the draw_graph function
     draw_graph(r, F)
-    
+
 if __name__=='__main__':
     generate_F_r()
 ```
@@ -509,7 +534,7 @@ def draw_graph(x, y):
     plt.xlabel('x-coordinate')
     plt.ylabel('y-coordinate')
     plt.title('Projectile motion of a ball')
-    
+
 def frange(start, final, interval):
     numbers = []
     while start < final:
@@ -531,7 +556,7 @@ def draw_trajectory(u, theta):
         x.append(u*math.cos(theta)*t)
         y.append(u*math.sin(theta)*t - 0.5*g*t*t)
     draw_graph(x, y)
-    
+
 if __name__ == '__main__':
     try:
         u = float(input('Enter the initial velocity (m/s): '))
@@ -545,7 +570,7 @@ if __name__ == '__main__':
 
     Enter the initial velocity (m/s): 25
     Enter the angle of projection (degrees): 60
-    
+
 
 
 ![png](Ch02_Visualizing_Data_with_Graphs_files/Ch02_Visualizing_Data_with_Graphs_45_1.png)
@@ -559,7 +584,7 @@ if __name__ == '__main__':
     theta = 45
     for u in u_list:
         draw_trajectory(u, theta)
-        
+
     # Add a legend and show the graph
     plt.legend(['20', '40', '60'])
     plt.show()
@@ -601,7 +626,7 @@ for x in x_values:
     x=3 y=16
     x=4 y=25
     x=5 y=36
-    
+
 
 ### Challenge 3: Enhanced Projectile Trajectory Comparison Program
 
@@ -633,7 +658,7 @@ def create_bar_chart(data, labels):
     # Turns on the grid which may assist in visual estimation
     plt.grid()
     plt.show()
-        
+
 if __name__ == '__main__':
     # Number of steps I walked during the past week
     steps = [6534, 7000, 8900, 10786, 3467, 11045, 5095]
@@ -660,7 +685,7 @@ def fibo(n):
     b = 1
     # First two members of the series
     series = [a, b]
-    
+
     for i in range(n):
         c = a + b
         series.append(c)

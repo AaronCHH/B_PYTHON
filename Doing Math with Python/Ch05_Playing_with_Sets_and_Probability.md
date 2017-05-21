@@ -1,7 +1,27 @@
 
-# Chapter 5: Playing with Sets and Probability 
+# Chapter 5: Playing with Sets and Probability
+<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
 
-<div id="toc"></div>
+* [Chapter 5: Playing with Sets and Probability](#chapter-5-playing-with-sets-and-probability)
+  * [5.1 What’s a Set](#51-whats-a-set)
+    * [Set Construction](#set-construction)
+    * [Subsets, Supersets, and Power Sets](#subsets-supersets-and-power-sets)
+    * [Set Operations](#set-operations)
+  * [5.2 Probability](#52-probability)
+    * [Probability of Event A or Event B](#probability-of-event-a-or-event-b)
+    * [Probability of Event A and Event B](#probability-of-event-a-and-event-b)
+    * [Generating Random Numbers](#generating-random-numbers)
+    * [Nonuniform Random Numbers](#nonuniform-random-numbers)
+  * [5.3 What You Learned](#53-what-you-learned)
+  * [5.4 Programming Challenges](#54-programming-challenges)
+    * [Challenge 1: Using Venn Diagrams to Visualize Relationships  Between Sets](#challenge-1-using-venn-diagrams-to-visualize-relationships-between-sets)
+    * [Challenge 2: Law of Large Numbers](#challenge-2-law-of-large-numbers)
+    * [Challenge 3: How Many Tosses Before You Run Out of Money](#challenge-3-how-many-tosses-before-you-run-out-of-money)
+    * [Challenge 4: Shuffling a Deck of Cards](#challenge-4-shuffling-a-deck-of-cards)
+    * [Challenge 5: Estimating the Area of a Circle](#challenge-5-estimating-the-area-of-a-circle)
+
+<!-- tocstop -->
+
 
 ## 5.1 What’s a Set
 
@@ -131,7 +151,7 @@ t.is_superset(s)
 
 ```python
 #P126: Union of two Sets
-from sympy import FiniteSet 
+from sympy import FiniteSet
 s = FiniteSet(1, 2, 3)
 t = FiniteSet(2, 4, 6)
 s.union(t)
@@ -148,8 +168,8 @@ s.union(t)
 ```python
 #P127: Intersection of two Sets
 from sympy import FiniteSet
-s = FiniteSet(1, 2) 
-t = FiniteSet(2, 3) 
+s = FiniteSet(1, 2)
+t = FiniteSet(2, 3)
 s.intersect(t)
 ```
 
@@ -163,7 +183,7 @@ s.intersect(t)
 
 ```python
 #P127/128: Cartesian product of two Sets
-from sympy import FiniteSet 
+from sympy import FiniteSet
 s = FiniteSet(1, 2)
 t = FiniteSet(3, 4)
 p = s*t
@@ -175,7 +195,7 @@ for elem in p:
     (1, 4)
     (2, 3)
     (2, 4)
-    
+
 
 
 ```python
@@ -197,23 +217,23 @@ if __name__ == '__main__':
 
 ```
 
-      Length(cm)   Gravity(m/s^2) Time Period(s) 
-         15.0           9.78           0.778     
-         15.0            9.8           0.777     
-         15.0           9.83           0.776     
-         18.0           9.78           0.852     
-         18.0            9.8           0.852     
-         18.0           9.83           0.850     
-         21.0           9.78           0.921     
-         21.0            9.8           0.920     
-         21.0           9.83           0.918     
-         22.5           9.78           0.953     
-         22.5            9.8           0.952     
-         22.5           9.83           0.951     
-         25.0           9.78           1.005     
-         25.0            9.8           1.004     
-         25.0           9.83           1.002     
-    
+      Length(cm)   Gravity(m/s^2) Time Period(s)
+         15.0           9.78           0.778
+         15.0            9.8           0.777
+         15.0           9.83           0.776
+         18.0           9.78           0.852
+         18.0            9.8           0.852
+         18.0           9.83           0.850
+         21.0           9.78           0.921
+         21.0            9.8           0.920
+         21.0           9.83           0.918
+         22.5           9.78           0.953
+         22.5            9.8           0.952
+         22.5           9.83           0.951
+         25.0           9.78           1.005
+         25.0            9.8           1.004
+         25.0           9.83           1.002
+
 
 ## 5.2 Probability
 
@@ -223,7 +243,7 @@ if __name__ == '__main__':
 def probability(space, event):
     return len(event)/len(space)
 
-def check_prime(number): 
+def check_prime(number):
     if number != 1:
         for factor in range(2, number):
             if number % factor == 0:
@@ -248,7 +268,7 @@ if __name__ == '__main__':
     Sample space: {1, 2, 3, ..., 18, 19, 20}
     Event: {2, 3, 5, 7, 11, 13, 17, 19}
     Probability of rolling a prime: 0.40000
-    
+
 
 ### Probability of Event A or Event B
 
@@ -256,10 +276,10 @@ if __name__ == '__main__':
 ```python
 #P134: Probability of event A or event B
 from sympy import FiniteSet
-s = FiniteSet(1, 2, 3, 4, 5, 6) 
+s = FiniteSet(1, 2, 3, 4, 5, 6)
 a = FiniteSet(2, 3, 5)
 b = FiniteSet(1, 3, 5)
-e = a.union(b) 
+e = a.union(b)
 len(e)/len(s)
 ```
 
@@ -276,7 +296,7 @@ len(e)/len(s)
 ```python
 #P134: Probability of event A and event B
 from sympy import FiniteSet
-s = FiniteSet(1, 2, 3, 4, 5, 6) 
+s = FiniteSet(1, 2, 3, 4, 5, 6)
 a = FiniteSet(2, 3, 5)
 b = FiniteSet(1, 3, 5)
 e = a.intersect(b)
@@ -325,7 +345,7 @@ if __name__ == '__main__':
     Rolled: 1
     Rolled: 5
     Score of 22 reached in 7 rolls
-    
+
 
 
 ```python
@@ -363,7 +383,7 @@ if __name__ == '__main__':
     Enter the target score: 12
     Enter the maximum number of rolls allowed: 5
     Probability:  0.94123
-    
+
 
 ### Nonuniform Random Numbers
 
@@ -401,7 +421,7 @@ if __name__ == '__main__':
     bill_dispensed = []
     for i in range(10000):
         bill_dispensed.append(dispense())
-    # plot a histogram 
+    # plot a histogram
     plt.hist(bill_dispensed)
     plt.show()
 ```
@@ -426,9 +446,9 @@ from matplotlib_venn import venn2
 import matplotlib.pyplot as plt
 from sympy import FiniteSet
 def draw_venn(sets):
-    venn2(subsets=sets)    
+    venn2(subsets=sets)
     plt.show()
-    
+
 if __name__ == '__main__':
     s1 = FiniteSet(1, 3, 5, 7, 9, 11, 13, 15, 17, 19)
     s2 = FiniteSet(2, 3, 5, 7, 11, 13, 17, 19)
@@ -446,7 +466,7 @@ if __name__ == '__main__':
     ----> 5 from matplotlib_venn import venn2
           6 import matplotlib.pyplot as plt
           7 from sympy import FiniteSet
-    
+
 
     ModuleNotFoundError: No module named 'matplotlib_venn'
 

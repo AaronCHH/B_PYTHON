@@ -1,13 +1,37 @@
 
 # Chapter 1: Working with Numbers
+<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
 
-<div id="toc"></div>
+* [Chapter 1: Working with Numbers](#chapter-1-working-with-numbers)
+  * [1.1 Basic Mathematical Operations](#11-basic-mathematical-operations)
+  * [1.2 Labels: Attaching Names to Numbers](#12-labels-attaching-names-to-numbers)
+  * [1.3 Different Kinds of Numbers](#13-different-kinds-of-numbers)
+    * [Working with Fractions](#working-with-fractions)
+    * [Complex Numbers](#complex-numbers)
+  * [1.4 Getting User Input](#14-getting-user-input)
+    * [Handling Exceptions and Invalid Input](#handling-exceptions-and-invalid-input)
+    * [Fractions and Complex Numbers as Input](#fractions-and-complex-numbers-as-input)
+  * [1.5 Writing Programs That Do the Math for You](#15-writing-programs-that-do-the-math-for-you)
+    * [Calculating the Factors of an Integer](#calculating-the-factors-of-an-integer)
+    * [Generating Multiplication Tables](#generating-multiplication-tables)
+    * [Converting Units of Measurement](#converting-units-of-measurement)
+    * [Finding the Roots of a Quadratic Equation](#finding-the-roots-of-a-quadratic-equation)
+  * [1.6 What You Learned](#16-what-you-learned)
+  * [1.7 Programming Challenges](#17-programming-challenges)
+    * [Challenge 1: Even-Odd Vending Machine](#challenge-1-even-odd-vending-machine)
+    * [Challenge 2: Enhanced Multiplication Table Generator](#challenge-2-enhanced-multiplication-table-generator)
+    * [Challenge 3: Enhanced Unit Converter](#challenge-3-enhanced-unit-converter)
+    * [Challenge 4: Fraction Calculator](#challenge-4-fraction-calculator)
+    * [Challenge 5: Give Exit Power to the User](#challenge-5-give-exit-power-to-the-user)
+
+<!-- tocstop -->
+
 
 ## 1.1 Basic Mathematical Operations
 
 ## 1.2 Labels: Attaching Names to Numbers
 
-## 1.3 Different Kinds of Numbers 
+## 1.3 Different Kinds of Numbers
 
 
 ```python
@@ -268,8 +292,8 @@ a = input()
 a
 ```
 
-    
-    
+
+
 
 
 
@@ -329,7 +353,7 @@ int('2.0')
 
     <ipython-input-33-1a2e39c94309> in <module>()
     ----> 1 int('2.0')
-    
+
 
     ValueError: invalid literal for int() with base 10: '2.0'
 
@@ -340,7 +364,7 @@ a = float(input())
 ```
 
     2/4
-    
+
 
 
     ---------------------------------------------------------------------------
@@ -349,7 +373,7 @@ a = float(input())
 
     <ipython-input-34-7b96a7c8fa9f> in <module>()
     ----> 1 a = float(input())
-    
+
 
     ValueError: could not convert string to float: '2/4'
 
@@ -479,7 +503,7 @@ for i in range(1, 4):
     1
     2
     3
-    
+
 
 
 ```python
@@ -492,7 +516,7 @@ for i in range(5):
     2
     3
     4
-    
+
 
 
 ```python
@@ -505,7 +529,7 @@ for i in range(1,10,2):
     5
     7
     9
-    
+
 
 ### Generating Multiplication Tables
 
