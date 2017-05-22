@@ -1,0 +1,9 @@
+Ch01 Python程式語言簡介
+Ch02 資料類別與基本運算
+Ch03 陣列：Numpy
+Ch04 邏輯運算與流程控制
+Ch05 函數
+Ch06 Python繪圖：Matplotlib
+Ch07 科學計算套件：Scipy
+Ch08 圖形使用者介面：tkinter
+Ch09 影像和視訊處理：OpenCV
