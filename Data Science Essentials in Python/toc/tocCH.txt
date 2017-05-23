@@ -1,0 +1,10 @@
+Ch1. What Is Data Science
+Ch2. Core Python for Data Science excerpt
+Ch3. Working with Text Data
+Ch4. Working with Databases
+Ch5. Working with Tabular Numeric Data excerpt
+Ch6. Working with Data Series and Frames
+Ch7. Working with Network Data
+Ch8. Plotting excerpt
+Ch9. Probability and Statistics
+Ch10. Machine Learning

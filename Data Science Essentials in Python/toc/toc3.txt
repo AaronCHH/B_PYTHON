@@ -1,0 +1,82 @@
+# Ch1. What Is Data Science
+## Unit1_Data Analysis Sequence
+## Unit2_Data Acquisition Pipeline
+## Unit3_Report Structure
+## Your Turn
+  
+# Ch2. Core Python for Data Science excerpt
+## Unit4_Understanding Basic String Functions
+## Unit5_Choosing the Right Data Structure
+## Unit6_Comprehending Lists through List Comprehension
+## Unit7_Counting with Counters
+## Unit8_Working with Files
+## Unit9_Reaching the Web
+## Unit10_Pattern Matching with Regular Expressions
+## Unit11_Globbing File Names and Other Strings
+## Unit12_Pickling and Unpickling Data
+## Your Turn
+ 
+ # Ch3. Working with Text Data
+ ## Unit13_Processing HTML Files
+ ## Unit14_Handling CSV Files
+ ## Unit15_Reading JSON Files
+ ## Unit16_Processing Texts in Natural Languages
+ ## Your Turn
+ 
+ # Ch4. Working with Databases
+ ## Unit17_Setting Up a MySQL Database
+ ## Unit18_Using a MySQL Database: Command Line
+ ## Unit19_Using a MySQL Database: PyMySQL
+ ## Unit20_Taming Document Stores: MongoDB
+ ## Your Turn
+ 
+ # Ch5. Working with Tabular Numeric Data excerpt
+ ## Unit21_Creating Arrays
+ ## Unit22_Transposing and Reshaping
+ ## Unit23_Indexing and Slicing
+ ## Unit24_Broadcasting
+ ## Unit25_Demystifying Universal Functions
+ ## Unit26_Understanding Conditional Functions
+ ## Unit27_Aggregating and Ordering Arrays
+ ## Unit28_Treating Arrays as Sets
+ ## Unit29_Saving and Reading Arrays
+ ## Unit30_Generating a Synthetic Sine Wave
+ ## Your Turn
+ 
+ # Ch6. Working with Data Series and Frames
+ ## Unit31_Getting Used to Pandas Data Structures
+ ## Unit32_Reshaping Data
+ ## Unit33_Handling Missing Data
+ ## Unit34_Combining Data
+ ## Unit35_Ordering and Describing Data
+ ## Unit36_Transforming Data
+ ## Unit37_Taming Pandas File I/O
+ ## Your Turn
+ 
+ # Ch7. Working with Network Data
+ ## Unit38_Dissecting Graphs
+ ## Unit39_Network Analysis Sequence
+ ## Unit40_Harnessing Networkx
+ ## Your Turn
+ 
+ # Ch8. Plotting excerpt
+ ## Unit41_Basic Plotting with PyPlot
+ ## Unit42_Getting to Know Other Plot Types
+ ## Unit43_Mastering Embellishments
+ ## Unit44_Plotting with Pandas
+ ## Your Turn
+ 
+ # Ch9. Probability and Statistics
+ ## Unit45_Reviewing Probability Distributions
+ ## Unit46_Recollecting Statistical Measures
+ ## Unit47_Doing Stats the Python Way
+ ## Your Turn
+ 
+ # Ch10. Machine Learning
+ ## Unit48_Designing a Predictive Experiment
+ ## Unit49_Fitting a Linear Regression
+ ## Unit50_Grouping Data with k-Means Clustering
+ ## Unit51_Surviving In Random Decision Forests
+ ## Your Turn
+ 
+ ## Further Reading

@@ -1,0 +1,83 @@
+Acknowledgments
+Preface
+About This Book
+About the Audience
+About the Software
+Notes on Quotes
+The Book Forum
+Your Turn
+What Is Data Science
+Data Analysis Sequence
+Data Acquisition Pipeline
+Report Structure
+Your Turn
+Core Python for Data Science excerpt
+Understanding Basic String Functions
+Choosing the Right Data Structure
+Comprehending Lists through List Comprehension
+Counting with Counters
+Working with Files
+Reaching the Web
+Pattern Matching with Regular Expressions
+Globbing File Names and Other Strings
+Pickling and Unpickling Data
+Your Turn
+Working with Text Data
+Processing HTML Files
+Handling CSV Files
+Reading JSON Files
+Processing Texts in Natural Languages
+Your Turn
+Working with Databases
+Setting Up a MySQL Database
+Using a MySQL Database: Command Line
+Using a MySQL Database: PyMySQL
+Taming Document Stores: MongoDB
+Your Turn
+Working with Tabular Numeric Data excerpt
+Creating Arrays
+Transposing and Reshaping
+Indexing and Slicing
+Broadcasting
+Demystifying Universal Functions
+Understanding Conditional Functions
+Aggregating and Ordering Arrays
+Treating Arrays as Sets
+Saving and Reading Arrays
+Generating a Synthetic Sine Wave
+Your Turn
+Working with Data Series and Frames
+Getting Used to Pandas Data Structures
+Reshaping Data
+Handling Missing Data
+Combining Data
+Ordering and Describing Data
+Transforming Data
+Taming Pandas File I/O
+Your Turn
+Working with Network Data
+Dissecting Graphs
+Network Analysis Sequence
+Harnessing Networkx
+Your Turn
+Plotting excerpt
+Basic Plotting with PyPlot
+Getting to Know Other Plot Types
+Mastering Embellishments
+Plotting with Pandas
+Your Turn
+Probability and Statistics
+Reviewing Probability Distributions
+Recollecting Statistical Measures
+Doing Stats the Python Way
+Your Turn
+Machine Learning
+Designing a Predictive Experiment
+Fitting a Linear Regression
+Grouping Data with k-Means Clustering
+Surviving In Random Decision Forests
+Your Turn
+Further Reading
+Solutions to Single-Star Projects
+Author
+Dmitry Zinoviev has an MS in Physics fro
