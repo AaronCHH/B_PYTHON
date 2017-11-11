@@ -1,41 +1,33 @@
 
 # Chapter 7: Solving Calculus Problems
-<!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
+<!-- TOC -->
 
-* [Chapter 7: Solving Calculus Problems](#chapter-7-solving-calculus-problems)
-  * [7.1 What Is a Function](#71-what-is-a-function)
-    * [Domain and Range of a Function](#domain-and-range-of-a-function)
-    * [An Overview of Common Mathematical Functions](#an-overview-of-common-mathematical-functions)
-  * [7.2 Assumptions in SymPy](#72-assumptions-in-sympy)
-  * [7.3 Finding the Limit of Functions](#73-finding-the-limit-of-functions)
-    * [Continuous Compound Interest](#continuous-compound-interest)
-    * [Instantaneous Rate of Change](#instantaneous-rate-of-change)
-  * [7.4 Finding the Derivative of Functions](#74-finding-the-derivative-of-functions)
-    * [A Derivative Calculator](#a-derivative-calculator)
-    * [Calculating Partial Derivatives](#calculating-partial-derivatives)
-  * [7.5 Higher-Order Derivatives and Finding the Maxima and Minima](#75-higher-order-derivatives-and-finding-the-maxima-and-minima)
-  * [7.6 Finding the Global Maximum Using Gradient Ascent](#76-finding-the-global-maximum-using-gradient-ascent)
-    * [A Generic Program for Gradient Ascent](#a-generic-program-for-gradient-ascent)
-    * [A Word of Warning About the Initial Value](#a-word-of-warning-about-the-initial-value)
-    * [The Role of the Step Size and Epsilon](#the-role-of-the-step-size-and-epsilon)
-  * [7.7 Finding the Integrals of Functions](#77-finding-the-integrals-of-functions)
-  * [7.8 Probability Density Functions](#78-probability-density-functions)
-  * [7.9 What You Learned](#79-what-you-learned)
-  * [7.10 Programming Challenges](#710-programming-challenges)
-    * [Challenge 1: Verify the Continuity of a Function at a Point](#challenge-1-verify-the-continuity-of-a-function-at-a-point)
-    * [Challenge 2: Implement the Gradient Descent](#challenge-2-implement-the-gradient-descent)
-    * [Challenge 3: Area Between Two Curves](#challenge-3-area-between-two-curves)
-    * [Challenge 4: Finding the Length of a Curve](#challenge-4-finding-the-length-of-a-curve)
-* [8. Afterword](#8-afterword)
-  * [8.1 Things to Explore Next](#81-things-to-explore-next)
-    * [Project Euler](#project-euler)
-    * [Python Documentation](#python-documentation)
-    * [Books](#books)
-  * [8.2 Getting Help](#82-getting-help)
-  * [8.3 Conclusion](#83-conclusion)
+- [Chapter 7: Solving Calculus Problems](#chapter-7-solving-calculus-problems)
+  - [7.1 What Is a Function](#71-what-is-a-function)
+    - [Domain and Range of a Function](#domain-and-range-of-a-function)
+    - [An Overview of Common Mathematical Functions](#an-overview-of-common-mathematical-functions)
+  - [7.2 Assumptions in SymPy](#72-assumptions-in-sympy)
+  - [7.3 Finding the Limit of Functions](#73-finding-the-limit-of-functions)
+    - [Continuous Compound Interest](#continuous-compound-interest)
+    - [Instantaneous Rate of Change](#instantaneous-rate-of-change)
+  - [7.4 Finding the Derivative of Functions](#74-finding-the-derivative-of-functions)
+    - [A Derivative Calculator](#a-derivative-calculator)
+    - [Calculating Partial Derivatives](#calculating-partial-derivatives)
+  - [7.5 Higher-Order Derivatives and Finding the Maxima and Minima](#75-higher-order-derivatives-and-finding-the-maxima-and minima)
+  - [7.6 Finding the Global Maximum Using Gradient Ascent](#76-finding-the-global-maximum-using-gradient-ascent)
+    - [A Generic Program for Gradient Ascent](#a-generic-program-for-gradient-ascent)
+    - [A Word of Warning About the Initial Value](#a-word-of-warning-about-the-initial-value)
+    - [The Role of the Step Size and Epsilon](#the-role-of-the-step-size-and-epsilon)
+  - [7.7 Finding the Integrals of Functions](#77-finding-the-integrals-of-functions)
+  - [7.8 Probability Density Functions](#78-probability-density-functions)
+  - [7.9 What You Learned](#79-what-you-learned)
+  - [7.10 Programming Challenges](#710-programming-challenges)
+    - [Challenge 1: Verify the Continuity of a Function at a Point](#challenge-1-verify-the-continuity-of-a-function-at-a-point)
+    - [Challenge 2: Implement the Gradient Descent](#challenge-2-implement-the-gradient-descent)
+    - [Challenge 3: Area Between Two Curves](#challenge-3-area-between-two-curves)
+    - [Challenge 4: Finding the Length of a Curve](#challenge-4-finding-the-length-of-a-curve)
 
-<!-- tocstop -->
-
+<!-- /TOC -->
 
 ## 7.1 What Is a Function
 
@@ -404,22 +396,3 @@ if __name__ == '__main__':
 ### Challenge 3: Area Between Two Curves
 
 ### Challenge 4: Finding the Length of a Curve
-
-# 8. Afterword
-
-## 8.1 Things to Explore Next
-
-### Project Euler
-
-### Python Documentation
-
-### Books
-
-## 8.2 Getting Help
-
-## 8.3 Conclusion
-
-
-```python
-
-```

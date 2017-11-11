@@ -1,0 +1,8 @@
+Chapter 1: Pythonic Thinking
+Chapter 2: Functions
+Chapter 3: Classes and Inheritance
+Chapter 4: Metaclasses and Attributes
+Chapter 5: Concurrency and Parallelism
+Chapter 6: Built-in Modules
+Chapter 7: Collaboration
+Chapter 8: Production
